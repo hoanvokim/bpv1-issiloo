@@ -1,0 +1,30 @@
+						
+.flxInitFrame #menuExmp1 ul{	
+	background-color: rgb(231, 235, 232);
+}
+
+				
+#exmp1Trigger .menuSlider{
+	background-color: white;			
+}
+#exmp1Trigger ul{
+	background-color: rgba(177, 190, 178, 0.3);
+}		
+			
+#Footer a,
+.menuTrigger>a,
+.flxMenu li>a{
+	color: #8281bb;
+	text-decoration: none;	
+}
+
+#exmp1Trigger>a:focus,
+#menuExmp1 li>a:focus{
+	color: navy;
+	text-decoration: underline;	
+	outline: none;
+}
+#exmp1NavBar, #Footer{
+	background-color: #a3c9ae;
+}
+

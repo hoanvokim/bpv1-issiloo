@@ -1,0 +1,33 @@
+						
+.flxInitFrame>.flxMenu ul{	
+	background-color: #3f4b69;
+}
+				
+.menuSlider{
+	background-color: white;			
+}
+.menuTrigger ul{
+	background-color: rgb(63, 75, 105);
+}		
+			
+#Footer a,
+.menuTrigger>a,
+.flxMenu li>a{
+	color: #dbdbe5;
+	text-decoration: none;	
+}
+
+.menuTrigger>a:hover,
+.flxMenu li>a:hover{
+	color: white;	
+}
+.menuTrigger>a:focus,
+.flxMenu li>a:focus{
+	color: white;
+	text-decoration: underline;	
+	outline: none;
+}
+#exmp1NavBar, #Footer{
+	background-color: #3f4b69;
+}
+

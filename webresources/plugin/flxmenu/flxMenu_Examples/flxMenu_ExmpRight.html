@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+		<title>flxMenu: Responsive Navigation Demo (Right Sidebar Example)</title>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+		<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="jquery.flxMenu.min.js"></script>
+		<script type="text/javascript" src="debug.js"></script>
+		<link href="flxMenu.css" rel="stylesheet" type="text/css">
+		<link href="flxMenuExmp2.css" rel="stylesheet" type="text/css">
+		<link href="flxMenu_ThemeBright.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript">
+			$(document).ready(function()
+			{
+				$("#menuExmp1").flxMenu( $("#exmp1Trigger"),
+					{
+						puSlideInFrom: "right",
+						puFullRange: false
+					},
+				);
+
+			});
+
+		</script>
+	</head>
+
+	<body>
+		<div id="spacerTop">Any content like an eye catcher picture</div>
+		<div id="exmp1NavBar">
+			<div id="exmp1Trigger" >
+			</div>
+			<ul id="menuExmp1">
+				<li><a href="javascript:"><i class="fa fa-home" arai-hidden="true"></i>Home</a></li>
+				<li><a href="javascript:"><i class="fas fa-archway"></i>Options</a>
+					<ul>
+						<li><a href="javascript:" >Nothing</a></li>
+						<li><a href="javascript:">Do Nothing</a></li>
+					</ul>
+				</li>
+				<li><a href="javascript:"><i class="fas fa-paper-plane"></i>Item 2</a>
+					<ul>
+						<li><a href="javascript:">I2 Sub1</a>
+						<ul>
+							<li><a href="javascript:">I2 S1 Sub1</a></li>
+							<li><a href="javascript:">I2 S1 Sub2</a></li>
+						</ul>
+						</li>
+						<li><a href="javascript:">I2 Sub2</a>
+						<ul>
+							<li><a href="javascript:">I2 S2 Sub1</a></li>
+							<li><a href="javascript:">I2 S2 Sub2</a>
+								<ul>
+									<li><a href="javascript:">Possible</a></li>
+									<li><a href="javascript:">but no one</a></li>
+									<li><a href="javascript:">will need this</a></li>
+								</ul>
+
+							</li>
+						</ul>
+						</li>
+
+					</ul>
+				</li>
+				<li><a href="javascript:"><i class="fas fa-thumbtack"></i>Item 3</a>
+					<ul>
+						<li><a href="javascript:">I3 Sub1</a></li>
+						<li><a href="javascript:">I3 Sub2</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div id="Content">
+			Example of a responsive navigation bar.<br>
+			When the viewport's width is less than 600px the bar will turn into a toggle button.<br>
+			If you push the button a popup menu will slide in from the right hand side.<br>
+			When the bar has focus, you can use the "Arrow" keys to navigate through the menu.<br>
+			The [ESC]-button will close the popup menu.
+		</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	</body>
+
+</html>
