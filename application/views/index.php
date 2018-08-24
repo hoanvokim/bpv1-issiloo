@@ -17,16 +17,16 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Colorlib App - App Landing Page</title>
+    <title>ISSILOO | Homepage</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="icon" href="<?php echo base_url(); ?>webresources/img/core-img/favicon.ico">
 
     <!-- Core Stylesheet -->
-    <link href="style.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>webresources/style.css" rel="stylesheet">
 
     <!-- Responsive CSS -->
-    <link href="css/responsive.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>webresources/css/responsive.css" rel="stylesheet">
 
 </head>
 
@@ -51,25 +51,14 @@
                         <div class="collapse navbar-collapse" id="ca-navbar">
                             <ul class="navbar-nav ml-auto" id="nav">
                                 <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#screenshot">Screenshot</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#about">Du học Hàn Quốc</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#features">Đào tạo Hàn Ngữ</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#screenshot">Góc Học Viên</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#pricing">Tin Tức</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#testimonials">ISSILOO</a></li>
                             </ul>
-                            <div class="sing-up-button d-lg-none">
-                                <a href="#">Sign Up Free</a>
-                            </div>
                         </div>
                     </nav>
-                </div>
-            </div>
-            <!-- Signup btn -->
-            <div class="col-12 col-lg-2">
-                <div class="sing-up-button d-none d-lg-block">
-                    <a href="#">Sign Up Free</a>
                 </div>
             </div>
         </div>
@@ -100,7 +89,7 @@
     </div>
     <!-- Welcome thumb -->
     <div class="welcome-thumb wow fadeInDown" data-wow-delay="0.5s">
-        <img src="img/bg-img/welcome-img.png" alt="">
+        <img src="<?php echo base_url(); ?>webresources/img/bg-img/welcome-img.png" alt="">
     </div>
 </section>
 <!-- ***** Wellcome Area End ***** -->
@@ -157,7 +146,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="special_description_img">
-                        <img src="img/bg-img/special.png" alt="">
+                        <img src="<?php echo base_url(); ?>webresources/img/bg-img/special.png" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 col-xl-5 ml-xl-auto">
@@ -262,7 +251,7 @@
         <div class="row">
             <div class="col-12">
                 <!-- Video Area Start -->
-                <div class="video-area" style="background-image: url(img/bg-img/video.jpg);">
+                <div class="video-area" style="background-image: url(<?php echo base_url(); ?>webresources/img/bg-img/video.jpg);">
                     <div class="video-play-btn">
                         <a href="https://www.youtube.com/watch?v=f5BBJ4ySgpo" class="video_btn"><i class="fa fa-play" aria-hidden="true"></i></a>
                     </div>
@@ -349,22 +338,22 @@
                 <!-- App Screenshots Slides  -->
                 <div class="app_screenshots_slides owl-carousel">
                     <div class="single-shot">
-                        <img src="img/scr-img/app-1.jpg" alt="">
+                        <img src="<?php echo base_url(); ?>webresources/img/scr-img/app-1.jpg" alt="">
                     </div>
                     <div class="single-shot">
-                        <img src="img/scr-img/app-2.jpg" alt="">
+                        <img src="<?php echo base_url(); ?>webresources/img/scr-img/app-2.jpg" alt="">
                     </div>
                     <div class="single-shot">
-                        <img src="img/scr-img/app-3.jpg" alt="">
+                        <img src="<?php echo base_url(); ?>webresources/img/scr-img/app-3.jpg" alt="">
                     </div>
                     <div class="single-shot">
-                        <img src="img/scr-img/app-4.jpg" alt="">
+                        <img src="<?php echo base_url(); ?>webresources/img/scr-img/app-4.jpg" alt="">
                     </div>
                     <div class="single-shot">
-                        <img src="img/scr-img/app-5.jpg" alt="">
+                        <img src="<?php echo base_url(); ?>webresources/img/scr-img/app-5.jpg" alt="">
                     </div>
                     <div class="single-shot">
-                        <img src="img/scr-img/app-3.jpg" alt="">
+                        <img src="<?php echo base_url(); ?>webresources/img/scr-img/app-3.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -580,16 +569,16 @@
             <div class="col-12 col-md-6 col-lg-5">
                 <div class="slider slider-nav">
                     <div class="client-thumbnail">
-                        <img src="img/bg-img/client-3.jpg" alt="">
+                        <img src="<?php echo base_url(); ?>webresources/img/bg-img/client-3.jpg" alt="">
                     </div>
                     <div class="client-thumbnail">
-                        <img src="img/bg-img/client-2.jpg" alt="">
+                        <img src="<?php echo base_url(); ?>webresources/img/bg-img/client-2.jpg" alt="">
                     </div>
                     <div class="client-thumbnail">
-                        <img src="img/bg-img/client-1.jpg" alt="">
+                        <img src="<?php echo base_url(); ?>webresources/img/bg-img/client-1.jpg" alt="">
                     </div>
                     <div class="client-thumbnail">
-                        <img src="img/bg-img/client-2.jpg" alt="">
+                        <img src="<?php echo base_url(); ?>webresources/img/bg-img/client-2.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -634,7 +623,7 @@
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="single-team-member">
                     <div class="member-image">
-                        <img src="img/team-img/team-1.jpg" alt="">
+                        <img src="<?php echo base_url(); ?>webresources/img/team-img/team-1.jpg" alt="">
                         <div class="team-hover-effects">
                             <div class="team-social-icon">
                                 <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -653,7 +642,7 @@
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="single-team-member">
                     <div class="member-image">
-                        <img src="img/team-img/team-2.jpg" alt="">
+                        <img src="<?php echo base_url(); ?>webresources/img/team-img/team-2.jpg" alt="">
                         <div class="team-hover-effects">
                             <div class="team-social-icon">
                                 <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -672,7 +661,7 @@
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="single-team-member">
                     <div class="member-image">
-                        <img src="img/team-img/team-3.jpg" alt="">
+                        <img src="<?php echo base_url(); ?>webresources/img/team-img/team-3.jpg" alt="">
                         <div class="team-hover-effects">
                             <div class="team-social-icon">
                                 <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -691,7 +680,7 @@
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="single-team-member">
                     <div class="member-image">
-                        <img src="img/team-img/team-4.jpg" alt="">
+                        <img src="<?php echo base_url(); ?>webresources/img/team-img/team-4.jpg" alt="">
                         <div class="team-hover-effects">
                             <div class="team-social-icon">
                                 <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -807,19 +796,20 @@
 <!-- ***** Footer Area Start ***** -->
 
 <!-- Jquery-2.2.4 JS -->
-<script src="js/jquery-2.2.4.min.js"></script>
+<script src="<?php echo base_url(); ?>webresources/js/jquery-2.2.4.min.js"></script>
+
 <!-- Popper js -->
-<script src="js/popper.min.js"></script>
+<script src="<?php echo base_url(); ?>webresources/js/popper.min.js"></script>
 <!-- Bootstrap-4 Beta JS -->
-<script src="js/bootstrap.min.js"></script>
+<script src="<?php echo base_url(); ?>webresources/plugin/bootstrap/js/bootstrap.js"></script>
 <!-- All Plugins JS -->
-<script src="js/plugins.js"></script>
+<script src="<?php echo base_url(); ?>webresources/js/plugins.js"></script>
 <!-- Slick Slider Js-->
-<script src="js/slick.min.js"></script>
+<script src="<?php echo base_url(); ?>webresources/js/slick.min.js"></script>
 <!-- Footer Reveal JS -->
-<script src="js/footer-reveal.min.js"></script>
+<script src="<?php echo base_url(); ?>webresources/js/footer-reveal.min.js"></script>
 <!-- Active JS -->
-<script src="js/active.js"></script>
+<script src="<?php echo base_url(); ?>webresources/js/active.js"></script>
 </body>
 
 </html>
