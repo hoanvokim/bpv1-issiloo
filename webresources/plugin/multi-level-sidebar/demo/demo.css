@@ -194,7 +194,7 @@ body.hc-nav-open {
 }
 
 .hc-nav-trigger {
-    position: absolute;
+    position: absolute !important;
     cursor: pointer;
     -webkit-user-select: none;
     -moz-user-select: none;

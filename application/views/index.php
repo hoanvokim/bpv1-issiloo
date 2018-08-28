@@ -6,97 +6,8 @@
  * Time: 16:44
  */
 ?>
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,600,700">
-
-    <!-- Title -->
-    <title>ISSILOO | Homepage</title>
-
-    <!-- Favicon -->
-    <link rel="icon" href="<?php echo base_url(); ?>webresources/img/core-img/favicon.ico">
-
-    <!-- Core Stylesheet -->
-    <link href="<?php echo base_url(); ?>webresources/style.css" rel="stylesheet">
-
-    <!-- Responsive CSS -->
-    <link href="<?php echo base_url(); ?>webresources/css/responsive.css" rel="stylesheet">
-
-    <!-- Multi-->
-    <link rel="stylesheet" href="<?php echo base_url(); ?>webresources/plugin/multi-level-sidebar/demo/demo.css">
-
-</head>
-
-<body>
-<!-- Preloader Start -->
-<div id="preloader">
-    <div class="colorlib-load"></div>
-</div>
-
-<!-- ***** Header Area Start ***** -->
-<header class="header_area animated">
-    <div class="container-fluid">
-        <div class="row align-items-center">
-            <!-- Menu Area Start -->
-            <div class="col-12 col-lg-10">
-
-                <div class="menu_area">
-                    <nav class="navbar navbar-expand-lg navbar-light">
-                        <!-- Logo -->
-                        <a class="navbar-brand" href="#"><img src="<?php echo base_url(); ?>webresources/img/core-img/logo-line-white.png" alt="" width="60%"></a>
-                        <button class="navbar-toggler toggle" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                        <!-- Menu Area -->
-                        <div class="collapse navbar-collapse" id="ca-navbar">
-                            <ul class="navbar-nav ml-auto" id="nav">
-                                <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#screenshot">Screenshot</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-
-
-                <div class="wrapper cf">
-
-                    <nav id="main-nav">
-
-                        <ul class="first-nav">
-                            <li class="cryptocurrency">
-                                <a href="https://www.google.com/search?q=Crypto" target="_blank">Cryptocurrency</a>
-                                <ul>
-                                    <li><a href="#">Bitcoin</a></li>
-                                    <li><a href="#">Ethereum</a></li>
-                                    <li><a href="#">NEO</a></li>
-                                    <li><a href="#">ZCash</a></li>
-                                    <li><a href="#">Dogecoin</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-
-
-                    </nav>
-
-                </div>
-
-            </div>
-        </div>
-    </div>
-</header>
-<!-- ***** Header Area End ***** -->
+<?php $this->load->view('webapp/tpl_header'); ?>
 
 <!-- ***** Wellcome Area Start ***** -->
 <section class="wellcome_area clearfix" id="home">
@@ -104,6 +15,7 @@
         <div class="row h-100 align-items-center">
             <div class="col-12 col-md">
                 <div class="wellcome-heading">
+                    <h2>Du học Hàn Quốc</h2>
                     <h2>ISSILOO</h2>
                     <h3>ISSILOO</h3>
                     <p>Chắp cánh ước mơ Du Học.</p>
@@ -111,8 +23,8 @@
                 <div class="get-start-area">
                     <!-- Form Start -->
                     <form action="#" method="post" class="form-inline">
-                        <input type="email" class="form-control email" placeholder="Email của bạn...">
-                        <input type="submit" class="submit" value="Đăng ký ngay">
+                        <input type="email" class="form-control email" placeholder="Số điện thoại...">
+                        <input type="submit" class="submit" value="Liên hệ ngay">
                     </form>
                     <!-- Form End -->
                 </div>
@@ -354,56 +266,5 @@
 </section>
 <!-- ***** CTA Area End ***** -->
 
-<!-- ***** Footer Area Start ***** -->
-<footer class="footer-social-icon text-center section_padding_70 clearfix">
-    <!-- footer logo -->
-    <div class="footer-text">
-        <h2>Ca.</h2>
-    </div>
-    <!-- social icon-->
-    <div class="footer-social-icon">
-        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-        <a href="#"><i class="active fa fa-twitter" aria-hidden="true"></i></a>
-        <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
-        <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-    </div>
-    <div class="footer-menu">
-        <nav>
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Terms &amp; Conditions</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
-    <!-- Foooter Text-->
-    <div class="copyright-text">
-        <p>Copyright ©2018 ISSILOO KOREAN CENTER Designed by <a href="https://colorlib.com" target="_blank">BEU Dev.</a></p>
-    </div>
-</footer>
-<!-- ***** Footer Area Start ***** -->
 
-<!-- Jquery-2.2.4 JS -->
-<script src="<?php echo base_url(); ?>webresources/js/jquery-2.2.4.min.js"></script>
-
-<!-- Popper js -->
-<script src="<?php echo base_url(); ?>webresources/js/popper.min.js"></script>
-<!-- Bootstrap-4 Beta JS -->
-<script src="<?php echo base_url(); ?>webresources/plugin/bootstrap/js/bootstrap.js"></script>
-<!-- Multilevel-Menu JS -->
-<script src="<?php echo base_url(); ?>webresources/plugin/multi-level-sidebar/src/js/hc-offcanvas-nav.js"></script>
-<!-- All Plugins JS -->
-<script src="<?php echo base_url(); ?>webresources/js/plugins.js"></script>
-<!-- Slick Slider Js-->
-<script src="<?php echo base_url(); ?>webresources/js/slick.min.js"></script>
-<!-- Footer Reveal JS -->
-<script src="<?php echo base_url(); ?>webresources/js/footer-reveal.min.js"></script>
-<!-- Active JS -->
-<script src="<?php echo base_url(); ?>webresources/js/active.js"></script>
-<!-- Custom JS -->
-<script src="<?php echo base_url(); ?>webresources/js/custom.js"></script>
-</body>
-
-</html>
-
+<?php $this->load->view('webapp/tpl_footer'); ?>
