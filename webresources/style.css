@@ -823,7 +823,7 @@ p {
     border-radius: 50%;
     display: inline-block;
     margin: 0 6px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .app-screenshots-area .owl-dot.active {
@@ -1140,7 +1140,7 @@ p {
     color: #fff;
     background: #9a81d7;
     height: 40px;
-    width: 40px;
+    width: 90px;
     line-height: 40px;
     text-align: center;
     border-radius: 10px 10px 10px 0;
