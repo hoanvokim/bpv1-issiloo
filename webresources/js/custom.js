@@ -1,26 +1,29 @@
-(function($) {
+(function ($) {
     var $nav = $('#main-nav');
     var $toggle = $('.toggle');
     var data = {};
     var defaultData = {
         maxWidth: false,
         customToggle: $toggle,
-        navTitle: 'All Categories',
+        navTitle: 'Thanh điều hướng',
+        labelClose: 'Ẩn',
+        labelBack: 'Trở về',
         levelTitles: true,
-        pushContent: '#container'
+        pushContent: '#container',
+        side: 'right'
     };
 
     // calling like this only for demo purposes
 
-    const initNav = function(conf) {
+    const initNav = function (conf) {
         var $old = $('.hc-offcanvas-nav');
 
-        setTimeout(function() {
+        setTimeout(function () {
             if ($old.length) {
                 // clear previous instance
                 $old.remove();
             }
-        }, $toggle.hasClass('toggle-open') ? 420 : 0);
+        }, $toggle.hasClass('toggle-open') ? 450 : 0);
 
         if ($toggle.hasClass('toggle-open')) {
             $toggle.click();
@@ -30,16 +33,16 @@
         $toggle.off('click');
 
         // remember data
-        $.extend(data, conf)
+        $.extend(data, conf);
 
         // call the plugin
         $nav.clone().hcOffcanvasNav($.extend({}, defaultData, data));
-    }
+    };
 
     // run first demo
     initNav({});
 
-    $('.actions').find('a').on('click', function(e) {
+    $('.actions').find('a').on('click', function (e) {
         e.preventDefault();
 
         var $this = $(this).addClass('active');
@@ -48,7 +51,7 @@
         initNav(eval('(' + $this.data('demo') + ')'));
     });
 
-    $('.actions').find('input').on('change', function() {
+    $('.actions').find('input').on('change', function () {
         var $this = $(this);
         var data = eval('(' + $this.data('demo') + ')');
 
@@ -57,7 +60,7 @@
         }
         else {
             var removeData = {};
-            $.each(data, function(index, value) {
+            $.each(data, function (index, value) {
                 removeData[index] = false;
             });
             initNav(removeData);

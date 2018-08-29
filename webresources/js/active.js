@@ -19,9 +19,7 @@
             items: 1,
             loop: true,
             autoplay: true,
-            smartSpeed: 1500,
-            nav: true,
-            navText: ["<i class='pe-7s-angle-left'</i>", "<i class='pe-7s-angle-right'</i>"]
+            smartSpeed: 1500
         });
         $(".app_screenshots_slides").owlCarousel({
             items: 1,
@@ -70,15 +68,6 @@
             mobileFirst: true,
             prevArrow: '<i class="fa fa-angle-left"></i>',
             nextArrow: '<i class="fa fa-angle-right"></i>'
-        });
-    }
-
-    // :: 3.0 Footer Reveal Active Code
-    if ($.fn.footerReveal) {
-        $('footer').footerReveal({
-            shadow: true,
-            shadowOpacity: 0.3,
-            zIndex: -101
         });
     }
 

@@ -10,7 +10,7 @@
 <footer class="footer-social-icon text-center section_padding_70 clearfix">
     <!-- footer logo -->
     <div class="footer-text">
-        <h2>Ca.</h2>
+        <h4>Du học Hàn Quốc ISSILOO</h4>
     </div>
     <!-- social icon-->
     <div class="footer-social-icon">

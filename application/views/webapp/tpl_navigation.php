@@ -11,49 +11,86 @@
     <div class="container-fluid">
         <div class="row align-items-center">
             <!-- Menu Area Start -->
-            <div class="col-12 col-lg-10">
-
+            <div class="col-10 col-lg-11 col-md-11 col-sm-11 col-xs-10">
                 <div class="menu_area">
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <!-- Logo -->
-                        <a class="navbar-brand" href="#"><img src="<?php echo base_url(); ?>webresources/img/core-img/logo-line-white.png" alt="" width="60%"></a>
-                        <button class="navbar-toggler toggle" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+                        <a class="navbar-brand" href="#"><img src="<?php echo base_url(); ?>webresources/img/core-img/logo-line-white.png" alt=""></a>
                         <!-- Menu Area -->
                         <div class="collapse navbar-collapse" id="ca-navbar">
                             <ul class="navbar-nav ml-auto" id="nav">
                                 <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#screenshot">Screenshot</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                             </ul>
                         </div>
                     </nav>
                 </div>
-
-
                 <div class="wrapper cf">
                     <nav id="main-nav">
                         <ul class="first-nav">
                             <li class="cryptocurrency">
-                                <a href="https://www.google.com/search?q=Crypto" target="_blank">Cryptocurrency</a>
+                                <a href="https://www.google.com/search?q=Crypto" target="_blank">Du học Hàn Quốc</a>
                                 <ul>
-                                    <li><a href="#">Bitcoin</a></li>
-                                    <li><a href="#">Ethereum</a></li>
-                                    <li><a href="#">NEO</a></li>
-                                    <li><a href="#">ZCash</a></li>
-                                    <li><a href="#">Dogecoin</a></li>
+                                    <li>
+                                        <a href="#">Du học Hàn Quốc</a>
+                                        <ul>
+                                            <li><a href="#">Tổng quan</a></li>
+                                            <li><a href="#">Chương trình</a></li>
+                                            <li><a href="#">Thông báo tuyển sinh</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Chi phí</a></li>
+                                    <li><a href="#">Trường đại học</a></li>
+                                    <li><a href="#">Học bổng</a></li>
+                                    <li><a href="#">Kinh nghiệm du học</a></li>
+                                </ul>
+                            </li>
+                            <li class="cryptocurrency">
+                                <a href="https://www.google.com/search?q=Crypto" target="_blank">Đào tạo Hàn ngữ</a>
+                                <ul>
+                                    <li><a href="#">Chương trình đào tạo</a></li>
+                                    <li><a href="#">Tự học tiếng hàn</a>
+                                        <ul>
+                                            <li><a href="#">Ngữ pháp</a></li>
+                                            <li><a href="#">Từ vựng</a></li>
+                                            <li><a href="#">Video</a></li>
+                                            <li><a href="#">Thư viện</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="cryptocurrency">
+                                <a href="https://www.google.com/search?q=Crypto" target="_blank">Góc học viên</a>
+                                <ul>
+                                    <li><a href="#">Thành tích học viên</a></li>
+                                    <li><a href="#">Hoạt động ngoại khóa</a></li>
+                                </ul>
+                            </li>
+                            <li class="cryptocurrency">
+                                <a href="https://www.google.com/search?q=Crypto" target="_blank">Tin Tức</a>
+
+                            </li>
+                            <li class="cryptocurrency">
+                                <a href="https://www.google.com/search?q=Crypto" target="_blank">ISSILOO</a>
+                                <ul>
+                                    <li><a href="#">Giới thiệu</a></li>
+                                    <li><a href="#">Nhân sự</a></li>
+                                    <li><a href="#">Giới thiệu</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </nav>
                 </div>
-
+            </div>
+            <div class="col-1 col-lg-1 col-md-1 col-sm-1 col-xs-2">
+                <div class="sing-up-button">
+                    <a class="toggle hc-nav-trigger hc-nav-1 hc-nav-2 hc-nav-3 hc-nav-4">
+                        <span></span>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
