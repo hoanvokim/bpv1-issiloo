@@ -39,7 +39,7 @@
     <!-- ***** Wellcome Area End ***** -->
 
     <!-- ***** Our Team Area Start ***** -->
-    <section class="our-Team-area bg-white section_padding_170_0 clearfix mt-80" id="team">
+    <section class="our-Team-area bg-white section_padding_170_0 clearfix mt-80" id="diemmanh">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-sm-6 col-md-6 col-lg-6">
@@ -125,7 +125,7 @@
     <!-- ***** Feature Area End ***** -->
 
     <!-- ***** University Area Start ***** -->
-    <section class="app-screenshots-area bg-white section_padding_100_50 clearfix" id="screenshot">
+    <section class="app-screenshots-area bg-white section_padding_100_50 clearfix" id="truongdaihoc">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
@@ -173,170 +173,119 @@
     </section>
     <!-- ***** University Area End *****====== -->
 
-    <!-- ***** Feedback Area Start ***** -->
-    <section class="clients-feedback-area bg-white section_padding_100 clearfix" id="testimonials">
+
+    <!-- ***** Client Feedback Area Start ***** -->
+    <section class="clients-feedback-area bg-white section_padding_70_0 clearfix">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-10">
-                    <div class="slider slider-for slick-initialized slick-slider">
+                    <div class="slider slider-for">
                         <!-- Client Feedback Text  -->
-                        <div class="slick-list draggable">
-                            <div class="slick-track" style="opacity: 1; width: 3680px;">
-                                <div class="client-feedback-text text-center slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" tabindex="-1" style="width: 920px; position: relative; left: 0px; top: 0px; z-index: 1000; opacity: 1; transition: opacity 500ms ease;">
-                                    <div class="client">
-                                        <i class="fa fa-quote-left" aria-hidden="true"></i>
-                                    </div>
-                                    <div class="client-description text-center">
-                                        <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job and save me the coding time and just the general hassle of hosting. ”</p>
-                                    </div>
-                                    <div class="star-icon text-center">
-                                        <i class="ion-ios-star"></i>
-                                        <i class="ion-ios-star"></i>
-                                        <i class="ion-ios-star"></i>
-                                        <i class="ion-ios-star"></i>
-                                        <i class="ion-ios-star"></i>
-                                    </div>
-                                    <div class="client-name text-center">
-                                        <h5>Aigars Silkalns</h5>
-                                        <p>Ceo Colorlib</p>
-                                    </div>
-                                </div>
-                                <div class="client-feedback-text text-center slick-slide" data-slick-index="1" aria-hidden="true" tabindex="-1" style="width: 920px; position: relative; left: -920px; top: 0px; z-index: 998; opacity: 0; transition: opacity 500ms ease;">
-                                    <div class="client">
-                                        <i class="fa fa-quote-left" aria-hidden="true"></i>
-                                    </div>
-                                    <div class="client-description text-center">
-                                        <p>“ I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job and save me the coding time and just the general hassle of hosting. ”</p>
-                                    </div>
-                                    <div class="star-icon text-center">
-                                        <i class="ion-ios-star"></i>
-                                        <i class="ion-ios-star"></i>
-                                        <i class="ion-ios-star"></i>
-                                        <i class="ion-ios-star"></i>
-                                        <i class="ion-ios-star"></i>
-                                    </div>
-                                    <div class="client-name text-center">
-                                        <h5>Jennifer</h5>
-                                        <p>Developer</p>
-                                    </div>
-                                </div>
-                                <div class="client-feedback-text text-center slick-slide" data-slick-index="2" aria-hidden="true" tabindex="-1" style="width: 920px; position: relative; left: -1840px; top: 0px; z-index: 998; opacity: 0; transition: opacity 500ms ease;">
-                                    <div class="client">
-                                        <i class="fa fa-quote-left" aria-hidden="true"></i>
-                                    </div>
-                                    <div class="client-description text-center">
-                                        <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job.”</p>
-                                    </div>
-                                    <div class="star-icon text-center">
-                                        <i class="ion-ios-star"></i>
-                                        <i class="ion-ios-star"></i>
-                                        <i class="ion-ios-star"></i>
-                                        <i class="ion-ios-star"></i>
-                                        <i class="ion-ios-star"></i>
-                                    </div>
-                                    <div class="client-name text-center">
-                                        <h5>Helen</h5>
-                                        <p>Marketer</p>
-                                    </div>
-                                </div>
-                                <div class="client-feedback-text text-center slick-slide" data-slick-index="3" aria-hidden="true" tabindex="0" style="width: 920px; position: relative; left: -2760px; top: 0px; z-index: 998; opacity: 0; transition: opacity 500ms ease;">
-                                    <div class="client">
-                                        <i class="fa fa-quote-left" aria-hidden="true"></i>
-                                    </div>
-                                    <div class="client-description text-center">
-                                        <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job and save me the coding time and just the general hassle of hosting. ”</p>
-                                    </div>
-                                    <div class="star-icon text-center">
-                                        <i class="ion-ios-star"></i>
-                                        <i class="ion-ios-star"></i>
-                                        <i class="ion-ios-star"></i>
-                                        <i class="ion-ios-star"></i>
-                                        <i class="ion-ios-star"></i>
-                                    </div>
-                                    <div class="client-name text-center">
-                                        <h5>Henry smith</h5>
-                                        <p>Developer</p>
-                                    </div>
-                                </div>
+                        <div class="client-feedback-text text-center">
+                            <div class="client">
+                                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                            </div>
+                            <div class="client-description text-center">
+                                <p>“ ISSILOO là trung tâm tiếng hàn rất dễ thương và thân thiện. Quan tâm đến từng học viên một. ”</p>
+                            </div>
+                            <div class="star-icon text-center">
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                            </div>
+                            <div class="client-name text-center">
+                                <h5>Lê nhật phát</h5>
+                                <p>Busan university - Busan</p>
                             </div>
                         </div>
                         <!-- Client Feedback Text  -->
-
+                        <div class="client-feedback-text text-center">
+                            <div class="client">
+                                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                            </div>
+                            <div class="client-description text-center">
+                                <p>“ Cô giáo dạy tiếng hàn nhiệt tình. Giáo trình nhẹ nhưng hiệu quả. ”</p>
+                            </div>
+                            <div class="star-icon text-center">
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                            </div>
+                            <div class="client-name text-center">
+                                <h5>Lê ánh viên</h5>
+                                <p>Developer</p>
+                            </div>
+                        </div>
                         <!-- Client Feedback Text  -->
-
+                        <div class="client-feedback-text text-center">
+                            <div class="client">
+                                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                            </div>
+                            <div class="client-description text-center">
+                                <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job.”</p>
+                            </div>
+                            <div class="star-icon text-center">
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                            </div>
+                            <div class="client-name text-center">
+                                <h5>Helen</h5>
+                                <p>Marketer</p>
+                            </div>
+                        </div>
                         <!-- Client Feedback Text  -->
-
+                        <div class="client-feedback-text text-center">
+                            <div class="client">
+                                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                            </div>
+                            <div class="client-description text-center">
+                                <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job and save me the coding time and just the general hassle of hosting. ”</p>
+                            </div>
+                            <div class="star-icon text-center">
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                            </div>
+                            <div class="client-name text-center">
+                                <h5>Henry smith</h5>
+                                <p>Developer</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <!-- Client Thumbnail Area -->
                 <div class="col-12 col-md-6 col-lg-5">
-                    <div class="slider slider-nav slick-initialized slick-slider slick-dotted"><i class="fa fa-angle-left slick-arrow" style="display: block;"></i>
-                        <div class="slick-list draggable" style="padding: 0px 30px;">
-                            <div class="slick-track" style="opacity: 1; width: 1548px; transform: translate3d(-903px, 0px, 0px); transition: transform 500ms ease;">
-                                <div class="client-thumbnail slick-slide slick-cloned" data-slick-index="-4" aria-hidden="true" tabindex="-1" style="width: 129px;">
-                                    <img src="<?php echo base_url(); ?>webresources/img/bg-img/client-3.jpg" alt="">
-                                </div>
-                                <div class="client-thumbnail slick-slide slick-cloned" data-slick-index="-3" aria-hidden="true" tabindex="-1" style="width: 129px;">
-                                    <img src="<?php echo base_url(); ?>webresources/img/bg-img/client-2.jpg" alt="">
-                                </div>
-                                <div class="client-thumbnail slick-slide slick-cloned" data-slick-index="-2" aria-hidden="true" tabindex="-1" style="width: 129px;">
-                                    <img src="<?php echo base_url(); ?>webresources/img/bg-img/client-1.jpg" alt="">
-                                </div>
-                                <div class="client-thumbnail slick-slide slick-cloned slick-active" data-slick-index="-1" aria-hidden="false" tabindex="-1" style="width: 129px;">
-                                    <img src="<?php echo base_url(); ?>webresources/img/bg-img/client-2.jpg" alt="">
-                                </div>
-                                <div class="client-thumbnail slick-slide slick-current slick-active slick-center" data-slick-index="0" aria-hidden="false" tabindex="-1" role="tabpanel" id="slick-slide10" aria-describedby="slick-slide-control10" style="width: 129px;">
-                                    <img src="<?php echo base_url(); ?>webresources/img/bg-img/client-3.jpg" alt="">
-                                </div>
-                                <div class="client-thumbnail slick-slide slick-active" data-slick-index="1" aria-hidden="false" tabindex="-1" role="tabpanel" id="slick-slide11" aria-describedby="slick-slide-control11" style="width: 129px;">
-                                    <img src="<?php echo base_url(); ?>webresources/img/bg-img/client-2.jpg" alt="">
-                                </div>
-                                <div class="client-thumbnail slick-slide" data-slick-index="2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide12" aria-describedby="slick-slide-control12" style="width: 129px;">
-                                    <img src="<?php echo base_url(); ?>webresources/img/bg-img/client-1.jpg" alt="">
-                                </div>
-                                <div class="client-thumbnail slick-slide" data-slick-index="3" aria-hidden="true" tabindex="0" role="tabpanel" id="slick-slide13" aria-describedby="slick-slide-control13" style="width: 129px;">
-                                    <img src="<?php echo base_url(); ?>webresources/img/bg-img/client-2.jpg" alt="">
-                                </div>
-                                <div class="client-thumbnail slick-slide slick-cloned slick-center" data-slick-index="4" aria-hidden="true" tabindex="-1" style="width: 129px;">
-                                    <img src="<?php echo base_url(); ?>webresources/img/bg-img/client-3.jpg" alt="">
-                                </div>
-                                <div class="client-thumbnail slick-slide slick-cloned" data-slick-index="5" aria-hidden="true" tabindex="-1" style="width: 129px;">
-                                    <img src="<?php echo base_url(); ?>webresources/img/bg-img/client-2.jpg" alt="">
-                                </div>
-                                <div class="client-thumbnail slick-slide slick-cloned" data-slick-index="6" aria-hidden="true" tabindex="-1" style="width: 129px;">
-                                    <img src="<?php echo base_url(); ?>webresources/img/bg-img/client-1.jpg" alt="">
-                                </div>
-                                <div class="client-thumbnail slick-slide slick-cloned" data-slick-index="7" aria-hidden="true" tabindex="-1" style="width: 129px;">
-                                    <img src="<?php echo base_url(); ?>webresources/img/bg-img/client-2.jpg" alt="">
-                                </div>
-                            </div>
+                    <div class="slider slider-nav">
+                        <div class="client-thumbnail">
+                            <img src="<?php echo base_url(); ?>webresources/img/bg-img/client-3.jpg" alt="">
                         </div>
-
-
-                        <i class="fa fa-angle-right slick-arrow" style="display: block;"></i>
-                        <ul class="slick-dots" style="display: flex;" role="tablist">
-                            <li class="slick-active" role="presentation">
-                                <button type="button" role="tab" id="slick-slide-control10" aria-controls="slick-slide10" aria-label="1 of 2" tabindex="-1">1</button>
-                            </li>
-                            <li role="presentation" class="">
-                                <button type="button" role="tab" id="slick-slide-control11" aria-controls="slick-slide11" aria-label="2 of 2" tabindex="-1">2</button>
-                            </li>
-                            <li role="presentation" class="">
-                                <button type="button" role="tab" id="slick-slide-control12" aria-controls="slick-slide12" aria-label="3 of 2" tabindex="-1">3</button>
-                            </li>
-                            <li role="presentation" class="">
-                                <button type="button" role="tab" id="slick-slide-control13" aria-controls="slick-slide13" aria-label="4 of 2" tabindex="0" aria-selected="true">4</button>
-                            </li>
-                        </ul>
+                        <div class="client-thumbnail">
+                            <img src="<?php echo base_url(); ?>webresources/img/bg-img/client-2.jpg" alt="">
+                        </div>
+                        <div class="client-thumbnail">
+                            <img src="<?php echo base_url(); ?>webresources/img/bg-img/client-1.jpg" alt="">
+                        </div>
+                        <div class="client-thumbnail">
+                            <img src="<?php echo base_url(); ?>webresources/img/bg-img/client-2.jpg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- ***** Feedback Area End *****====== -->
+    <!-- ***** Client Feedback Area End ***** -->
 
     <!-- ***** News Area Start ***** -->
-    <section class="news_area clearfix section_padding_100_50">
+    <section class="news_area clearfix section_padding_100_50" id="tintuc">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
@@ -348,50 +297,169 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="row cool_facts_area-content mt-30">
-                <!-- Single Cool Fact-->
-                <div class="col-12 col-md-6 col-lg-6">
-                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="news-content">
-                            <a href="http://localhost/bpv1-issiloo/news/ky-thi-topik-61"> <img src="http://localhost/bpv1-issiloo/assets/news/Hq3.png"></a>
-                            <div class="text-des-container-news">
-                                <h6>THÔNG BÁO VỀ KỲ THI TOPIK 61</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Cool Fact-->
-                <div class="col-12 col-md-3 col-lg-3">
-                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="news-content">
-                            <a href="http://localhost/bpv1-issiloo/news/ky-thi-topik-61"> <img src="http://localhost/bpv1-issiloo/assets/news/Hq3.png"></a>
-                            <div class="text-des-container-news">
-                                <h6>THÔNG BÁO VỀ KỲ THI TOPIK 61</h6>
-                            </div>
-                        </div>
-                        <div class="news-content">
-                            <a href="http://localhost/bpv1-issiloo/news/ky-thi-topik-61"> <img src="http://localhost/bpv1-issiloo/assets/news/Hq3.png"></a>
-                            <div class="text-des-container-news">
-                                <h6>THÔNG BÁO VỀ KỲ THI TOPIK 61</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="container" style="padding-top: 30px;">
 
-                <!-- Single Cool Fact-->
-                <div class="col-12 col-md-3 col-lg-3">
-                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="news-content">
-                            <a href="http://localhost/bpv1-issiloo/news/ky-thi-topik-61"> <img src="http://localhost/bpv1-issiloo/assets/news/Hq3.png"></a>
-                            <div class="text-des-container-news">
-                                <h6>THÔNG BÁO VỀ KỲ THI TOPIK 61</h6>
+            <!-- filter -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="portfolio-filter">
+                        <a href="#" class="filter active" data-filter="*">Tất </a>
+                        <a href="#" class="filter" data-filter=".hocbong">Học bổng</a>
+                        <a href="#" class="filter" data-filter=".kinhnghiemduhoc">Kinh nghiệm du học</a>
+                        <a href="#" class="filter" data-filter=".tintuc">Tin tức</a>
+                        <a href="#" class="filter" data-filter=".tuhoctienghan">Tự học tiếng Hàn</a>
+                    </div>
+                </div>
+            </div>
+            <!-- end filter -->
+
+            <div class="row">
+
+                <div class="works-grid titles">
+
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item tintuc">
+                        <div class="work-container">
+                            <div class="work-img">
+                                <a href="www.google.com">
+                                    <img src="<?php echo base_url(); ?>/assets/news/news-1.png" alt="">
+                                </a>
+                            </div>
+                            <div class="work-description">
+                                <h5><a href="www.google.com">Thư ký Kim sao thế?</a></h5>
                             </div>
                         </div>
-                        <div class="news-content">
-                            <a href="http://localhost/bpv1-issiloo/news/ky-thi-topik-61"> <img src="http://localhost/bpv1-issiloo/assets/news/Hq3.png"></a>
-                            <div class="text-des-container-news">
-                                <h6>THÔNG BÁO VỀ KỲ THI TOPIK 61</h6>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item kinhnghiemduhoc">
+                        <div class="work-container">
+                            <div class="work-img">
+                                <a href="www.google.com">
+                                    <img src="<?php echo base_url(); ?>/assets/news/news-2.png" alt="">
+                                </a>
+                            </div>
+                            <div class="work-description">
+                                <h5><a href="www.google.com">So sánh từ đồng nghĩa trong tiếng </a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item kinhnghiemduhoc">
+                        <div class="work-container">
+                            <div class="work-img">
+                                <a href="www.google.com">
+                                    <img src="<?php echo base_url(); ?>/assets/news/news-3.png" alt="">
+                                </a>
+                            </div>
+                            <div class="work-description">
+                                <h5><a href="www.google.com">Kinh nghiệm học ở đại học busan</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item tuhoctienghan">
+                        <div class="work-container">
+                            <div class="work-img">
+                                <a href="www.google.com">
+                                    <img src="<?php echo base_url(); ?>/assets/news/news-4.png" alt="">
+                                </a>
+                            </div>
+                            <div class="work-description">
+                                <h5><a href="www.google.com">Cách dùng từ chính xác</a></h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item tintuc">
+                        <div class="work-container">
+                            <div class="work-img">
+                                <a href="www.google.com">
+                                    <img src="<?php echo base_url(); ?>/assets/news/news-5.png" alt="">
+                                </a>
+                            </div>
+                            <div class="work-description">
+                                <h5><a href="www.google.com">Visa thẳng hay visa đi phỏng vấn</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item tuhoctienghan">
+                        <div class="work-container">
+                            <div class="work-img">
+                                <a href="www.google.com">
+                                    <img src="<?php echo base_url(); ?>/assets/news/news-6.png" alt="">
+                                </a>
+                            </div>
+                            <div class="work-description">
+                                <h5><a href="www.google.com">Các ngành học ở trường đại học Seoul</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item hocbong">
+                        <div class="work-container">
+                            <div class="work-img">
+                                <a href="www.google.com">
+                                    <img src="<?php echo base_url(); ?>/assets/news/news-7.png" alt="">
+                                </a>
+                            </div>
+                            <div class="work-description">
+                                <h5><a href="www.google.com">Du lịch ở Busan thì đi đâu?</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item tintuc">
+                        <div class="work-container">
+                            <div class="work-img">
+                                <a href="www.google.com">
+                                    <img src="<?php echo base_url(); ?>/assets/news/news-8.png" alt="">
+                                </a>
+                            </div>
+                            <div class="work-description">
+                                <h5><a href="www.google.com">Các cặp từ trái nghĩa</a></h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item tuhoctienghan">
+                        <div class="work-container">
+                            <div class="work-img">
+                                <a href="www.google.com">
+                                    <img src="<?php echo base_url(); ?>/assets/news/news-8.png" alt="">
+                                </a>
+                            </div>
+                            <div class="work-description">
+                                <h5><a href="www.google.com">Các cặp từ trái nghĩa</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item tintuc">
+                        <div class="work-container">
+                            <div class="work-img">
+                                <a href="www.google.com">
+                                    <img src="<?php echo base_url(); ?>/assets/news/news-8.png" alt="">
+                                </a>
+                            </div>
+                            <div class="work-description">
+                                <h5><a href="www.google.com">Các cặp từ trái nghĩa</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item tintuc">
+                        <div class="work-container">
+                            <div class="work-img">
+                                <a href="www.google.com">
+                                    <img src="<?php echo base_url(); ?>/assets/news/news-8.png" alt="">
+                                </a>
+                            </div>
+                            <div class="work-description">
+                                <h5><a href="www.google.com">Các cặp từ trái nghĩa</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item kinhnghiemduhoc">
+                        <div class="work-container">
+                            <div class="work-img">
+                                <a href="www.google.com">
+                                    <img src="<?php echo base_url(); ?>/assets/news/news-8.png" alt="">
+                                </a>
+                            </div>
+                            <div class="work-description">
+                                <h5><a href="www.google.com">Các cặp từ trái nghĩa</a></h5>
                             </div>
                         </div>
                     </div>
@@ -403,19 +471,41 @@
     <!-- ***** NEWS Area End ***** -->
 
 
+    <!-- ***** Video Area Start ***** -->
+    <div class="video-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Video Area Start -->
+                    <div class="video-area" style="background-image: url(<?php echo base_url(); ?>/webresources/img/core-img/logo-line-2.png );
+                            background-color: #fff;
+                            background-repeat: no-repeat;
+                            background-size: 500px;
+                            ">
+                        <div class="video-play-btn">
+                            <a href="https://www.youtube.com/watch?v=75WSmq1QXJw" class="video_btn"><i class="fa fa-play" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Video Area End ***** -->
+
+
     <!-- ***** CTA Area Start ***** -->
-    <section class="our-monthly-membership section_padding_50 clearfix">
+    <section class="our-monthly-membership section_padding_150_50 clearfix">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-8">
                     <div class="membership-description">
-                        <h2>Join our Monthly Membership</h2>
-                        <p>Find the perfect plan for you — 100% satisfaction guaranteed.</p>
+                        <h2>Đăng ký ngay để trở thành học viên ở ISSILOO</h2>
+                        <p>Giấc mơ du học sẽ trở thành hiện thực</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="get-started-button wow bounceInDown" data-wow-delay="0.5s">
-                        <a href="#">Get Started</a>
+                        <a href="#">Gọi ngay cho chúng tôi</a>
                     </div>
                 </div>
             </div>

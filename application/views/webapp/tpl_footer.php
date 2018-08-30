@@ -10,7 +10,9 @@
 <footer class="footer-social-icon text-center section_padding_70 clearfix">
     <!-- footer logo -->
     <div class="footer-text">
-        <h4>Du học Hàn Quốc ISSILOO</h4>
+        <img src="<?php echo base_url(); ?>webresources/img/core-img/logo-line-2.png" alt="" />
+        <h2>Trung tâm du học Hàn Quốc ISSIOO</h2>
+        <h5>Chắp cánh giấc mơ du học của bạn</h5>
     </div>
     <!-- social icon-->
     <div class="footer-social-icon">
@@ -18,16 +20,6 @@
         <a href="#"><i class="active fa fa-twitter" aria-hidden="true"></i></a>
         <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
         <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-    </div>
-    <div class="footer-menu">
-        <nav>
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Terms &amp; Conditions</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
     </div>
     <!-- Foooter Text-->
     <div class="copyright-text">
@@ -38,11 +30,10 @@
 
 <!-- Jquery-2.2.4 JS -->
 <script src="<?php echo base_url(); ?>webresources/js/jquery-2.2.4.min.js"></script>
-
 <!-- Popper js -->
 <script src="<?php echo base_url(); ?>webresources/js/popper.min.js"></script>
 <!-- Bootstrap-4 Beta JS -->
-<script src="<?php echo base_url(); ?>webresources/plugin/bootstrap/js/bootstrap.js"></script>
+<script src="<?php echo base_url(); ?>webresources/plugin/bootstrap/js/bootstrap.min.js"></script>
 <!-- Multilevel-Menu JS -->
 <script src="<?php echo base_url(); ?>webresources/plugin/multi-level-sidebar/src/js/hc-offcanvas-nav.js"></script>
 <!-- All Plugins JS -->

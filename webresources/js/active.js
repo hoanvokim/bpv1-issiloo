@@ -56,7 +56,6 @@
             speed: 500,
             asNavFor: '.slider-for',
             dots: true,
-            centerMode: true,
             focusOnSelect: true,
             slide: 'div',
             autoplay: true,
@@ -130,5 +129,32 @@
             $(this).remove();
         });
     });
+
+    /* Isotope Filter
+     -------------------------------------------------------*/
+    $('.portfolio-filter').on( 'click', 'a', function(e) {
+        e.preventDefault();
+        var filterValue = $(this).attr('data-filter');
+        $container.isotope({ filter: filterValue });
+
+        $('.portfolio-filter a').removeClass('active');
+        $(this).closest('a').addClass('active');
+
+    });
+
+
+    /* Portfolio
+     -------------------------------------------------------*/
+    var $container = $('.works-grid');
+    $container.imagesLoaded( function() {
+        $container.isotope({
+            itemSelector: '.work-item',
+            layoutMode: 'fitRows',
+            percentPosition: true,
+            masonry: { columnWidth: '.work-img' }
+        });
+
+    });
+
 
 })(jQuery);
