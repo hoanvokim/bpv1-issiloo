@@ -83,14 +83,10 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container">
             <div class="row cool_facts_area-content">
                 <!-- Single Cool Fact-->
-                <div class="col-12 col-md-4 col-lg-4">
+                <div class="col-12 col-md-4">
                     <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="counter-area">
-                        </div>
                         <div class="cool-facts-content">
                             <i class="ion-arrow-down-a"></i>
                             <p>100%<br> Học viên đậu visa</p>
@@ -98,10 +94,8 @@
                     </div>
                 </div>
                 <!-- Single Cool Fact-->
-                <div class="col-12 col-md-4 col-lg-4">
+                <div class="col-12 col-md-4">
                     <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="counter-area">
-                        </div>
                         <div class="cool-facts-content">
                             <i class="ion-person"></i>
                             <p>Chi phí<br>thấp nhất</p>
@@ -109,10 +103,8 @@
                     </div>
                 </div>
                 <!-- Single Cool Fact-->
-                <div class="col-12 col-md-4 col-lg-4">
+                <div class="col-12 col-md-4">
                     <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="counter-area">
-                        </div>
                         <div class="cool-facts-content">
                             <i class="ion-ios-star-outline"></i>
                             <p>Dịch vụ<br>tốt nhất</p>
@@ -144,27 +136,27 @@
                     <div class="app_screenshots_slides owl-carousel">
                         <div class="single-shot">
                             <img src="<?php echo base_url(); ?>assets/university/uni-1.jpg" alt="">
-                            <h2>ĐẠI HỌC HANKUK</h2>
+                            <h5>ĐẠI HỌC HANKUK</h5>
                         </div>
                         <div class="single-shot">
                             <img src="<?php echo base_url(); ?>assets/university/uni-2.jpg" alt="">
-                            <h2>ĐẠI HỌC KOREA</h2>
+                            <h5>ĐẠI HỌC KOREA</h5>
                         </div>
                         <div class="single-shot">
                             <img src="<?php echo base_url(); ?>assets/university/uni-3.jpg" alt="">
-                            <h2>ĐẠI HỌC NỮ EWHA</h2>
+                            <h5>ĐẠI HỌC NỮ EWHA</h5>
                         </div>
                         <div class="single-shot">
                             <img src="<?php echo base_url(); ?>assets/university/uni-4.jpg" alt="">
-                            <h2>ĐẠI HỌC QUỐC GIA HANBAT</h2>
+                            <h5>ĐẠI HỌC QUỐC GIA HANBAT</h5>
                         </div>
                         <div class="single-shot">
                             <img src="<?php echo base_url(); ?>assets/university/uni-5.jpg" alt="">
-                            <h2>ĐẠI HỌC KOSIN</h2>
+                            <h5>ĐẠI HỌC KOSIN</h5>
                         </div>
                         <div class="single-shot">
                             <img src="<?php echo base_url(); ?>assets/university/uni-6.jpg" alt="">
-                            <h2>ĐẠI HỌC DONGSEO</h2>
+                            <h5>ĐẠI HỌC DONGSEO</h5>
                         </div>
                     </div>
                 </div>
