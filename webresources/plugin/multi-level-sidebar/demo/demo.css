@@ -253,7 +253,7 @@ body.hc-nav-open {
 }
 
 .hc-offcanvas-nav .nav-wrapper {
-    background: #884bdf;
+    background: #597EBF;
 }
 
 .hc-offcanvas-nav h2 {
@@ -270,15 +270,15 @@ body.hc-nav-open {
     color: #fff;
     z-index: 1;
     background: rgba(0, 0, 0, 0);
-    border-bottom: 1px solid #62339E;
+    border-bottom: 1px solid #2e4a93;
 }
 
 .hc-offcanvas-nav:not(.touch-device) a:hover {
-    background: #62339E;
+    background: #2e4a93;
 }
 
 .hc-offcanvas-nav .nav-wrapper-1 > ul:first-of-type:not(:first-child) > li:first-child:not(.nav-back):not(.nav-close) > a {
-    border-top: 1px solid #884bdf;
+    border-top: 1px solid #597EBF;
 }
 
 .hc-offcanvas-nav li {
@@ -286,13 +286,13 @@ body.hc-nav-open {
 }
 
 .hc-offcanvas-nav li.nav-close a, .hc-offcanvas-nav li.nav-back a {
-    background: #481A65;
-    border-top: 1px solid #481A65;
-    border-bottom: 1px solid #481A65;
+    background: #2D417F;
+    border-top: 1px solid #2D417F;
+    border-bottom: 1px solid #2D417F;
 }
 
 .hc-offcanvas-nav li.nav-close a:hover, .hc-offcanvas-nav li.nav-back a:hover {
-    background: #481A65;
+    background: #2D417F;
 }
 
 .hc-offcanvas-nav li.nav-parent a {
@@ -332,7 +332,7 @@ body.hc-nav-open {
 }
 
 .hc-offcanvas-nav a[href]:not([href="#"]) > span.nav-next {
-    border-left: 1px solid #62339E;
+    border-left: 1px solid #2e4a93;
 }
 
 .hc-offcanvas-nav span.nav-next::before, .hc-offcanvas-nav li.nav-back span::before {
@@ -395,15 +395,15 @@ body.hc-nav-open {
 }
 
 .hc-offcanvas-nav.nav-levels-expand .nav-container li.level-open, .hc-offcanvas-nav.nav-levels-none .nav-container li.level-open {
-    background: #62339E;
+    background: #2e4a93;
 }
 
 .hc-offcanvas-nav.nav-levels-expand .nav-container li.level-open a, .hc-offcanvas-nav.nav-levels-none .nav-container li.level-open a {
-    border-bottom: 1px solid #884bdf;
+    border-bottom: 1px solid #597EBF;
 }
 
 .hc-offcanvas-nav.nav-levels-expand .nav-container li.level-open a:hover, .hc-offcanvas-nav.nav-levels-none .nav-container li.level-open a:hover {
-    background: #884bdf;
+    background: #597EBF;
 }
 
 .hc-offcanvas-nav.nav-levels-expand .nav-container li.level-open > a .nav-next::before, .hc-offcanvas-nav.nav-levels-none .nav-container li.level-open > a .nav-next::before {

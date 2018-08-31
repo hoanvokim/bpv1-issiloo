@@ -92,12 +92,31 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 |
 | Define the structure of the navigation menu
 |
-| HOME
-| 1.DU_HOC_HAN_QUOC
-|   |
-| 2.DAO_TAO_HAN_NGU
-| 3.GOC_HOC_VIEN
-| 4.TIN_TUC
-| 5.ISSILOO
-|
 */
+define('TRANGCHU', 1);
+
+define('DUHOCHANQUOC', 2);
+define('DUHOCHANQUOC_TONGQUAN', 3);
+define('DUHOCHANQUOC_CHUONGTRINH', 4);
+define('DUHOCHANQUOC_THONGBAOTUYENSINH', 5);
+define('DUHOCHANQUOC_CHIPHI', 6);
+define('DUHOCHANQUOC_TRUONGDAIHOC', 7);
+define('DUHOCHANQUOC_HOCBONG', 8);
+define('DUHOCHANQUOC_KINHNGHIEMDUHOC', 9);
+
+define('DAOTAOHANNGU', 10);
+define('DAOTAOHANNGU_CHUONGTRINHDAOTAO', 11);
+define('DAOTAOHANNGU_TUHOCTIENGHAN', 12);
+define('DAOTAOHANNGU_NGUPHAP', 13);
+define('DAOTAOHANNGU_TUVUNG', 14);
+define('DAOTAOHANNGU_VIDEO', 15);
+define('DAOTAOHANNGU_THUVIEN', 16);
+
+define('GOCHOCVIEN', 17);
+define('GOCHOCVIEN_THANHTICHHOCVIEN', 18);
+define('GOCHOCVIEN_HOATDONGNGOAIKHOA', 19);
+define('TINTUC', 20);
+define('ISSILOO', 21);
+define('GIOITHIEU', 22);
+define('NHANSU', 23);
+define('LIENHE', 24);

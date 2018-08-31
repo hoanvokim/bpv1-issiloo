@@ -20,6 +20,16 @@
                         <h3>ISSILOO</h3>
                         <p>Chắp cánh ước mơ Du Học.</p>
                     </div>
+                    <!-- social icon-->
+                    <div class="wellcome-heading-icon wellcome-heading">
+                        <a href="https://www.facebook.com/issiloo.edu.vn/">
+                            <img src="<?php echo base_url(); ?>webresources/img/scr-img/facebook.png">
+                            </a>
+                        <a href="https://www.youtube.com/channel/UCxSwrePN-rYK7AUtoKi2gfg?view_as=subscriber">
+                            <img src="<?php echo base_url(); ?>webresources/img/scr-img/youtube.png"></a>
+                        <a href="http://zaloapp.com/qr/p/fwc7rp42pe1x">
+                            <img src="<?php echo base_url(); ?>webresources/img/scr-img/zalo.png"></a>
+                    </div>
                     <div class="get-start-area">
                         <!-- Form Start -->
                         <form action="#" method="post" class="form-inline">
@@ -39,10 +49,19 @@
     <!-- ***** Wellcome Area End ***** -->
 
     <!-- ***** Our Team Area Start ***** -->
-    <section class="our-Team-area bg-white section_padding_170_0 clearfix mt-80" id="diemmanh">
+    <section class="our-Team-area bg-white section_padding_70_0 clearfix mt-80" id="chuongtrinh">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="col-12 text-center">
+                    <!-- Heading Text  -->
+                    <div class="our-Team-area-heading">
+                        <h3>Chương trình tại ISSILOO</h3>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6">php
                     <div class="single-team-member">
                         <div class="member-image">
                             <img src="<?php echo base_url(); ?>webresources/img/core-img/DU-HOC-HAN-QUOC.jpg" alt="">
@@ -78,7 +97,7 @@
                 <div class="col-12 text-center">
                     <!-- Heading Text  -->
                     <div class="cool_facts_area-heading">
-                        <h2>NHỮNG GIÁ TRỊ CHẤT LƯỢNG MÀ CHÚNG TÔI MANG LẠI</h2>
+                        <h3>NHỮNG GIÁ TRỊ CHẤT LƯỢNG MÀ CHÚNG TÔI MANG LẠI</h3>
                         <div class="line-shape"></div>
                     </div>
                 </div>
@@ -87,8 +106,8 @@
                 <!-- Single Cool Fact-->
                 <div class="col-12 col-md-4">
                     <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="cool-facts-content">
-                            <i class="ion-arrow-down-a"></i>
+                        <div class="cool-facts-content hvr-grow">
+                            <img src="<?php echo base_url(); ?>webresources/img/scr-img/feature-white-01.png">
                             <p>100%<br> Học viên đậu visa</p>
                         </div>
                     </div>
@@ -96,8 +115,8 @@
                 <!-- Single Cool Fact-->
                 <div class="col-12 col-md-4">
                     <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="cool-facts-content">
-                            <i class="ion-person"></i>
+                        <div class="cool-facts-content hvr-grow">
+                            <img src="<?php echo base_url(); ?>webresources/img/scr-img/feature-white-02.png">
                             <p>Chi phí<br>thấp nhất</p>
                         </div>
                     </div>
@@ -105,8 +124,8 @@
                 <!-- Single Cool Fact-->
                 <div class="col-12 col-md-4">
                     <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="cool-facts-content">
-                            <i class="ion-ios-star-outline"></i>
+                        <div class="cool-facts-content hvr-grow">
+                            <img src="<?php echo base_url(); ?>webresources/img/scr-img/feature-white-03.png">
                             <p>Dịch vụ<br>tốt nhất</p>
                         </div>
                     </div>
@@ -167,7 +186,7 @@
 
 
     <!-- ***** Client Feedback Area Start ***** -->
-    <section class="clients-feedback-area bg-white section_padding_70_0 clearfix">
+    <section class="clients-feedback-area bg-white section_padding_70_0 clearfix" id="sinhvien">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-10">
@@ -178,7 +197,8 @@
                                 <i class="fa fa-quote-left" aria-hidden="true"></i>
                             </div>
                             <div class="client-description text-center">
-                                <p>“ ISSILOO là trung tâm tiếng hàn rất dễ thương và thân thiện. Quan tâm đến từng học viên một. ”</p>
+                                <p>“ ISSILOO là trung tâm tiếng hàn rất dễ thương và thân thiện. Quan tâm đến từng học
+                                    viên một. ”</p>
                             </div>
                             <div class="star-icon text-center">
                                 <i class="ion-ios-star"></i>
@@ -218,7 +238,9 @@
                                 <i class="fa fa-quote-left" aria-hidden="true"></i>
                             </div>
                             <div class="client-description text-center">
-                                <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job.”</p>
+                                <p>“ I have been using it for a number of years. I use Colorlib for usability testing.
+                                    It's great for taking images and making clickable image prototypes that do the
+                                    job.”</p>
                             </div>
                             <div class="star-icon text-center">
                                 <i class="ion-ios-star"></i>
@@ -238,7 +260,9 @@
                                 <i class="fa fa-quote-left" aria-hidden="true"></i>
                             </div>
                             <div class="client-description text-center">
-                                <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job and save me the coding time and just the general hassle of hosting. ”</p>
+                                <p>“ I have been using it for a number of years. I use Colorlib for usability testing.
+                                    It's great for taking images and making clickable image prototypes that do the job
+                                    and save me the coding time and just the general hassle of hosting. ”</p>
                             </div>
                             <div class="star-icon text-center">
                                 <i class="ion-ios-star"></i>
@@ -277,7 +301,7 @@
     <!-- ***** Client Feedback Area End ***** -->
 
     <!-- ***** News Area Start ***** -->
-    <section class="news_area clearfix section_padding_100_50" id="tintuc">
+    <section class="news_area clearfix section_padding_100_50" id="thongtin">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
@@ -311,147 +335,147 @@
 
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item tintuc">
                         <div class="work-container">
-                            <div class="work-img">
+                            <div class="hvr-grow">
                                 <a href="www.google.com">
                                     <img src="<?php echo base_url(); ?>/assets/news/news-1.png" alt="">
                                 </a>
                             </div>
                             <div class="work-description">
-                                <h5><a href="www.google.com">Thư ký Kim sao thế?</a></h5>
+                                <a href="www.google.com">Thư ký Kim sao thế?</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item kinhnghiemduhoc">
                         <div class="work-container">
-                            <div class="work-img">
+                            <div class="hvr-grow">
                                 <a href="www.google.com">
                                     <img src="<?php echo base_url(); ?>/assets/news/news-2.png" alt="">
                                 </a>
                             </div>
                             <div class="work-description">
-                                <h5><a href="www.google.com">So sánh từ đồng nghĩa trong tiếng </a></h5>
+                                <a href="www.google.com">So sánh từ đồng nghĩa trong tiếng </a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item kinhnghiemduhoc">
                         <div class="work-container">
-                            <div class="work-img">
+                            <div class="hvr-grow">
                                 <a href="www.google.com">
                                     <img src="<?php echo base_url(); ?>/assets/news/news-3.png" alt="">
                                 </a>
                             </div>
                             <div class="work-description">
-                                <h5><a href="www.google.com">Kinh nghiệm học ở đại học busan</a></h5>
+                                <a href="www.google.com">Kinh nghiệm học ở đại học busan</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item tuhoctienghan">
                         <div class="work-container">
-                            <div class="work-img">
+                            <div class="hvr-grow">
                                 <a href="www.google.com">
                                     <img src="<?php echo base_url(); ?>/assets/news/news-4.png" alt="">
                                 </a>
                             </div>
                             <div class="work-description">
-                                <h5><a href="www.google.com">Cách dùng từ chính xác</a></h5>
+                                <a href="www.google.com">Cách dùng từ chính xác</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item tintuc">
                         <div class="work-container">
-                            <div class="work-img">
+                            <div class="hvr-grow">
                                 <a href="www.google.com">
                                     <img src="<?php echo base_url(); ?>/assets/news/news-5.png" alt="">
                                 </a>
                             </div>
                             <div class="work-description">
-                                <h5><a href="www.google.com">Visa thẳng hay visa đi phỏng vấn</a></h5>
+                                <a href="www.google.com">Visa thẳng hay visa đi phỏng vấn</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item tuhoctienghan">
                         <div class="work-container">
-                            <div class="work-img">
+                            <div class="hvr-grow">
                                 <a href="www.google.com">
                                     <img src="<?php echo base_url(); ?>/assets/news/news-6.png" alt="">
                                 </a>
                             </div>
                             <div class="work-description">
-                                <h5><a href="www.google.com">Các ngành học ở trường đại học Seoul</a></h5>
+                                <a href="www.google.com">Các ngành học ở trường đại học Seoul</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item hocbong">
                         <div class="work-container">
-                            <div class="work-img">
+                            <div class="hvr-grow">
                                 <a href="www.google.com">
                                     <img src="<?php echo base_url(); ?>/assets/news/news-7.png" alt="">
                                 </a>
                             </div>
                             <div class="work-description">
-                                <h5><a href="www.google.com">Du lịch ở Busan thì đi đâu?</a></h5>
+                                <a href="www.google.com">Du lịch ở Busan thì đi đâu?</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item tintuc">
                         <div class="work-container">
-                            <div class="work-img">
+                            <div class="hvr-grow">
                                 <a href="www.google.com">
                                     <img src="<?php echo base_url(); ?>/assets/news/news-8.png" alt="">
                                 </a>
                             </div>
                             <div class="work-description">
-                                <h5><a href="www.google.com">Các cặp từ trái nghĩa</a></h5>
+                                <a href="www.google.com">Các cặp từ trái nghĩa</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item tuhoctienghan">
                         <div class="work-container">
-                            <div class="work-img">
+                            <div class="hvr-grow">
                                 <a href="www.google.com">
                                     <img src="<?php echo base_url(); ?>/assets/news/news-8.png" alt="">
                                 </a>
                             </div>
                             <div class="work-description">
-                                <h5><a href="www.google.com">Các cặp từ trái nghĩa</a></h5>
+                                <a href="www.google.com">Các cặp từ trái nghĩa</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item tintuc">
                         <div class="work-container">
-                            <div class="work-img">
+                            <div class="hvr-grow">
                                 <a href="www.google.com">
                                     <img src="<?php echo base_url(); ?>/assets/news/news-8.png" alt="">
                                 </a>
                             </div>
                             <div class="work-description">
-                                <h5><a href="www.google.com">Các cặp từ trái nghĩa</a></h5>
+                                <a href="www.google.com">Các cặp từ trái nghĩa</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item tintuc">
                         <div class="work-container">
-                            <div class="work-img">
+                            <div class="hvr-grow">
                                 <a href="www.google.com">
                                     <img src="<?php echo base_url(); ?>/assets/news/news-8.png" alt="">
                                 </a>
                             </div>
                             <div class="work-description">
-                                <h5><a href="www.google.com">Các cặp từ trái nghĩa</a></h5>
+                                <a href="www.google.com">Các cặp từ trái nghĩa</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item kinhnghiemduhoc">
                         <div class="work-container">
-                            <div class="work-img">
+                            <div class="hvr-grow">
                                 <a href="www.google.com">
                                     <img src="<?php echo base_url(); ?>/assets/news/news-8.png" alt="">
                                 </a>
                             </div>
                             <div class="work-description">
-                                <h5><a href="www.google.com">Các cặp từ trái nghĩa</a></h5>
+                                <a href="www.google.com">Các cặp từ trái nghĩa</a>
                             </div>
                         </div>
                     </div>
@@ -464,18 +488,20 @@
 
 
     <!-- ***** Video Area Start ***** -->
-    <div class="video-section">
+    <div class="video-section" id="issiloo">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <!-- Video Area Start -->
-                    <div class="video-area" style="background-image: url(<?php echo base_url(); ?>/webresources/img/core-img/logo-line-2.png );
-                            background-color: #fff;
-                            background-repeat: no-repeat;
-                            background-size: 500px;
-                            ">
+                    <div class="video-area"
+                         style="background-image: url(<?php echo base_url(); ?>/webresources/img/core-img/logo-line-2.png );
+                                 background-color: #fff;
+                                 background-repeat: no-repeat;
+                                 background-size: 500px;
+                                 ">
                         <div class="video-play-btn">
-                            <a href="https://www.youtube.com/watch?v=75WSmq1QXJw" class="video_btn"><i class="fa fa-play" aria-hidden="true"></i></a>
+                            <a href="https://www.youtube.com/watch?v=75WSmq1QXJw" class="video_btn"><i
+                                        class="fa fa-play" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>

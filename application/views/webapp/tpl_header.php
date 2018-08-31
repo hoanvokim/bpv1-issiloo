@@ -30,6 +30,7 @@
     <link href="<?php echo base_url(); ?>webresources/css/responsive.css" rel="stylesheet">
     <!-- Animate CSS -->
     <link href="<?php echo base_url(); ?>webresources/css/animate.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>webresources/css/hover-min.css" rel="stylesheet">
     <!-- Multi-->
     <link rel="stylesheet" href="<?php echo base_url(); ?>webresources/plugin/multi-level-sidebar/demo/demo.css">
 

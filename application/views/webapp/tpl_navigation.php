@@ -19,10 +19,12 @@
                         <!-- Menu Area -->
                         <div class="collapse navbar-collapse" id="ca-navbar">
                             <ul class="navbar-nav ml-auto" id="nav">
-                                <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#diemmanh">Điểm mạnh</a></li>
+                                <li class="nav-item active"><a class="nav-link" href="#home">Trang chủ</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#chuongtrinh">Chương trình</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#truongdaihoc">Trường đại học</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#tintuc">Tin tức</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#sinhvien">Sinh viên</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#thongtin">Thông tin</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#issiloo">ISSILOO</a></li>
                             </ul>
                         </div>
                     </nav>
@@ -30,6 +32,9 @@
                 <div class="wrapper cf">
                     <nav id="main-nav">
                         <ul class="first-nav">
+                            <li class="cryptocurrency">
+                                <a href="https://www.google.com/search?q=Crypto" target="_blank">Trang chủ</a>
+                            </li>
                             <li class="cryptocurrency">
                                 <a href="https://www.google.com/search?q=Crypto" target="_blank">Du học Hàn Quốc</a>
                                 <ul>
@@ -77,7 +82,7 @@
                                 <ul>
                                     <li><a href="#">Giới thiệu</a></li>
                                     <li><a href="#">Nhân sự</a></li>
-                                    <li><a href="#">Giới thiệu</a></li>
+                                    <li><a href="#">Liên hệ</a></li>
                                 </ul>
                             </li>
                         </ul>

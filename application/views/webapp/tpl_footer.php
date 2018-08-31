@@ -10,16 +10,9 @@
 <footer class="footer-social-icon text-center section_padding_70 clearfix">
     <!-- footer logo -->
     <div class="footer-text">
-        <img src="<?php echo base_url(); ?>webresources/img/core-img/logo-line-2.png" alt="" />
+        <img src="<?php echo base_url(); ?>webresources/img/core-img/logo-line-white-2.png" alt="" />
         <h2>Trung tâm du học Hàn Quốc ISSIOO</h2>
         <h5>Chắp cánh giấc mơ du học của bạn</h5>
-    </div>
-    <!-- social icon-->
-    <div class="footer-social-icon">
-        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-        <a href="#"><i class="active fa fa-twitter" aria-hidden="true"></i></a>
-        <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
-        <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
     </div>
     <!-- Foooter Text-->
     <div class="copyright-text">
