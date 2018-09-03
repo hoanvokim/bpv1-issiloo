@@ -10,6 +10,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<body>
+<!-- Preloader Start -->
+<div id="preloader">
+    <div class="colorlib-load"></div>
+</div>
+
+<?php $this->load->view('webapp/tpl_navigation'); ?>
+
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="">
@@ -30,16 +38,14 @@
     <link href="<?php echo base_url(); ?>webresources/css/responsive.css" rel="stylesheet">
     <!-- Animate CSS -->
     <link href="<?php echo base_url(); ?>webresources/css/animate.css" rel="stylesheet">
+    <!-- Hover CSS -->
     <link href="<?php echo base_url(); ?>webresources/css/hover-min.css" rel="stylesheet">
+    <!-- Icomoon Icon Fonts-->
+    <link href="<?php echo base_url(); ?>webresources/css/icomoon.css" rel="stylesheet">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="<?php echo base_url(); ?>webresources/css/magnific-popup.css">
+
     <!-- Multi-->
     <link rel="stylesheet" href="<?php echo base_url(); ?>webresources/plugin/multi-level-sidebar/demo/demo.css">
 
 </head>
-
-<body>
-<!-- Preloader Start -->
-<div id="preloader">
-    <div class="colorlib-load"></div>
-</div>
-
-<?php $this->load->view('webapp/tpl_navigation'); ?>

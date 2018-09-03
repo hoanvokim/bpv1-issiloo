@@ -35,6 +35,15 @@
 <script src="<?php echo base_url(); ?>webresources/js/slick.min.js"></script>
 <!-- Footer Reveal JS -->
 <script src="<?php echo base_url(); ?>webresources/js/footer-reveal.min.js"></script>
+
+<!-- jQuery Easing -->
+<script src="<?php echo base_url(); ?>webresources/js/jquery.easing.1.3.js"></script>
+<!-- Waypoints -->
+<script src="<?php echo base_url(); ?>webresources/js/jquery.waypoints.min.js"></script>
+<!-- Magnific Popup -->
+<script src="<?php echo base_url(); ?>webresources/js/jquery.magnific-popup.min.js"></script>
+<script src="<?php echo base_url(); ?>webresources/js/magnific-popup-options.js"></script>
+
 <!-- Active JS -->
 <script src="<?php echo base_url(); ?>webresources/js/active.js"></script>
 <!-- Custom JS -->

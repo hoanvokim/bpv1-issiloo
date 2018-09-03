@@ -55,13 +55,13 @@
                 <div class="col-12 text-center">
                     <!-- Heading Text  -->
                     <div class="our-Team-area-heading">
-                        <h3>Chương trình tại ISSILOO</h3>
+                        <h2>Chương trình tại ISSILOO</h2>
                         <div class="line-shape"></div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-sm-6 col-md-6 col-lg-6">php
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6">
                     <div class="single-team-member">
                         <div class="member-image">
                             <img src="<?php echo base_url(); ?>webresources/img/core-img/DU-HOC-HAN-QUOC.jpg" alt="">
@@ -530,6 +530,5 @@
         </div>
     </section>
     <!-- ***** CTA Area End ***** -->
-
 
 <?php $this->load->view('webapp/tpl_footer'); ?>
