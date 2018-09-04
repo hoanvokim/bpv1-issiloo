@@ -22,7 +22,7 @@ class Post extends CI_Controller
 
     public function postContent($slug)
     {
-        $data['active_tab'] = 'post';
+        $data['active_page'] = 'post';
         $this->load->view('postcontent', $data);
     }
 }

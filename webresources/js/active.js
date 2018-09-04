@@ -15,13 +15,13 @@
 
     // :: 1.0 Owl Carousel Active Code
     if ($.fn.owlCarousel) {
-        $(".welcome_slides").owlCarousel({
+        $('.welcome_slides').owlCarousel({
             items: 1,
             loop: true,
             autoplay: true,
             smartSpeed: 1500
         });
-        $(".app_screenshots_slides").owlCarousel({
+        $('.app_screenshots_slides').owlCarousel({
             items: 1,
             loop: true,
             autoplay: true,
@@ -105,7 +105,7 @@
     }
 
     $('a[href="#"]').click(function ($) {
-        $.preventDefault()
+        $.preventDefault();
     });
 
     var $window = $(window);
@@ -118,7 +118,8 @@
     $window.on('scroll', function () {
         if ($window.scrollTop() > 48) {
             $('.header_area').addClass('sticky slideInDown');
-        } else {
+        }
+        else {
             $('.header_area').removeClass('sticky slideInDown');
         }
     });
@@ -132,64 +133,63 @@
 
     /* Isotope Filter
      -------------------------------------------------------*/
-    $('.portfolio-filter').on( 'click', 'a', function(e) {
+    $('.portfolio-filter').on('click', 'a', function (e) {
         e.preventDefault();
         var filterValue = $(this).attr('data-filter');
-        $container.isotope({ filter: filterValue });
+        $container.isotope({filter: filterValue});
 
         $('.portfolio-filter a').removeClass('active');
         $(this).closest('a').addClass('active');
 
     });
 
-
     /* Portfolio
      -------------------------------------------------------*/
     var $container = $('.works-grid');
-    $container.imagesLoaded( function() {
+    $container.imagesLoaded(function () {
         $container.isotope({
             itemSelector: '.work-item',
             layoutMode: 'fitRows',
             percentPosition: true,
-            masonry: { columnWidth: '.work-img' }
+            masonry: {columnWidth: '.work-img'}
         });
 
     });
 
-    var contentWayPoint = function() {
+    var contentWayPoint = function () {
         var i = 0;
-        $('.animate-box').waypoint( function( direction ) {
+        $('.animate-box').waypoint(function (direction) {
 
-            if( direction === 'down' && !$(this.element).hasClass('animated') ) {
+            if (direction === 'down' && !$(this.element).hasClass('animated')) {
 
                 i++;
 
                 $(this.element).addClass('item-animate');
-                setTimeout(function(){
+                setTimeout(function () {
 
-                    $('body .animate-box.item-animate').each(function(k){
+                    $('body .animate-box.item-animate').each(function (k) {
                         var el = $(this);
-                        setTimeout( function () {
+                        setTimeout(function () {
                             var effect = el.data('animate-effect');
-                            if ( effect === 'fadeIn') {
+                            if (effect === 'fadeIn') {
                                 el.addClass('fadeIn animated');
-                            } else {
+                            }
+                            else {
                                 el.addClass('fadeInUp animated');
                             }
 
                             el.removeClass('item-animate');
-                        },  k * 200, 'easeInOutExpo' );
+                        }, k * 200, 'easeInOutExpo');
                     });
 
                 }, 100);
 
             }
 
-        } , { offset: '85%' } );
+        }, {offset: '85%'});
     };
 
-
-    var counter = function() {
+    var counter = function () {
         $('.js-counter').countTo({
             formatter: function (value, options) {
                 return value.toFixed(options.decimals);
@@ -197,16 +197,20 @@
         });
     };
 
-    var counterWayPoint = function() {
-        if ($('#colorlib-counter').length > 0 ) {
-            $('#colorlib-counter').waypoint( function( direction ) {
+    var counterWayPoint = function () {
+        if ($('#colorlib-counter').length > 0) {
+            $('#colorlib-counter').waypoint(function (direction) {
 
-                if( direction === 'down' && !$(this.element).hasClass('animated') ) {
-                    setTimeout( counter , 400);
+                if (direction === 'down' && !$(this.element).hasClass('animated')) {
+                    setTimeout(counter, 400);
                     $(this.element).addClass('animated');
                 }
-            } , { offset: '90%' } );
+            }, {offset: '90%'});
         }
     };
+
+    $(function () {
+        contentWayPoint();
+    });
 
 })(jQuery);

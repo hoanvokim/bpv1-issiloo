@@ -24,7 +24,7 @@
                     </a>
                     <div class="desc">
                         <span class="meta">04, Mar 2018</span>
-                        <h2><a href="blog.html">Collect some interesting <?php echo base_url(); ?>/assets/sample</a></h2>
+                        <h2><a href="blog.html">Collect some interesting images</a></h2>
                         <p>When she reached the first hills of the Italic Mountains, she had a last view back on the
                             skyline of her hometown Bookmarksgrove</p>
                     </div>
@@ -41,7 +41,7 @@
                     </a>
                     <div class="desc">
                         <span class="meta">04, Mar 2018</span>
-                        <h2><a href="blog.html">Collect some interesting <?php echo base_url(); ?>/assets/sample</a></h2>
+                        <h2><a href="blog.html">Collect some interesting images</a></h2>
                         <p>When she reached the first hills of the Italic Mountains, she had a last view back on the
                             skyline of her hometown Bookmarksgrove</p>
                     </div>
@@ -58,7 +58,7 @@
                     </a>
                     <div class="desc">
                         <span class="meta">04, Mar 2018</span>
-                        <h2><a href="blog.html">Collect some interesting <?php echo base_url(); ?>/assets/sample</a></h2>
+                        <h2><a href="blog.html">Collect some interesting images</a></h2>
                         <p>When she reached the first hills of the Italic Mountains, she had a last view back on the
                             skyline of her hometown Bookmarksgrove</p>
                     </div>
@@ -78,7 +78,7 @@
                     </a>
                     <div class="desc">
                         <span class="meta">04, Mar 2018</span>
-                        <h2><a href="blog.html">Collect some interesting <?php echo base_url(); ?>/assets/sample</a></h2>
+                        <h2><a href="blog.html">Collect some interesting images</a></h2>
                         <p>When she reached the first hills of the Italic Mountains, she had a last view back on the
                             skyline of her hometown Bookmarksgrove</p>
                     </div>
@@ -95,7 +95,7 @@
                     </a>
                     <div class="desc">
                         <span class="meta">04, Mar 2018</span>
-                        <h2><a href="blog.html">Collect some interesting <?php echo base_url(); ?>/assets/sample</a></h2>
+                        <h2><a href="blog.html">Collect some interesting images</a></h2>
                         <p>When she reached the first hills of the Italic Mountains, she had a last view back on the
                             skyline of her hometown Bookmarksgrove</p>
                     </div>
@@ -112,7 +112,7 @@
                     </a>
                     <div class="desc">
                         <span class="meta">04, Mar 2018</span>
-                        <h2><a href="blog.html">Collect some interesting <?php echo base_url(); ?>/assets/sample</a></h2>
+                        <h2><a href="blog.html">Collect some interesting images</a></h2>
                         <p>When she reached the first hills of the Italic Mountains, she had a last view back on the
                             skyline of her hometown Bookmarksgrove</p>
                     </div>
@@ -132,7 +132,7 @@
                     </a>
                     <div class="desc">
                         <span class="meta">04, Mar 2018</span>
-                        <h2><a href="blog.html">Collect some interesting <?php echo base_url(); ?>/assets/sample</a></h2>
+                        <h2><a href="blog.html">Collect some interesting images</a></h2>
                         <p>When she reached the first hills of the Italic Mountains, she had a last view back on the
                             skyline of her hometown Bookmarksgrove</p>
                     </div>
@@ -149,7 +149,7 @@
                     </a>
                     <div class="desc">
                         <span class="meta">04, Mar 2018</span>
-                        <h2><a href="blog.html">Collect some interesting <?php echo base_url(); ?>/assets/sample</a></h2>
+                        <h2><a href="blog.html">Collect some interesting images</a></h2>
                         <p>When she reached the first hills of the Italic Mountains, she had a last view back on the
                             skyline of her hometown Bookmarksgrove</p>
                     </div>
@@ -166,7 +166,7 @@
                     </a>
                     <div class="desc">
                         <span class="meta">04, Mar 2018</span>
-                        <h2><a href="blog.html">Collect some interesting <?php echo base_url(); ?>/assets/sample</a></h2>
+                        <h2><a href="blog.html">Collect some interesting images</a></h2>
                         <p>When she reached the first hills of the Italic Mountains, she had a last view back on the
                             skyline of her hometown Bookmarksgrove</p>
                     </div>

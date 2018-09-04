@@ -24,7 +24,7 @@
                     <div class="wellcome-heading-icon wellcome-heading">
                         <a href="https://www.facebook.com/issiloo.edu.vn/">
                             <img src="<?php echo base_url(); ?>webresources/img/scr-img/facebook.png">
-                            </a>
+                        </a>
                         <a href="https://www.youtube.com/channel/UCxSwrePN-rYK7AUtoKi2gfg?view_as=subscriber">
                             <img src="<?php echo base_url(); ?>webresources/img/scr-img/youtube.png"></a>
                         <a href="http://zaloapp.com/qr/p/fwc7rp42pe1x">
@@ -198,7 +198,7 @@
                             </div>
                             <div class="client-description text-center">
                                 <p>“ ISSILOO là trung tâm tiếng hàn rất dễ thương và thân thiện. Quan tâm đến từng học
-                                    viên một. ”</p>
+                                   viên một. ”</p>
                             </div>
                             <div class="star-icon text-center">
                                 <i class="ion-ios-star"></i>
@@ -239,8 +239,8 @@
                             </div>
                             <div class="client-description text-center">
                                 <p>“ I have been using it for a number of years. I use Colorlib for usability testing.
-                                    It's great for taking images and making clickable image prototypes that do the
-                                    job.”</p>
+                                   It's great for taking images and making clickable image prototypes that do the
+                                   job.”</p>
                             </div>
                             <div class="star-icon text-center">
                                 <i class="ion-ios-star"></i>
@@ -261,8 +261,8 @@
                             </div>
                             <div class="client-description text-center">
                                 <p>“ I have been using it for a number of years. I use Colorlib for usability testing.
-                                    It's great for taking images and making clickable image prototypes that do the job
-                                    and save me the coding time and just the general hassle of hosting. ”</p>
+                                   It's great for taking images and making clickable image prototypes that do the job
+                                   and save me the coding time and just the general hassle of hosting. ”</p>
                             </div>
                             <div class="star-icon text-center">
                                 <i class="ion-ios-star"></i>

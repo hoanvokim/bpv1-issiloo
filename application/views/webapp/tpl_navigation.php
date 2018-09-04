@@ -15,31 +15,40 @@
                 <div class="menu_area">
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <!-- Logo -->
-                        <a class="navbar-brand" href="#"><img src="<?php echo base_url(); ?>webresources/img/core-img/logo-line-white.png" alt=""></a>
+                        <a class="navbar-brand" href="#">
+                            <img src="<?php echo base_url(); ?>webresources/img/core-img/<?php if ($active_page == 'home') {
+                                echo 'logo-line-white.png';
+                            }
+                            else {
+                                echo 'logo-line-white-2.png';
+                            } ?>" alt="">
+                        </a>
                         <!-- Menu Area -->
-                        <div class="collapse navbar-collapse" id="ca-navbar">
-                            <ul class="navbar-nav ml-auto" id="nav">
-                                <li class="nav-item active"><a class="nav-link" href="#home">Trang chủ</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#chuongtrinh">Chương trình</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#truongdaihoc">Trường đại học</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#sinhvien">Sinh viên</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#thongtin">Thông tin</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#issiloo">ISSILOO</a></li>
-                            </ul>
-                        </div>
+                        <?php if ($active_page == 'home') { ?>
+                            <div class="collapse navbar-collapse" id="ca-navbar">
+                                <ul class="navbar-nav ml-auto" id="nav">
+                                    <li class="nav-item active"><a class="nav-link" href="#home">Trang chủ</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#chuongtrinh">Chương trình</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#truongdaihoc">Trường đại học</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#sinhvien">Sinh viên</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#thongtin">Thông tin</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#issiloo">ISSILOO</a></li>
+                                </ul>
+                            </div>
+                        <?php } ?>
                     </nav>
                 </div>
                 <div class="wrapper cf">
                     <nav id="main-nav">
                         <ul class="first-nav">
                             <li class="cryptocurrency">
-                                <a href="https://www.google.com/search?q=Crypto" target="_blank">Trang chủ</a>
+                                <a href="<?php echo base_url(); ?>" target="_blank">Trang chủ</a>
                             </li>
                             <li class="cryptocurrency">
-                                <a href="https://www.google.com/search?q=Crypto" target="_blank">Du học Hàn Quốc</a>
+                                <a href="<?php echo base_url() . 'post'; ?>" target="_blank">Du học Hàn Quốc</a>
                                 <ul>
                                     <li>
-                                        <a href="#">Du học Hàn Quốc</a>
+                                        <a href="<?php echo base_url() . 'post/post_content/1'; ?>">Du học Hàn Quốc</a>
                                         <ul>
                                             <li><a href="#">Tổng quan</a></li>
                                             <li><a href="#">Chương trình</a></li>
@@ -91,7 +100,9 @@
             </div>
             <div class="col-1 col-lg-1 col-md-1 col-sm-1 col-xs-2">
                 <div class="sing-up-button">
-                    <a class="toggle hc-nav-trigger hc-nav-1 hc-nav-2 hc-nav-3 hc-nav-4">
+                    <a class="toggle hc-nav-trigger hc-nav-1 hc-nav-2 hc-nav-3 hc-nav-4 <?php if ($active_page != 'home') {
+                        echo 'inverse';
+                    } ?>">
                         <span></span>
                     </a>
                 </div>
