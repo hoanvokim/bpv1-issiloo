@@ -14,39 +14,84 @@
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12 col-md">
-                    <div class="wellcome-heading">
-                        <h2>Du học Hàn Quốc</h2>
-                        <h2>ISSILOO</h2>
-                        <h3>ISSILOO</h3>
-                        <p>Chắp cánh ước mơ Du Học.</p>
+
+                    <!-- Welcome thumb -->
+                    <div class="welcome-thumb wow fadeInDown" data-wow-delay="0.5s">
+                        <img src="<?php echo base_url(); ?>webresources/img/issi/hocvien.png" alt="">
                     </div>
-                    <!-- social icon-->
-                    <div class="wellcome-heading-icon wellcome-heading">
-                        <a href="https://www.facebook.com/issiloo.edu.vn/">
-                            <img src="<?php echo base_url(); ?>webresources/img/scr-img/facebook.png">
-                        </a>
-                        <a href="https://www.youtube.com/channel/UCxSwrePN-rYK7AUtoKi2gfg?view_as=subscriber">
-                            <img src="<?php echo base_url(); ?>webresources/img/scr-img/youtube.png"></a>
-                        <a href="http://zaloapp.com/qr/p/fwc7rp42pe1x">
-                            <img src="<?php echo base_url(); ?>webresources/img/scr-img/zalo.png"></a>
+
+                    <div class="wellcome-heading">
+                        <img src="<?php echo base_url(); ?>webresources/img/issi/duhochanquoc.png"></a>
                     </div>
                     <div class="get-start-area">
                         <!-- Form Start -->
                         <form action="#" method="post" class="form-inline">
                             <input type="email" class="form-control email" placeholder="Số điện thoại...">
-                            <input type="submit" class="submit" value="Liên hệ ngay">
+                            <input type="submit" class="submit btn" value="Liên hệ ngay">
                         </form>
                         <!-- Form End -->
+                    </div>
+                    <!-- social icon-->
+                    <div class="wellcome-heading-icon wellcome-heading">
+                        <a href="https://www.facebook.com/issiloo.edu.vn/">
+                            <img src="<?php echo base_url(); ?>webresources/img/issi/iconFacebook.png">
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCxSwrePN-rYK7AUtoKi2gfg?view_as=subscriber">
+                            <img src="<?php echo base_url(); ?>webresources/img/issi/iconYoutube.png"></a>
+                        <a href="http://zaloapp.com/qr/p/fwc7rp42pe1x">
+                            <img src="<?php echo base_url(); ?>webresources/img/issi/iconZalo.png"></a>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Welcome thumb -->
-        <div class="welcome-thumb wow fadeInDown" data-wow-delay="0.5s">
-            <img src="<?php echo base_url(); ?>webresources/img/bg-img/welcome-img.png" alt="">
-        </div>
+
     </section>
     <!-- ***** Wellcome Area End ***** -->
+
+    <!-- ***** Feature Area Start ***** -->
+    <section class="cool_facts_area clearfix section_padding_100_50">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <!-- Heading Text  -->
+                    <div class="cool_facts_area-heading">
+                        <h1>Những giá trị ISSILOO mang lại</h1>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row cool_facts_area-content">
+                <!-- Single Cool Fact-->
+                <div class="col-12 col-md-4">
+                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="cool-facts-content hvr-grow">
+                            <h2>100%</h2>
+                            <p>đậu visa</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Cool Fact-->
+                <div class="col-12 col-md-4">
+                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="cool-facts-content hvr-grow">
+                            <h2>Chi phí</h2>
+                            <p>thấp nhất</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Cool Fact-->
+                <div class="col-12 col-md-4">
+                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="cool-facts-content hvr-grow">
+                            <h2>Dịch vụ</h2>
+                            <p>tốt nhất</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Feature Area End ***** -->
 
     <!-- ***** Our Team Area Start ***** -->
     <section class="our-Team-area bg-white section_padding_70_0 clearfix mt-80" id="chuongtrinh">
@@ -55,7 +100,7 @@
                 <div class="col-12 text-center">
                     <!-- Heading Text  -->
                     <div class="our-Team-area-heading">
-                        <h2>Chương trình tại ISSILOO</h2>
+                        <h1>Chương trình tại <img src="<?php echo base_url(); ?>webresources/img/issi/issi.png"></a> </h1>
                         <div class="line-shape"></div>
                     </div>
                 </div>
@@ -90,50 +135,6 @@
     </section>
     <!-- ***** Our Team Area End ***** -->
 
-    <!-- ***** Feature Area Start ***** -->
-    <section class="cool_facts_area clearfix section_padding_100_50">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <!-- Heading Text  -->
-                    <div class="cool_facts_area-heading">
-                        <h3>NHỮNG GIÁ TRỊ CHẤT LƯỢNG MÀ CHÚNG TÔI MANG LẠI</h3>
-                        <div class="line-shape"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="row cool_facts_area-content">
-                <!-- Single Cool Fact-->
-                <div class="col-12 col-md-4">
-                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="cool-facts-content hvr-grow">
-                            <img src="<?php echo base_url(); ?>webresources/img/scr-img/feature-white-01.png">
-                            <p>100%<br> Học viên đậu visa</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Cool Fact-->
-                <div class="col-12 col-md-4">
-                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="cool-facts-content hvr-grow">
-                            <img src="<?php echo base_url(); ?>webresources/img/scr-img/feature-white-02.png">
-                            <p>Chi phí<br>thấp nhất</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Cool Fact-->
-                <div class="col-12 col-md-4">
-                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="cool-facts-content hvr-grow">
-                            <img src="<?php echo base_url(); ?>webresources/img/scr-img/feature-white-03.png">
-                            <p>Dịch vụ<br>tốt nhất</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Feature Area End ***** -->
 
     <!-- ***** University Area Start ***** -->
     <section class="app-screenshots-area bg-white section_padding_100_50 clearfix" id="truongdaihoc">
@@ -198,7 +199,7 @@
                             </div>
                             <div class="client-description text-center">
                                 <p>“ ISSILOO là trung tâm tiếng hàn rất dễ thương và thân thiện. Quan tâm đến từng học
-                                   viên một. ”</p>
+                                    viên một. ”</p>
                             </div>
                             <div class="star-icon text-center">
                                 <i class="ion-ios-star"></i>
@@ -239,8 +240,8 @@
                             </div>
                             <div class="client-description text-center">
                                 <p>“ I have been using it for a number of years. I use Colorlib for usability testing.
-                                   It's great for taking images and making clickable image prototypes that do the
-                                   job.”</p>
+                                    It's great for taking images and making clickable image prototypes that do the
+                                    job.”</p>
                             </div>
                             <div class="star-icon text-center">
                                 <i class="ion-ios-star"></i>
@@ -261,8 +262,8 @@
                             </div>
                             <div class="client-description text-center">
                                 <p>“ I have been using it for a number of years. I use Colorlib for usability testing.
-                                   It's great for taking images and making clickable image prototypes that do the job
-                                   and save me the coding time and just the general hassle of hosting. ”</p>
+                                    It's great for taking images and making clickable image prototypes that do the job
+                                    and save me the coding time and just the general hassle of hosting. ”</p>
                             </div>
                             <div class="star-icon text-center">
                                 <i class="ion-ios-star"></i>
@@ -486,7 +487,6 @@
     </section>
     <!-- ***** NEWS Area End ***** -->
 
-
     <!-- ***** Video Area Start ***** -->
     <div class="video-section" id="issiloo">
         <div class="container">
@@ -509,7 +509,6 @@
         </div>
     </div>
     <!-- ***** Video Area End ***** -->
-
 
     <!-- ***** CTA Area Start ***** -->
     <section class="our-monthly-membership section_padding_150_50 clearfix">

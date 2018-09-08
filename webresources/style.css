@@ -379,12 +379,10 @@ p {
     color: #fff;
     font-weight: 500;
     display: inline-block;
-    border: 2px solid #729ada;
     height: 60px;
     width: 60px;
     line-height: 46px;
     text-align: center;
-    border-radius: 24px 24px 24px 0px;
 }
 
 .sing-up-button > a.inverse {
@@ -397,8 +395,7 @@ p {
 }
 
 .sing-up-button > a:hover {
-    background: #7d8fda;
-    color: #fff;
+    color: #7d8fda;
     border-color: transparent;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
@@ -434,8 +431,8 @@ p {
 -------------------------- */
 
 .wellcome_area {
-    background-image: url(img/bg-img/welcome-bg-2.png);
-    height: 900px;
+    background-image: url(img/issi/bg.png);
+    height: 820px;
     position: relative;
     z-index: 1;
     background-position: bottom center;
@@ -454,11 +451,11 @@ p {
 }
 
 .welcome-thumb {
-    width: 45%;
+    float: right;
+    width: 90%;
     position: absolute;
-    bottom: 10px;
-    right: 85px;
-    z-index: 9;
+    bottom: -83px;
+    right: -365px;
 }
 
 .welcome-thumb img {
@@ -474,8 +471,12 @@ p {
     z-index: 3;
 }
 
+.get-start-area {
+    margin-top: 330px;
+}
+
 .get-start-area .email {
-    background: #223d77;
+    background: #becbe8;
     height: 50px;
     max-width: 260px;
     border: none;
@@ -548,11 +549,12 @@ p {
 }
 
 .wellcome-heading {
-    margin-bottom: 10px;
+    float: left;
 }
 
 .wellcome-heading-icon {
-    margin-bottom: 80px;
+    float: left;
+    margin-top: 20px;
 }
 
 /* --------------------------
@@ -781,13 +783,19 @@ p {
     content: ''
 }
 
-.cool_facts_area-heading > h3 {
+.cool_facts_area-heading > h1 {
     color: #fff;
     margin-bottom: 10px;
 }
 
 .cool_facts_area .cool_facts_area-content {
     padding-top: 40px;
+}
+
+.cool-facts-content h2 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 800;
 }
 
 .cool-facts-content > i {
@@ -1106,8 +1114,15 @@ p {
 /* --------------------------
 :: 12.0 Team Area CSS Start
 -------------------------- */
-.our-Team-area-heading > h2 {
+.our-Team-area-heading {
+    padding-bottom: 20px;
+}
+.our-Team-area-heading > h1 {
     color: #2e4a93;
+}
+
+.our-Team-area-heading img {
+    width: 240px;
 }
 
 .member-image {

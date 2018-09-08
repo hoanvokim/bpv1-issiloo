@@ -7,7 +7,7 @@
  */
 ?>
 <!-- ***** Header Area Start ***** -->
-<header class="header_area animated">
+<header class="header_area animated sticky slideInDown">
     <div class="container-fluid">
         <div class="row align-items-center">
             <!-- Menu Area Start -->
@@ -16,11 +16,11 @@
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <!-- Logo -->
                         <a class="navbar-brand" href="#">
-                            <img src="<?php echo base_url(); ?>webresources/img/core-img/<?php if ($active_page == 'home') {
-                                echo 'logo-line-white.png';
+                            <img src="<?php echo base_url(); ?>webresources/img/issi/<?php if ($active_page == 'home') {
+                                echo 'logoWhite.png';
                             }
                             else {
-                                echo 'logo-line-white-2.png';
+                                echo 'logoBlue.png';
                             } ?>" alt="">
                         </a>
                         <!-- Menu Area -->
@@ -30,8 +30,8 @@
                                     <li class="nav-item active"><a class="nav-link" href="#home">Trang chủ</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#chuongtrinh">Chương trình</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#truongdaihoc">Trường đại học</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#sinhvien">Sinh viên</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#thongtin">Thông tin</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#hocbong">Học bổng</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#thongtin">Thông tin du học</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#issiloo">ISSILOO</a></li>
                                 </ul>
                             </div>
