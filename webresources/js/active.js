@@ -38,6 +38,12 @@
                 }
             }
         });
+        $('.self_learning_slides').owlCarousel({
+            items: 4,
+            loop: false,
+            autoplay: false,
+            margin: 30
+        });
     }
 
     // :: 2.0 Slick Active Code

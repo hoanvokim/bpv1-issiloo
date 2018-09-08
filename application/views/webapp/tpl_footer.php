@@ -7,16 +7,44 @@
  */
 ?>
 <!-- ***** Footer Area Start ***** -->
-<footer class="footer-social-icon text-center section_padding_70 clearfix">
-    <!-- footer logo -->
-    <div class="footer-text">
-        <img src="<?php echo base_url(); ?>webresources/img/core-img/logo-line-white-2.png" alt="" />
-        <h2>Trung tâm du học Hàn Quốc ISSIOO</h2>
-        <h5>Chắp cánh giấc mơ du học của bạn</h5>
-    </div>
-    <!-- Foooter Text-->
-    <div class="copyright-text">
-        <p>Copyright ©2018 ISSILOO KOREAN CENTER Designed by <a href="https://colorlib.com" target="_blank">BEU Dev.</a></p>
+<footer class="footer-social-icon text-center section_padding_0_50 clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="col-8 footer-text">
+                <div class="col-12">
+                    <img src="<?php echo base_url(); ?>webresources/img/issi/iconIssiloo.png" alt=""/>
+                    <h3>Trung tâm du học Hàn Quốc ISSIOO</h3>
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-6">
+                            <strong>Mail: </strong> <span>kr-info@issiloo.edu.vn</span>
+                        </div>
+                        <div class="col-6">
+                            <strong>Fb: </strong> <span>Du học Hàn Quốc ISSILOO</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 copyright-text">
+                <div class="get-started-button wow bounceInDown" data-wow-delay="0.5s">
+                    <a href="#">Hotline: 0901 879 877</a>
+                </div>
+                <div class="contact-icon">
+                    <a href="https://www.facebook.com/issiloo.edu.vn/">
+                        <img src="<?php echo base_url(); ?>webresources/img/issi/iconFacebookWhite.png">
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCxSwrePN-rYK7AUtoKi2gfg?view_as=subscriber">
+                        <img src="<?php echo base_url(); ?>webresources/img/issi/iconYoutubeWhite.png"></a>
+                    <a href="http://zaloapp.com/qr/p/fwc7rp42pe1x">
+                        <img src="<?php echo base_url(); ?>webresources/img/issi/iconZaloWhite.png"></a>
+                </div>
+            </div>
+            <div class="col-12 footer-text">
+                <strong>502 Đỗ Xuân Hợp, P. Phước Bình, Q.9, Tp.HCM - Lầu 5 (Toà nhà mới) Trường CĐ Kỷ Nghệ
+                    II</strong>
+            </div>
+        </div>
     </div>
 </footer>
 <!-- ***** Footer Area Start ***** -->

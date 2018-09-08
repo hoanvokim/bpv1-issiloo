@@ -21,7 +21,7 @@
                     </div>
 
                     <div class="wellcome-heading">
-                        <img src="<?php echo base_url(); ?>webresources/img/issi/duhochanquoc.png"></a>
+                        <img src="<?php echo base_url(); ?>webresources/img/issi/duhochanquoc.png">
                     </div>
                     <div class="get-start-area">
                         <!-- Form Start -->
@@ -56,7 +56,6 @@
                     <!-- Heading Text  -->
                     <div class="cool_facts_area-heading">
                         <h1>Những giá trị ISSILOO mang lại</h1>
-                        <div class="line-shape"></div>
                     </div>
                 </div>
             </div>
@@ -100,8 +99,8 @@
                 <div class="col-12 text-center">
                     <!-- Heading Text  -->
                     <div class="our-Team-area-heading">
-                        <h1>Chương trình tại <img src="<?php echo base_url(); ?>webresources/img/issi/issi.png"></a> </h1>
-                        <div class="line-shape"></div>
+                        <h1>Chương trình tại <img src="<?php echo base_url(); ?>webresources/img/issi/issi.png"></a>
+                        </h1>
                     </div>
                 </div>
             </div>
@@ -135,7 +134,6 @@
     </section>
     <!-- ***** Our Team Area End ***** -->
 
-
     <!-- ***** University Area Start ***** -->
     <section class="app-screenshots-area bg-white section_padding_100_50 clearfix" id="truongdaihoc">
         <div class="container">
@@ -144,7 +142,6 @@
                     <!-- Heading Text  -->
                     <div class="section-heading">
                         <h2>Các trường đại học</h2>
-                        <div class="line-shape"></div>
                     </div>
                 </div>
             </div>
@@ -185,9 +182,92 @@
     </section>
     <!-- ***** University Area End *****====== -->
 
+    <!-- ***** Scholarship Area Start ***** -->
+    <section class="scholar_ship_area clearfix section_padding_100_50">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 text-center">
+                    <!-- Heading Text  -->
+                    <div class="scholar_ship_area-heading">
+                        <h1>Học bổng</h1>
+                        <button class="button-view" href="https://www.facebook.com/issiloo.edu.vn/">
+                            Xem thêm
+                        </button>
+                    </div>
+                </div>
+                <div class="col-6 text-center">
+                    <!-- Heading Text  -->
+                    <img src="<?php echo base_url(); ?>webresources/img/issi/hocbong.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Scholarship Area End ***** -->
+
+    <!-- ***** Self-Learning Area Start ***** -->
+    <section class="app-screenshots-area bg-white section_padding_100_50 clearfix" id="truongdaihoc">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <!-- Heading Text  -->
+                    <div class="section-heading">
+                        <h2>Tự học Tiếng Hàn</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <!-- App Screenshots Slides  -->
+                    <div class="self_learning_slides owl-carousel">
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/university/uni-1.jpg" alt="">
+                            <h5>ĐẠI HỌC HANKUK</h5>
+                        </div>
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/university/uni-2.jpg" alt="">
+                            <h5>ĐẠI HỌC KOREA</h5>
+                        </div>
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/university/uni-3.jpg" alt="">
+                            <h5>ĐẠI HỌC NỮ EWHA</h5>
+                        </div>
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/university/uni-4.jpg" alt="">
+                            <h5>ĐẠI HỌC QUỐC GIA HANBAT</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Self-Learning Area End *****====== -->
+
+    <!-- ***** Scholarship Area Start ***** -->
+    <section class="study_abroad_area clearfix section_padding_100_50">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 text-center">
+                    <!-- Heading Text  -->
+                    <img src="<?php echo base_url(); ?>webresources/img/issi/hocbong.png">
+                </div>
+                <div class="col-6 text-center">
+                    <!-- Heading Text  -->
+                    <div class="study_abroad_area-heading">
+                        <h1>Thông tin du học</h1>
+                        <div class="get-started-button wow bounceInDown" data-wow-delay="0.5s">
+                            <a href="#">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Scholarship Area End ***** -->
 
     <!-- ***** Client Feedback Area Start ***** -->
-    <section class="clients-feedback-area bg-white section_padding_70_0 clearfix" id="sinhvien">
+    <section class="clients-feedback-area bg-white section_padding_50_20 clearfix" id="sinhvien">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-10">
@@ -302,14 +382,13 @@
     <!-- ***** Client Feedback Area End ***** -->
 
     <!-- ***** News Area Start ***** -->
-    <section class="news_area clearfix section_padding_100_50" id="thongtin">
+    <section class="news_area clearfix section_padding_50" id="thongtin">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
                     <!-- Heading Text  -->
                     <div class="news_area-heading">
-                        <h2>Thông tin du học</h2>
-                        <div class="line-shape"></div>
+                        <h2>ISSILOO</h2>
                     </div>
                 </div>
             </div>
@@ -431,55 +510,6 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item tuhoctienghan">
-                        <div class="work-container">
-                            <div class="hvr-grow">
-                                <a href="www.google.com">
-                                    <img src="<?php echo base_url(); ?>/assets/news/news-8.png" alt="">
-                                </a>
-                            </div>
-                            <div class="work-description">
-                                <a href="www.google.com">Các cặp từ trái nghĩa</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item tintuc">
-                        <div class="work-container">
-                            <div class="hvr-grow">
-                                <a href="www.google.com">
-                                    <img src="<?php echo base_url(); ?>/assets/news/news-8.png" alt="">
-                                </a>
-                            </div>
-                            <div class="work-description">
-                                <a href="www.google.com">Các cặp từ trái nghĩa</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item tintuc">
-                        <div class="work-container">
-                            <div class="hvr-grow">
-                                <a href="www.google.com">
-                                    <img src="<?php echo base_url(); ?>/assets/news/news-8.png" alt="">
-                                </a>
-                            </div>
-                            <div class="work-description">
-                                <a href="www.google.com">Các cặp từ trái nghĩa</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item kinhnghiemduhoc">
-                        <div class="work-container">
-                            <div class="hvr-grow">
-                                <a href="www.google.com">
-                                    <img src="<?php echo base_url(); ?>/assets/news/news-8.png" alt="">
-                                </a>
-                            </div>
-                            <div class="work-description">
-                                <a href="www.google.com">Các cặp từ trái nghĩa</a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
 
             </div>
@@ -488,7 +518,7 @@
     <!-- ***** NEWS Area End ***** -->
 
     <!-- ***** Video Area Start ***** -->
-    <div class="video-section" id="issiloo">
+    <div class="video-section section_padding_0_50" id="issiloo">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -509,25 +539,5 @@
         </div>
     </div>
     <!-- ***** Video Area End ***** -->
-
-    <!-- ***** CTA Area Start ***** -->
-    <section class="our-monthly-membership section_padding_150_50 clearfix">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-8">
-                    <div class="membership-description">
-                        <h2>Đăng ký ngay để trở thành học viên ở ISSILOO</h2>
-                        <p>Giấc mơ du học sẽ trở thành hiện thực</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="get-started-button wow bounceInDown" data-wow-delay="0.5s">
-                        <a href="#">Gọi ngay cho chúng tôi</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** CTA Area End ***** -->
 
 <?php $this->load->view('webapp/tpl_footer'); ?>
