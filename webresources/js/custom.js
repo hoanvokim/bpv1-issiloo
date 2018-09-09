@@ -5,9 +5,8 @@
     var defaultData = {
         maxWidth: false,
         customToggle: $toggle,
-        navTitle: 'Thanh điều hướng',
-        labelClose: 'Ẩn',
-        labelBack: 'Trở về',
+        labelClose: '<img src="http://localhost/bpv1-issiloo/webresources/img/issi/btnClose.png" width="35px"/>',
+        labelBack: '<img src="http://localhost/bpv1-issiloo/webresources/img/issi/btnBack.png" width="35px"/>',
         levelTitles: true,
         pushContent: '#container',
         side: 'right'
@@ -66,4 +65,5 @@
             initNav(removeData);
         }
     });
+
 })(jQuery);

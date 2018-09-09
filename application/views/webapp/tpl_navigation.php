@@ -47,52 +47,35 @@
                             <li class="cryptocurrency">
                                 <a href="<?php echo base_url() . 'post'; ?>" target="_blank">Du học Hàn Quốc</a>
                                 <ul>
-                                    <li>
-                                        <a href="<?php echo base_url() . 'post/post_content/1'; ?>">Du học Hàn Quốc</a>
-                                        <ul>
-                                            <li><a href="#">Tổng quan</a></li>
-                                            <li><a href="#">Chương trình</a></li>
-                                            <li><a href="#">Thông báo tuyển sinh</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Chi phí</a></li>
                                     <li><a href="#">Trường đại học</a></li>
+                                    <li><a href="#">Chi phí</a></li>
                                     <li><a href="#">Học bổng</a></li>
                                     <li><a href="#">Kinh nghiệm du học</a></li>
                                 </ul>
                             </li>
-                            <li class="cryptocurrency">
+                            <li class="bookmark">
                                 <a href="https://www.google.com/search?q=Crypto" target="_blank">Đào tạo Hàn ngữ</a>
-                                <ul>
-                                    <li><a href="#">Chương trình đào tạo</a></li>
-                                    <li><a href="#">Tự học tiếng hàn</a>
-                                        <ul>
-                                            <li><a href="#">Ngữ pháp</a></li>
-                                            <li><a href="#">Từ vựng</a></li>
-                                            <li><a href="#">Video</a></li>
-                                            <li><a href="#">Thư viện</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
                             </li>
                             <li class="cryptocurrency">
-                                <a href="https://www.google.com/search?q=Crypto" target="_blank">Góc học viên</a>
-                                <ul>
-                                    <li><a href="#">Thành tích học viên</a></li>
-                                    <li><a href="#">Hoạt động ngoại khóa</a></li>
-                                </ul>
+                                <a href="https://www.google.com/search?q=Crypto" target="_blank">Luyện thi XKLĐ</a>
+                            </li>
+                            <li class="cryptocurrency">
+                                <a href="https://www.google.com/search?q=Crypto" target="_blank">Thành tích học viên</a>
+                            </li>
+                            <li class="cryptocurrency">
+                                <a href="https://www.google.com/search?q=Crypto" target="_blank">Hoạt động ngoại khóa</a>
+                            </li>
+                            <li class="cryptocurrency">
+                                <a href="https://www.google.com/search?q=Crypto" target="_blank">Tự học tiếng Hàn</a>
                             </li>
                             <li class="cryptocurrency">
                                 <a href="https://www.google.com/search?q=Crypto" target="_blank">Tin Tức</a>
-
                             </li>
                             <li class="cryptocurrency">
                                 <a href="https://www.google.com/search?q=Crypto" target="_blank">ISSILOO</a>
-                                <ul>
-                                    <li><a href="#">Giới thiệu</a></li>
-                                    <li><a href="#">Nhân sự</a></li>
-                                    <li><a href="#">Liên hệ</a></li>
-                                </ul>
+                            </li>
+                            <li class="cryptocurrency">
+                                <a href="https://www.google.com/search?q=Crypto" target="_blank">Liên hệ</a>
                             </li>
                         </ul>
                     </nav>

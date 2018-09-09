@@ -27,9 +27,10 @@
                 </div>
             </div>
             <div class="col-4 copyright-text">
-                <div class="get-started-button wow bounceInDown" data-wow-delay="0.5s">
-                    <a href="#">Hotline: 0901 879 877</a>
-                </div>
+
+                <button href="#" class="button-view wow flipInY" data-wow-delay="0.5s"><span style="padding: 0 10px ;"> Hotline: 0901 879 877</span>
+                </button>
+
                 <div class="contact-icon">
                     <a href="https://www.facebook.com/issiloo.edu.vn/">
                         <img src="<?php echo base_url(); ?>webresources/img/issi/iconFacebookWhite.png">

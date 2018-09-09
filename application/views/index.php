@@ -16,30 +16,37 @@
                 <div class="col-12 col-md">
 
                     <!-- Welcome thumb -->
-                    <div class="welcome-thumb wow fadeInDown" data-wow-delay="0.5s">
+                    <div class="welcome-thumb wow fadeInDownBig" data-wow-delay="0.4s">
                         <img src="<?php echo base_url(); ?>webresources/img/issi/hocvien.png" alt="">
                     </div>
 
-                    <div class="wellcome-heading">
+                    <div class="wellcome-heading wow fadeInLeftBig" data-wow-delay="0.7s">
                         <img src="<?php echo base_url(); ?>webresources/img/issi/duhochanquoc.png">
                     </div>
                     <div class="get-start-area">
                         <!-- Form Start -->
                         <form action="#" method="post" class="form-inline">
-                            <input type="email" class="form-control email" placeholder="Số điện thoại...">
-                            <input type="submit" class="submit btn" value="Liên hệ ngay">
+                            <input type="email" class="form-control email wow flipInY" data-wow-delay="1s"
+                                   placeholder="Số điện thoại...">
+                            <input type="submit" class="submit btn wow flipInY" data-wow-delay="1.2s"
+                                   value="Liên hệ ngay">
                         </form>
                         <!-- Form End -->
                     </div>
                     <!-- social icon-->
                     <div class="wellcome-heading-icon wellcome-heading">
                         <a href="https://www.facebook.com/issiloo.edu.vn/">
-                            <img src="<?php echo base_url(); ?>webresources/img/issi/iconFacebook.png">
+                            <img src="<?php echo base_url(); ?>webresources/img/issi/iconFacebook.png"
+                                 class="wow flipInY" data-wow-delay="1.2s">
                         </a>
                         <a href="https://www.youtube.com/channel/UCxSwrePN-rYK7AUtoKi2gfg?view_as=subscriber">
-                            <img src="<?php echo base_url(); ?>webresources/img/issi/iconYoutube.png"></a>
+                            <img src="<?php echo base_url(); ?>webresources/img/issi/iconYoutube.png"
+                                 class="wow flipInY" data-wow-delay="1.4s">
+                        </a>
                         <a href="http://zaloapp.com/qr/p/fwc7rp42pe1x">
-                            <img src="<?php echo base_url(); ?>webresources/img/issi/iconZalo.png"></a>
+                            <img src="<?php echo base_url(); ?>webresources/img/issi/iconZalo.png" class="wow flipInY"
+                                 data-wow-delay="1.6s">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -107,11 +114,11 @@
             <div class="row">
                 <div class="col-12 col-sm-6 col-md-6 col-lg-6">
                     <div class="single-team-member">
-                        <div class="member-image">
+                        <div class="member-image show-shadow">
                             <img src="<?php echo base_url(); ?>webresources/img/core-img/DU-HOC-HAN-QUOC.jpg" alt="">
                             <div class="team-hover-effects">
                                 <div class="team-social-icon">
-                                    <a href="#">Xem ngay</a>
+                                    <button class="button-view" href="#">Xem ngay</button>
                                 </div>
                             </div>
                         </div>
@@ -119,11 +126,11 @@
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-6">
                     <div class="single-team-member">
-                        <div class="member-image">
+                        <div class="member-image show-shadow">
                             <img src="<?php echo base_url(); ?>webresources/img/core-img/DAO-TAO-HAN-NGU.jpg" alt="">
                             <div class="team-hover-effects">
                                 <div class="team-social-icon">
-                                    <a href="#">Xem ngay</a>
+                                    <button class="button-view" href="#">Xem ngay</button>
                                 </div>
                             </div>
                         </div>
@@ -151,27 +158,27 @@
                 <div class="col-12">
                     <!-- App Screenshots Slides  -->
                     <div class="app_screenshots_slides owl-carousel">
-                        <div class="single-shot">
+                        <div class="single-shot show-shadow">
                             <img src="<?php echo base_url(); ?>assets/university/uni-1.jpg" alt="">
                             <h5>ĐẠI HỌC HANKUK</h5>
                         </div>
-                        <div class="single-shot">
+                        <div class="single-shot show-shadow">
                             <img src="<?php echo base_url(); ?>assets/university/uni-2.jpg" alt="">
                             <h5>ĐẠI HỌC KOREA</h5>
                         </div>
-                        <div class="single-shot">
+                        <div class="single-shot show-shadow">
                             <img src="<?php echo base_url(); ?>assets/university/uni-3.jpg" alt="">
                             <h5>ĐẠI HỌC NỮ EWHA</h5>
                         </div>
-                        <div class="single-shot">
+                        <div class="single-shot show-shadow">
                             <img src="<?php echo base_url(); ?>assets/university/uni-4.jpg" alt="">
                             <h5>ĐẠI HỌC QUỐC GIA HANBAT</h5>
                         </div>
-                        <div class="single-shot">
+                        <div class="single-shot show-shadow">
                             <img src="<?php echo base_url(); ?>assets/university/uni-5.jpg" alt="">
                             <h5>ĐẠI HỌC KOSIN</h5>
                         </div>
-                        <div class="single-shot">
+                        <div class="single-shot show-shadow">
                             <img src="<?php echo base_url(); ?>assets/university/uni-6.jpg" alt="">
                             <h5>ĐẠI HỌC DONGSEO</h5>
                         </div>
@@ -221,19 +228,19 @@
                 <div class="col-12">
                     <!-- App Screenshots Slides  -->
                     <div class="self_learning_slides owl-carousel">
-                        <div class="single-shot">
+                        <div class="single-shot show-shadow">
                             <img src="<?php echo base_url(); ?>assets/university/uni-1.jpg" alt="">
                             <h5>ĐẠI HỌC HANKUK</h5>
                         </div>
-                        <div class="single-shot">
+                        <div class="single-shot show-shadow">
                             <img src="<?php echo base_url(); ?>assets/university/uni-2.jpg" alt="">
                             <h5>ĐẠI HỌC KOREA</h5>
                         </div>
-                        <div class="single-shot">
+                        <div class="single-shot show-shadow">
                             <img src="<?php echo base_url(); ?>assets/university/uni-3.jpg" alt="">
                             <h5>ĐẠI HỌC NỮ EWHA</h5>
                         </div>
-                        <div class="single-shot">
+                        <div class="single-shot show-shadow">
                             <img src="<?php echo base_url(); ?>assets/university/uni-4.jpg" alt="">
                             <h5>ĐẠI HỌC QUỐC GIA HANBAT</h5>
                         </div>
@@ -256,9 +263,7 @@
                     <!-- Heading Text  -->
                     <div class="study_abroad_area-heading">
                         <h1>Thông tin du học</h1>
-                        <div class="get-started-button wow bounceInDown" data-wow-delay="0.5s">
-                            <a href="#">Xem thêm</a>
-                        </div>
+                        <button href="#" class="button-view wow flipInY" data-wow-delay="0.5s">Xem thêm</button>
                     </div>
                 </div>
             </div>
