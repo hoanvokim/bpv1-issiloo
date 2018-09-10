@@ -61,7 +61,7 @@
             <div class="row">
                 <div class="col-12 text-center">
                     <!-- Heading Text  -->
-                    <div class="cool_facts_area-heading">
+                    <div class="cool_facts_area-heading wow zoomInDown" data-wow-delay="0.6s">
                         <h1>Những giá trị ISSILOO mang lại</h1>
                     </div>
                 </div>
@@ -69,7 +69,7 @@
             <div class="row cool_facts_area-content">
                 <!-- Single Cool Fact-->
                 <div class="col-12 col-md-4">
-                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="single-cool-fact d-flex justify-content-center wow zoomInUp" data-wow-delay="1.3s">
                         <div class="cool-facts-content hvr-grow">
                             <h2>100%</h2>
                             <p>đậu visa</p>
@@ -78,7 +78,7 @@
                 </div>
                 <!-- Single Cool Fact-->
                 <div class="col-12 col-md-4">
-                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="single-cool-fact d-flex justify-content-center wow zoomInUp" data-wow-delay="1.5s">
                         <div class="cool-facts-content hvr-grow">
                             <h2>Chi phí</h2>
                             <p>thấp nhất</p>
@@ -87,7 +87,7 @@
                 </div>
                 <!-- Single Cool Fact-->
                 <div class="col-12 col-md-4">
-                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="single-cool-fact d-flex justify-content-center wow zoomInUp" data-wow-delay="1.7s">
                         <div class="cool-facts-content hvr-grow">
                             <h2>Dịch vụ</h2>
                             <p>tốt nhất</p>
@@ -105,7 +105,7 @@
             <div class="row">
                 <div class="col-12 text-center">
                     <!-- Heading Text  -->
-                    <div class="our-Team-area-heading">
+                    <div class="our-Team-area-heading wow zoomInDown" data-wow-delay="0.4s">
                         <h1>Chương trình tại <img src="<?php echo base_url(); ?>webresources/img/issi/issi.png"></a>
                         </h1>
                     </div>
@@ -114,7 +114,7 @@
             <div class="row">
                 <div class="col-12 col-sm-6 col-md-6 col-lg-6">
                     <div class="single-team-member">
-                        <div class="member-image show-shadow">
+                        <div class="member-image show-shadow wow fadeInLeftBig" data-wow-delay="0.4s">
                             <img src="<?php echo base_url(); ?>webresources/img/core-img/DU-HOC-HAN-QUOC.jpg" alt="">
                             <div class="team-hover-effects">
                                 <div class="team-social-icon">
@@ -126,7 +126,7 @@
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-6">
                     <div class="single-team-member">
-                        <div class="member-image show-shadow">
+                        <div class="member-image show-shadow wow fadeInRightBig" data-wow-delay="0.4s">
                             <img src="<?php echo base_url(); ?>webresources/img/core-img/DAO-TAO-HAN-NGU.jpg" alt="">
                             <div class="team-hover-effects">
                                 <div class="team-social-icon">
@@ -142,7 +142,7 @@
     <!-- ***** Our Team Area End ***** -->
 
     <!-- ***** University Area Start ***** -->
-    <section class="app-screenshots-area bg-white section_padding_100_50 clearfix" id="truongdaihoc">
+    <section class="app-screenshots-area bg-white section_padding_100_50 clearfix wow bounceInUp" data-wow-delay="0.2s" id="truongdaihoc">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
@@ -195,14 +195,14 @@
             <div class="row">
                 <div class="col-6 text-center">
                     <!-- Heading Text  -->
-                    <div class="scholar_ship_area-heading">
+                    <div class="scholar_ship_area-heading wow bounceInLeft" data-wow-delay="0.4s">
                         <h1>Học bổng</h1>
                         <button class="button-view" href="https://www.facebook.com/issiloo.edu.vn/">
                             Xem thêm
                         </button>
                     </div>
                 </div>
-                <div class="col-6 text-center">
+                <div class="col-6 text-center wow bounceInRight" data-wow-delay="0.4s">
                     <!-- Heading Text  -->
                     <img src="<?php echo base_url(); ?>webresources/img/issi/hocbong.png">
                 </div>
@@ -212,7 +212,7 @@
     <!-- ***** Scholarship Area End ***** -->
 
     <!-- ***** Self-Learning Area Start ***** -->
-    <section class="app-screenshots-area bg-white section_padding_100_50 clearfix" id="truongdaihoc">
+    <section class="app-screenshots-area bg-white section_padding_100_50 clearfix wow bounceInUp" data-wow-delay="0.6s" id="truongdaihoc">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
@@ -255,15 +255,15 @@
     <section class="study_abroad_area clearfix section_padding_100_50">
         <div class="container">
             <div class="row">
-                <div class="col-6 text-center">
+                <div class="col-6 text-center wow bounceInLeft" data-wow-delay="0.4s">
                     <!-- Heading Text  -->
                     <img src="<?php echo base_url(); ?>webresources/img/issi/hocbong.png">
                 </div>
                 <div class="col-6 text-center">
                     <!-- Heading Text  -->
-                    <div class="study_abroad_area-heading">
+                    <div class="study_abroad_area-heading wow bounceInRight" data-wow-delay="0.4s">
                         <h1>Thông tin du học</h1>
-                        <button href="#" class="button-view wow flipInY" data-wow-delay="0.5s">Xem thêm</button>
+                        <button href="#" class="button-view wow flipInY" data-wow-delay="1s">Xem thêm</button>
                     </div>
                 </div>
             </div>
@@ -284,7 +284,7 @@
                             </div>
                             <div class="client-description text-center">
                                 <p>“ ISSILOO là trung tâm tiếng hàn rất dễ thương và thân thiện. Quan tâm đến từng học
-                                    viên một. ”</p>
+                                   viên một. ”</p>
                             </div>
                             <div class="star-icon text-center">
                                 <i class="ion-ios-star"></i>
@@ -325,8 +325,8 @@
                             </div>
                             <div class="client-description text-center">
                                 <p>“ I have been using it for a number of years. I use Colorlib for usability testing.
-                                    It's great for taking images and making clickable image prototypes that do the
-                                    job.”</p>
+                                   It's great for taking images and making clickable image prototypes that do the
+                                   job.”</p>
                             </div>
                             <div class="star-icon text-center">
                                 <i class="ion-ios-star"></i>
@@ -347,8 +347,8 @@
                             </div>
                             <div class="client-description text-center">
                                 <p>“ I have been using it for a number of years. I use Colorlib for usability testing.
-                                    It's great for taking images and making clickable image prototypes that do the job
-                                    and save me the coding time and just the general hassle of hosting. ”</p>
+                                   It's great for taking images and making clickable image prototypes that do the job
+                                   and save me the coding time and just the general hassle of hosting. ”</p>
                             </div>
                             <div class="star-icon text-center">
                                 <i class="ion-ios-star"></i>
