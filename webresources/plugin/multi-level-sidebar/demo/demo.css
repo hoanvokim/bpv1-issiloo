@@ -368,7 +368,7 @@ body.hc-nav-open {
 .hc-offcanvas-nav.side-right span.nav-next::before {
     margin-left: 0;
     margin-right: -2px;
-    transform: translate(-50%, -50%) rotate(-45deg)
+    transform: translate(-50%, -50%) rotate(-45deg);
     color: #2e4a93;
 }
 

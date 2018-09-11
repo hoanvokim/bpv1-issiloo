@@ -69,6 +69,11 @@ h6 {
     padding-bottom: 0px;
 }
 
+.section_padding_70_50 {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
 .section_padding_100_50 {
     padding-top: 100px;
     padding-bottom: 50px;
@@ -794,11 +799,14 @@ p {
 
 .scholar_ship_area-heading {
     margin: auto;
+}
+
+.with-text-padding {
     padding: 70px;
 }
 
 .button-view {
-     font-weight: 800;
+    font-weight: 800;
     border: none;
     height: 50px;
     min-width: 167px;
@@ -811,7 +819,7 @@ p {
 }
 
 .button-view:hover {
-    box-shadow: 0 0 50px 0 rgba(0,0,0,.2);
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, .2);
 }
 
 .scholar_ship_area-heading h1 {
@@ -1414,6 +1422,7 @@ p {
 .copyright-text button {
     border-radius: 20px;
 }
+
 .copyright-text > p {
     margin-bottom: 0;
 }
@@ -2015,5 +2024,5 @@ p {
 }
 
 div.show-shadow:hover img {
-    box-shadow: 0 0 50px 0 rgba(0,0,0,.5);
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, .5);
 }

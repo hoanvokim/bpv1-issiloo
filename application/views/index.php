@@ -34,7 +34,7 @@
                         <!-- Form End -->
                     </div>
                     <!-- social icon-->
-                    <div class="wellcome-heading-icon wellcome-heading">
+                    <div class="wellcome-heading-icon">
                         <a href="https://www.facebook.com/issiloo.edu.vn/">
                             <img src="<?php echo base_url(); ?>webresources/img/issi/iconFacebook.png"
                                  class="wow flipInY" data-wow-delay="1.2s">
@@ -142,7 +142,7 @@
     <!-- ***** Our Team Area End ***** -->
 
     <!-- ***** University Area Start ***** -->
-    <section class="app-screenshots-area bg-white section_padding_100_50 clearfix wow bounceInUp" data-wow-delay="0.2s" id="truongdaihoc">
+    <section class="app-screenshots-area bg-white section_padding_70_50 clearfix wow bounceInUp" data-wow-delay="0.2s" id="truongdaihoc">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
@@ -193,16 +193,16 @@
     <section class="scholar_ship_area clearfix section_padding_100_50">
         <div class="container">
             <div class="row">
-                <div class="col-6 text-center">
+                <div class="col-4 text-center">
                     <!-- Heading Text  -->
-                    <div class="scholar_ship_area-heading wow bounceInLeft" data-wow-delay="0.4s">
-                        <h1>Học bổng</h1>
-                        <button class="button-view" href="https://www.facebook.com/issiloo.edu.vn/">
+                    <div class="scholar_ship_area-heading with-text-padding">
+                        <h1 class="wow bounceInLeft" data-wow-delay="0.4s">Học bổng</h1>
+                        <button class="button-view wow flipInY" data-wow-delay="1s" href="https://www.facebook.com/issiloo.edu.vn/">
                             Xem thêm
                         </button>
                     </div>
                 </div>
-                <div class="col-6 text-center wow bounceInRight" data-wow-delay="0.4s">
+                <div class="col-8 scholar_ship_area-heading text-center wow bounceInRight" data-wow-delay="0.4s">
                     <!-- Heading Text  -->
                     <img src="<?php echo base_url(); ?>webresources/img/issi/hocbong.png">
                 </div>
@@ -255,17 +255,20 @@
     <section class="study_abroad_area clearfix section_padding_100_50">
         <div class="container">
             <div class="row">
-                <div class="col-6 text-center wow bounceInLeft" data-wow-delay="0.4s">
+                <div class="col-8 scholar_ship_area-heading text-center wow bounceInRight" data-wow-delay="0.4s">
                     <!-- Heading Text  -->
                     <img src="<?php echo base_url(); ?>webresources/img/issi/hocbong.png">
                 </div>
-                <div class="col-6 text-center">
+                <div class="col-4 text-center">
                     <!-- Heading Text  -->
-                    <div class="study_abroad_area-heading wow bounceInRight" data-wow-delay="0.4s">
-                        <h1>Thông tin du học</h1>
-                        <button href="#" class="button-view wow flipInY" data-wow-delay="1s">Xem thêm</button>
+                    <div class="study_abroad_area-heading with-text-padding">
+                        <h1 class="wow bounceInLeft" data-wow-delay="0.4s">Thông tin du học</h1>
+                        <button class="button-view wow flipInY" data-wow-delay="1s" href="https://www.facebook.com/issiloo.edu.vn/">
+                            Xem thêm
+                        </button>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
