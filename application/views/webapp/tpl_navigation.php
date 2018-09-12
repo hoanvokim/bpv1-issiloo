@@ -8,7 +8,7 @@
 ?>
 <!-- ***** Header Area Start ***** -->
 <header class="header_area animated sticky slideInDown">
-    <div class="container-fluid">
+    <div class="container">
         <div class="row align-items-center">
             <!-- Menu Area Start -->
             <div class="col-10 col-lg-11 col-md-11 col-sm-11 col-xs-10">
@@ -41,42 +41,20 @@
                 <div class="wrapper cf">
                     <nav id="main-nav">
                         <ul class="first-nav">
-                            <li class="cryptocurrency">
-                                <a href="<?php echo base_url(); ?>" target="_blank">Trang chủ</a>
-                            </li>
-                            <li class="cryptocurrency">
-                                <a href="<?php echo base_url() . 'post'; ?>" target="_blank">Du học Hàn Quốc</a>
-                                <ul>
-                                    <li><a href="#">Trường đại học</a></li>
-                                    <li><a href="#">Chi phí</a></li>
-                                    <li><a href="#">Học bổng</a></li>
-                                    <li><a href="#">Kinh nghiệm du học</a></li>
-                                </ul>
-                            </li>
-                            <li class="bookmark">
-                                <a href="https://www.google.com/search?q=Crypto" target="_blank">Đào tạo Hàn ngữ</a>
-                            </li>
-                            <li class="cryptocurrency">
-                                <a href="https://www.google.com/search?q=Crypto" target="_blank">Luyện thi XKLĐ</a>
-                            </li>
-                            <li class="cryptocurrency">
-                                <a href="https://www.google.com/search?q=Crypto" target="_blank">Thành tích học viên</a>
-                            </li>
-                            <li class="cryptocurrency">
-                                <a href="https://www.google.com/search?q=Crypto" target="_blank">Hoạt động ngoại khóa</a>
-                            </li>
-                            <li class="cryptocurrency">
-                                <a href="https://www.google.com/search?q=Crypto" target="_blank">Tự học tiếng Hàn</a>
-                            </li>
-                            <li class="cryptocurrency">
-                                <a href="https://www.google.com/search?q=Crypto" target="_blank">Tin Tức</a>
-                            </li>
-                            <li class="cryptocurrency">
-                                <a href="https://www.google.com/search?q=Crypto" target="_blank">ISSILOO</a>
-                            </li>
-                            <li class="cryptocurrency">
-                                <a href="https://www.google.com/search?q=Crypto" target="_blank">Liên hệ</a>
-                            </li>
+                            <li><a href="<?php echo base_url(); ?>" target="_blank">Trang chủ</a></li>
+                            <li><a href="<?php echo base_url() . 'post'; ?>" target="_blank">Du học Hàn Quốc</a></li>
+                            <li><a href="<?php echo base_url(); ?>" target="_blank">Trường đại học</a></li>
+                            <li><a href="<?php echo base_url(); ?>" target="_blank">Chi phí</a></li>
+                            <li><a href="<?php echo base_url(); ?>" target="_blank">Học bổng</a></li>
+                            <li><a href="<?php echo base_url(); ?>" target="_blank">Kinh nghiệm du học</a></li>
+                            <li><a href="<?php echo base_url(); ?>" target="_blank">Đào tạo Hàn ngữ</a></li>
+                            <li><a href="<?php echo base_url(); ?>" target="_blank">Luyện thi XKLĐ</a></li>
+                            <li><a href="<?php echo base_url(); ?>" target="_blank">Thành tích học viên</a></li>
+                            <li><a href="<?php echo base_url(); ?>" target="_blank">Hoạt động ngoại khóa</a></li>
+                            <li><a href="<?php echo base_url(); ?>" target="_blank">Tự học tiếng Hàn</a></li>
+                            <li><a href="<?php echo base_url(); ?>" target="_blank">Tin Tức</a></li>
+                            <li><a href="<?php echo base_url(); ?>" target="_blank">ISSILOO</a></li>
+                            <li><a href="<?php echo base_url(); ?>" target="_blank">Liên hệ</a></li>
                         </ul>
                     </nav>
                 </div>

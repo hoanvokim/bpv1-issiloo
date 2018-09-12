@@ -25,7 +25,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,600,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin|Montserrat|Raleway">
 
     <!-- Title -->
     <title>ISSILOO | Homepage</title>

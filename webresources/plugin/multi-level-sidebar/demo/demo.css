@@ -28,7 +28,7 @@ body.hc-nav-open {
     position: fixed;
     z-index: 9998;
     top: 0;
-    width: 280px;
+    width: 340px;
     max-width: 100%;
     height: 100%;
     transition: transform .4s ease

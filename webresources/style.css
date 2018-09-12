@@ -33,6 +33,10 @@
 @import 'css/themify-icons.css';
 @import 'css/ionicons.min.css';
 
+/*Master font*/
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Cabin', sans-serif;*/
+/*font-family: 'Raleway', sans-serif;*/
 /* --------------------------
 :: 1.0 Base CSS Start
 -------------------------- */
@@ -352,6 +356,7 @@ p {
 .menu_area .navbar-brand img {
     max-width: 260px;
     height: auto;
+    margin-top: -17px;
 }
 
 .menu_area {
@@ -417,6 +422,7 @@ p {
     position: fixed;
     top: 0;
     z-index: 99;
+    font-family: 'Cabin', sans-serif;
 }
 
 .header_area.sticky .menu_area .navbar-brand {
@@ -437,11 +443,12 @@ p {
 
 .wellcome_area {
     background-image: url(img/issi/bg.png);
-    height: 820px;
+    height: 760px;
     position: relative;
     z-index: 1;
     background-position: bottom center;
     background-size: cover;
+    padding-top: 50px;
 }
 
 .wellcome_area:after {
@@ -457,27 +464,10 @@ p {
 
 .welcome-thumb {
     float: right;
-    width: 90%;
-    position: absolute;
-    bottom: -83px;
-    right: -365px;
-}
-
-.welcome-thumb img {
-    height: auto;
-    width: 60%;
-}
-
-.wellcome-heading > h2 {
-    font-size: 100px;
-    color: #fff;
-    font-weight: 700;
-    position: relative;
-    z-index: 3;
 }
 
 .get-start-area {
-    margin-top: 330px;
+    margin-top: 250px;
 }
 
 .get-start-area .email {
@@ -525,7 +515,7 @@ p {
     min-width: 167px;
     line-height: 46px;
     text-align: center;
-    border-radius: 24px 24px 24px 0px;
+    border-radius: 24px;
     margin-left: 10px;
 }
 
@@ -557,10 +547,37 @@ p {
     float: left;
 }
 
+.wellcome-heading > h2 {
+    font-size: 100px;
+    color: #fff;
+    font-weight: 700;
+    position: relative;
+    z-index: 3;
+}
+
+.wellcome-heading > img {
+    width: 85%;
+    float: left;
+}
+
 .wellcome-heading-icon {
     float: left;
     margin-top: 20px;
 }
+
+.wellcome-heading-icon img {
+    padding-right: 15px;
+}
+
+.wellcome-heading-icon > a .active {
+    background: #7d8fda;
+}
+
+.wellcome-heading-icon img {
+    width: 70px;
+}
+
+
 
 /* --------------------------
 :: 4.0 Special Area CSS
@@ -840,6 +857,8 @@ p {
     background: -o-linear-gradient(right, #2e4a93, #688dcf);
     background: linear-gradient(to left, #2e4a93, #688dcf);
     padding: 50px 0 50px 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
 }
 
 .cool_facts_area:after {
@@ -1396,14 +1415,6 @@ p {
     display: block;
     padding: 0 7.5px;
     color: #726a84;
-}
-
-.wellcome-heading-icon > a .active {
-    background: #7d8fda;
-}
-
-.wellcome-heading-icon img {
-    width: 50px;
 }
 
 .footer-menu ul li:last-child a {

@@ -13,13 +13,7 @@
     <section class="wellcome_area clearfix" id="home">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
-                <div class="col-12 col-md">
-
-                    <!-- Welcome thumb -->
-                    <div class="welcome-thumb wow fadeInDownBig" data-wow-delay="0.4s">
-                        <img src="<?php echo base_url(); ?>webresources/img/issi/hocvien.png" alt="">
-                    </div>
-
+                <div class="col-6">
                     <div class="wellcome-heading wow fadeInLeftBig" data-wow-delay="0.7s">
                         <img src="<?php echo base_url(); ?>webresources/img/issi/duhochanquoc.png">
                     </div>
@@ -28,7 +22,7 @@
                         <form action="#" method="post" class="form-inline">
                             <input type="email" class="form-control email wow flipInY" data-wow-delay="1s"
                                    placeholder="Số điện thoại...">
-                            <input type="submit" class="submit btn wow flipInY" data-wow-delay="1.2s"
+                            <input type="submit" class="submit wow flipInY" data-wow-delay="1.2s"
                                    value="Liên hệ ngay">
                         </form>
                         <!-- Form End -->
@@ -47,6 +41,12 @@
                             <img src="<?php echo base_url(); ?>webresources/img/issi/iconZalo.png" class="wow flipInY"
                                  data-wow-delay="1.6s">
                         </a>
+                    </div>
+                </div>
+                <div class="col6">
+                    <!-- Welcome thumb -->
+                    <div class="welcome-thumb wow fadeInDownBig" data-wow-delay="0.4s">
+                        <img src="<?php echo base_url(); ?>webresources/img/issi/hocvien.png" alt="">
                     </div>
                 </div>
             </div>
