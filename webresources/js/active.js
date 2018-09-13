@@ -22,21 +22,11 @@
             smartSpeed: 1500
         });
         $('.app_screenshots_slides').owlCarousel({
-            items: 1,
+            items: 4,
             loop: true,
             autoplay: true,
-            smartSpeed: 800,
             margin: 30,
-            center: true,
-            dots: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 3
-                }
-            }
+            dots: true
         });
         $('.self_learning_slides').owlCarousel({
             items: 4,

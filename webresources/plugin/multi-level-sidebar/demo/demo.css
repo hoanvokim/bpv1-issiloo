@@ -28,10 +28,11 @@ body.hc-nav-open {
     position: fixed;
     z-index: 9998;
     top: 0;
-    width: 340px;
+    width: 280px;
     max-width: 100%;
     height: 100%;
-    transition: transform .4s ease
+    transition: transform .4s ease;
+    font-family: Cabin, sans-serif;
 }
 
 .hc-offcanvas-nav .nav-wrapper {
@@ -266,7 +267,7 @@ body.hc-nav-open {
 }
 
 .hc-offcanvas-nav a {
-    padding: 14px 17px;
+    padding: 11px 35px;
     font-size: 15px;
     color: #2e4a93;
     z-index: 1;
@@ -402,11 +403,11 @@ body.hc-nav-open {
 }
 
 .hc-offcanvas-nav.nav-levels-expand .nav-container li.level-open a, .hc-offcanvas-nav.nav-levels-none .nav-container li.level-open a {
-    border-bottom: 1px solid #597EBF;
+    border-bottom: 1px solid #597ebf;
 }
 
 .hc-offcanvas-nav.nav-levels-expand .nav-container li.level-open a:hover, .hc-offcanvas-nav.nav-levels-none .nav-container li.level-open a:hover {
-    background: #597EBF;
+    background: #597ebf;
 }
 
 .hc-offcanvas-nav.nav-levels-expand .nav-container li.level-open > a .nav-next::before, .hc-offcanvas-nav.nav-levels-none .nav-container li.level-open > a .nav-next::before {

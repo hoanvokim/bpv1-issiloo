@@ -61,7 +61,7 @@
             <div class="row">
                 <div class="col-12 text-center">
                     <!-- Heading Text  -->
-                    <div class="cool_facts_area-heading wow zoomInDown" data-wow-delay="0.6s">
+                    <div class="cool_facts_area-heading wow rubberBand" data-wow-delay="0.6s">
                         <h1>Những giá trị ISSILOO mang lại</h1>
                     </div>
                 </div>
@@ -69,29 +69,35 @@
             <div class="row cool_facts_area-content">
                 <!-- Single Cool Fact-->
                 <div class="col-12 col-md-4">
-                    <div class="single-cool-fact d-flex justify-content-center wow zoomInUp" data-wow-delay="1.3s">
-                        <div class="cool-facts-content hvr-grow">
-                            <h2>100%</h2>
-                            <p>đậu visa</p>
-                        </div>
+                    <div class="single-cool-fact d-flex justify-content-center wow tada" data-wow-delay="1.3s">
+                        <a href="<?php echo base_url(); ?>" target="_blank">
+                            <div class="cool-facts-content hvr-buzz-out">
+                                <h2>100%</h2>
+                                <p>đậu visa</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <!-- Single Cool Fact-->
                 <div class="col-12 col-md-4">
-                    <div class="single-cool-fact d-flex justify-content-center wow zoomInUp" data-wow-delay="1.5s">
-                        <div class="cool-facts-content hvr-grow">
-                            <h2>Chi phí</h2>
-                            <p>thấp nhất</p>
-                        </div>
+                    <div class="single-cool-fact d-flex justify-content-center wow tada" data-wow-delay="1.5s">
+                        <a href="<?php echo base_url(); ?>" target="_blank">
+                            <div class="cool-facts-content hvr-buzz-out">
+                                <h2>Chi phí</h2>
+                                <p>thấp nhất</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <!-- Single Cool Fact-->
                 <div class="col-12 col-md-4">
-                    <div class="single-cool-fact d-flex justify-content-center wow zoomInUp" data-wow-delay="1.7s">
-                        <div class="cool-facts-content hvr-grow">
-                            <h2>Dịch vụ</h2>
-                            <p>tốt nhất</p>
-                        </div>
+                    <div class="single-cool-fact d-flex justify-content-center wow tada" data-wow-delay="1.7s">
+                        <a href="<?php echo base_url(); ?>" target="_blank">
+                            <div class="cool-facts-content hvr-buzz-out">
+                                <h2>Dịch vụ</h2>
+                                <p>tốt nhất</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -101,6 +107,9 @@
 
     <!-- ***** Our Team Area Start ***** -->
     <section class="our-Team-area bg-white section_padding_70_0 clearfix mt-80" id="chuongtrinh">
+        <div>
+            <img  class="injectRightDiv" src="<?php echo base_url(); ?>webresources/img/issi/iconIssiloo.png">
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
@@ -115,7 +124,7 @@
                 <div class="col-12 col-sm-6 col-md-6 col-lg-6">
                     <div class="single-team-member">
                         <div class="member-image show-shadow wow fadeInLeftBig" data-wow-delay="0.4s">
-                            <img src="<?php echo base_url(); ?>webresources/img/core-img/DU-HOC-HAN-QUOC.jpg" alt="">
+                            <img src="<?php echo base_url(); ?>webresources/img/issi/daotaohanngu-1.png" alt="">
                             <div class="team-hover-effects">
                                 <div class="team-social-icon">
                                     <button class="button-view" href="#">Xem ngay</button>
@@ -127,7 +136,7 @@
                 <div class="col-12 col-sm-6 col-md-6 col-lg-6">
                     <div class="single-team-member">
                         <div class="member-image show-shadow wow fadeInRightBig" data-wow-delay="0.4s">
-                            <img src="<?php echo base_url(); ?>webresources/img/core-img/DAO-TAO-HAN-NGU.jpg" alt="">
+                            <img src="<?php echo base_url(); ?>webresources/img/issi/daotaohanngu-1.png" alt="">
                             <div class="team-hover-effects">
                                 <div class="team-social-icon">
                                     <button class="button-view" href="#">Xem ngay</button>
@@ -158,27 +167,27 @@
                 <div class="col-12">
                     <!-- App Screenshots Slides  -->
                     <div class="app_screenshots_slides owl-carousel">
-                        <div class="single-shot show-shadow">
+                        <div class="single-shot">
                             <img src="<?php echo base_url(); ?>assets/university/uni-1.jpg" alt="">
                             <h5>ĐẠI HỌC HANKUK</h5>
                         </div>
-                        <div class="single-shot show-shadow">
+                        <div class="single-shot">
                             <img src="<?php echo base_url(); ?>assets/university/uni-2.jpg" alt="">
                             <h5>ĐẠI HỌC KOREA</h5>
                         </div>
-                        <div class="single-shot show-shadow">
+                        <div class="single-shot">
                             <img src="<?php echo base_url(); ?>assets/university/uni-3.jpg" alt="">
                             <h5>ĐẠI HỌC NỮ EWHA</h5>
                         </div>
-                        <div class="single-shot show-shadow">
+                        <div class="single-shot">
                             <img src="<?php echo base_url(); ?>assets/university/uni-4.jpg" alt="">
                             <h5>ĐẠI HỌC QUỐC GIA HANBAT</h5>
                         </div>
-                        <div class="single-shot show-shadow">
+                        <div class="single-shot">
                             <img src="<?php echo base_url(); ?>assets/university/uni-5.jpg" alt="">
                             <h5>ĐẠI HỌC KOSIN</h5>
                         </div>
-                        <div class="single-shot show-shadow">
+                        <div class="single-shot">
                             <img src="<?php echo base_url(); ?>assets/university/uni-6.jpg" alt="">
                             <h5>ĐẠI HỌC DONGSEO</h5>
                         </div>
@@ -191,9 +200,12 @@
 
     <!-- ***** Scholarship Area Start ***** -->
     <section class="scholar_ship_area clearfix section_padding_100_50">
+        <div>
+            <img class="injectLeftDiv" src="<?php echo base_url(); ?>webresources/img/issi/iconIssiloo.png">
+        </div>
         <div class="container">
             <div class="row">
-                <div class="col-4 text-center">
+                <div class="col-6 text-center">
                     <!-- Heading Text  -->
                     <div class="scholar_ship_area-heading with-text-padding">
                         <h1 class="wow bounceInLeft" data-wow-delay="0.4s">Học bổng</h1>
@@ -202,7 +214,7 @@
                         </button>
                     </div>
                 </div>
-                <div class="col-8 scholar_ship_area-heading text-center wow bounceInRight" data-wow-delay="0.4s">
+                <div class="col-6 scholar_ship_area-heading text-center wow bounceInRight" data-wow-delay="0.4s">
                     <!-- Heading Text  -->
                     <img src="<?php echo base_url(); ?>webresources/img/issi/hocbong.png">
                 </div>
@@ -212,7 +224,7 @@
     <!-- ***** Scholarship Area End ***** -->
 
     <!-- ***** Self-Learning Area Start ***** -->
-    <section class="app-screenshots-area bg-white section_padding_100_50 clearfix wow bounceInUp" data-wow-delay="0.6s" id="truongdaihoc">
+    <section class="app-screenshots-area bg-white section_padding_70_50 clearfix wow bounceInUp" data-wow-delay="0.6s" id="truongdaihoc">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
@@ -253,13 +265,16 @@
 
     <!-- ***** Scholarship Area Start ***** -->
     <section class="study_abroad_area clearfix section_padding_100_50">
+        <div>
+            <img  class="injectRightDiv" src="<?php echo base_url(); ?>webresources/img/issi/iconIssiloo.png">
+        </div>
         <div class="container">
             <div class="row">
-                <div class="col-8 scholar_ship_area-heading text-center wow bounceInRight" data-wow-delay="0.4s">
+                <div class="col-6 scholar_ship_area-heading text-center wow bounceInRight" data-wow-delay="0.4s">
                     <!-- Heading Text  -->
                     <img src="<?php echo base_url(); ?>webresources/img/issi/hocbong.png">
                 </div>
-                <div class="col-4 text-center">
+                <div class="col-6 text-center">
                     <!-- Heading Text  -->
                     <div class="study_abroad_area-heading with-text-padding">
                         <h1 class="wow bounceInLeft" data-wow-delay="0.4s">Thông tin du học</h1>
@@ -390,7 +405,10 @@
     <!-- ***** Client Feedback Area End ***** -->
 
     <!-- ***** News Area Start ***** -->
-    <section class="news_area clearfix section_padding_50" id="thongtin">
+    <section class="news_area clearfix" id="thongtin">
+        <div>
+            <img class="injectLeftDiv" src="<?php echo base_url(); ?>webresources/img/issi/iconIssiloo.png">
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
@@ -403,118 +421,79 @@
         </div>
         <div class="container" style="padding-top: 30px;">
 
-            <!-- filter -->
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="portfolio-filter">
-                        <a href="#" class="filter active" data-filter="*">Tất </a>
-                        <a href="#" class="filter" data-filter=".hocbong">Học bổng</a>
-                        <a href="#" class="filter" data-filter=".kinhnghiemduhoc">Kinh nghiệm du học</a>
-                        <a href="#" class="filter" data-filter=".tintuc">Tin tức</a>
-                        <a href="#" class="filter" data-filter=".tuhoctienghan">Tự học tiếng Hàn</a>
-                    </div>
-                </div>
-            </div>
-            <!-- end filter -->
-
             <div class="row">
 
                 <div class="works-grid titles">
-
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item tintuc">
                         <div class="work-container">
-                            <div class="hvr-grow">
+                            <div class="hvr-bob">
                                 <a href="www.google.com">
                                     <img src="<?php echo base_url(); ?>/assets/news/news-1.png" alt="">
                                 </a>
                             </div>
-                            <div class="work-description">
-                                <a href="www.google.com">Thư ký Kim sao thế?</a>
-                            </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item kinhnghiemduhoc">
                         <div class="work-container">
-                            <div class="hvr-grow">
+                            <div class="hvr-bob">
                                 <a href="www.google.com">
                                     <img src="<?php echo base_url(); ?>/assets/news/news-2.png" alt="">
                                 </a>
                             </div>
-                            <div class="work-description">
-                                <a href="www.google.com">So sánh từ đồng nghĩa trong tiếng </a>
-                            </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item kinhnghiemduhoc">
                         <div class="work-container">
-                            <div class="hvr-grow">
+                            <div class="hvr-bob">
                                 <a href="www.google.com">
                                     <img src="<?php echo base_url(); ?>/assets/news/news-3.png" alt="">
                                 </a>
-                            </div>
-                            <div class="work-description">
-                                <a href="www.google.com">Kinh nghiệm học ở đại học busan</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item tuhoctienghan">
                         <div class="work-container">
-                            <div class="hvr-grow">
+                            <div class="hvr-bob">
                                 <a href="www.google.com">
                                     <img src="<?php echo base_url(); ?>/assets/news/news-4.png" alt="">
                                 </a>
-                            </div>
-                            <div class="work-description">
-                                <a href="www.google.com">Cách dùng từ chính xác</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item tintuc">
                         <div class="work-container">
-                            <div class="hvr-grow">
+                            <div class="hvr-bob">
                                 <a href="www.google.com">
                                     <img src="<?php echo base_url(); ?>/assets/news/news-5.png" alt="">
                                 </a>
-                            </div>
-                            <div class="work-description">
-                                <a href="www.google.com">Visa thẳng hay visa đi phỏng vấn</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item tuhoctienghan">
                         <div class="work-container">
-                            <div class="hvr-grow">
+                            <div class="hvr-bob">
                                 <a href="www.google.com">
                                     <img src="<?php echo base_url(); ?>/assets/news/news-6.png" alt="">
                                 </a>
-                            </div>
-                            <div class="work-description">
-                                <a href="www.google.com">Các ngành học ở trường đại học Seoul</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item hocbong">
                         <div class="work-container">
-                            <div class="hvr-grow">
+                            <div class="hvr-bob">
                                 <a href="www.google.com">
                                     <img src="<?php echo base_url(); ?>/assets/news/news-7.png" alt="">
                                 </a>
-                            </div>
-                            <div class="work-description">
-                                <a href="www.google.com">Du lịch ở Busan thì đi đâu?</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item tintuc">
                         <div class="work-container">
-                            <div class="hvr-grow">
+                            <div class="hvr-grow-rotate">
                                 <a href="www.google.com">
                                     <img src="<?php echo base_url(); ?>/assets/news/news-8.png" alt="">
                                 </a>
-                            </div>
-                            <div class="work-description">
-                                <a href="www.google.com">Các cặp từ trái nghĩa</a>
                             </div>
                         </div>
                     </div>
@@ -532,10 +511,8 @@
                 <div class="col-12">
                     <!-- Video Area Start -->
                     <div class="video-area"
-                         style="background-image: url(<?php echo base_url(); ?>/webresources/img/core-img/logo-line-2.png );
-                                 background-color: #fff;
+                         style="background-image: url(<?php echo base_url(); ?>/webresources/img/issi/meeting.jpg );
                                  background-repeat: no-repeat;
-                                 background-size: 500px;
                                  ">
                         <div class="video-play-btn">
                             <a href="https://www.youtube.com/watch?v=75WSmq1QXJw" class="video_btn"><i

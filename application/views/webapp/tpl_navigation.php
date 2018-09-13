@@ -41,7 +41,6 @@
                 <div class="wrapper cf">
                     <nav id="main-nav">
                         <ul class="first-nav">
-                            <li><a href="<?php echo base_url(); ?>" target="_blank">Trang chủ</a></li>
                             <li><a href="<?php echo base_url() . 'post'; ?>" target="_blank">Du học Hàn Quốc</a></li>
                             <li><a href="<?php echo base_url(); ?>" target="_blank">Trường đại học</a></li>
                             <li><a href="<?php echo base_url(); ?>" target="_blank">Chi phí</a></li>
