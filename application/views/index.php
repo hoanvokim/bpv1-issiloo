@@ -61,7 +61,7 @@
             <div class="row">
                 <div class="col-12 text-center">
                     <!-- Heading Text  -->
-                    <div class="cool_facts_area-heading wow rubberBand" data-wow-delay="0.6s">
+                    <div class="cool_facts_area-heading">
                         <h1>Những giá trị ISSILOO mang lại</h1>
                     </div>
                 </div>
@@ -69,7 +69,7 @@
             <div class="row cool_facts_area-content">
                 <!-- Single Cool Fact-->
                 <div class="col-12 col-md-4">
-                    <div class="single-cool-fact d-flex justify-content-center wow tada" data-wow-delay="1.3s">
+                    <div class="single-cool-fact d-flex justify-content-center wow zoomInUp" data-wow-delay="1.3s">
                         <a href="<?php echo base_url(); ?>" target="_blank">
                             <div class="cool-facts-content hvr-buzz-out">
                                 <h2>100%</h2>
@@ -80,7 +80,7 @@
                 </div>
                 <!-- Single Cool Fact-->
                 <div class="col-12 col-md-4">
-                    <div class="single-cool-fact d-flex justify-content-center wow tada" data-wow-delay="1.5s">
+                    <div class="single-cool-fact d-flex justify-content-center wow zoomInUp" data-wow-delay="1.5s">
                         <a href="<?php echo base_url(); ?>" target="_blank">
                             <div class="cool-facts-content hvr-buzz-out">
                                 <h2>Chi phí</h2>
@@ -91,7 +91,7 @@
                 </div>
                 <!-- Single Cool Fact-->
                 <div class="col-12 col-md-4">
-                    <div class="single-cool-fact d-flex justify-content-center wow tada" data-wow-delay="1.7s">
+                    <div class="single-cool-fact d-flex justify-content-center wow zoomInUp" data-wow-delay="1.7s">
                         <a href="<?php echo base_url(); ?>" target="_blank">
                             <div class="cool-facts-content hvr-buzz-out">
                                 <h2>Dịch vụ</h2>
@@ -490,7 +490,7 @@
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item tintuc">
                         <div class="work-container">
-                            <div class="hvr-grow-rotate">
+                            <div class="hvr-bob">
                                 <a href="www.google.com">
                                     <img src="<?php echo base_url(); ?>/assets/news/news-8.png" alt="">
                                 </a>
@@ -521,6 +521,9 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div>
+            <img class="injectRightDiv-footer" src="<?php echo base_url(); ?>webresources/img/issi/iconIssiloo.png">
         </div>
     </div>
     <!-- ***** Video Area End ***** -->

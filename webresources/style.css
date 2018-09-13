@@ -1932,7 +1932,7 @@ span.light {
 .article .blog-img .link .read {
     display: table-cell;
     vertical-align: middle;
-    font-family: "Karla", Arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #fff;
     font-size: 12px;
     text-transform: uppercase;
@@ -2025,7 +2025,7 @@ span.light {
     font-size: 250px;
     color: #f0f0f0;
     font-weight: 700;
-    font-family: "Playfair Display", Georgia, serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 @media screen and (max-width: 768px) {
@@ -2044,12 +2044,14 @@ div.show-shadow:hover img {
     top: calc(100% - 40px);
     right: 165px;
     opacity: 0.2;
+    width: 450px;
 }
 
 .injectLeftDiv {
+    width: 450px;
     z-index: 0;
     position: absolute;
-    top: calc(-50%);
+    top: calc(-35%);
     opacity: 0.2;
     left: 228px;
 }
@@ -2057,6 +2059,7 @@ div.show-shadow:hover img {
 .injectRightDiv-footer {
     z-index: 0;
     position: absolute;
-    right: 165px;
-    opacity: 0.2;
+    right: calc(35% - 300px);
+    opacity: 0.1;
+    width: 300px;
 }

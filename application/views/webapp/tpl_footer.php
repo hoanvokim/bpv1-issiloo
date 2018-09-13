@@ -17,9 +17,6 @@
                 <img src="<?php echo base_url(); ?>webresources/img/issi/hotline.png">
             </div>
         </div>
-        <div>
-            <img class="injectRightDiv-footer" src="<?php echo base_url(); ?>webresources/img/issi/iconIssiloo.png">
-        </div>
         <div class="row">
             <div class="col-8 footer-text">
                 <h3>Trung tâm du học Hàn Quốc ISSIOO</h3>
