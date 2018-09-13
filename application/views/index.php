@@ -71,7 +71,7 @@
                 <div class="col-12 col-md-4">
                     <div class="single-cool-fact d-flex justify-content-center wow zoomInUp" data-wow-delay="1.3s">
                         <a href="<?php echo base_url(); ?>" target="_blank">
-                            <div class="cool-facts-content hvr-buzz-out">
+                            <div class="cool-facts-content hvr-grow">
                                 <h2>100%</h2>
                                 <p>đậu visa</p>
                             </div>
@@ -82,7 +82,7 @@
                 <div class="col-12 col-md-4">
                     <div class="single-cool-fact d-flex justify-content-center wow zoomInUp" data-wow-delay="1.5s">
                         <a href="<?php echo base_url(); ?>" target="_blank">
-                            <div class="cool-facts-content hvr-buzz-out">
+                            <div class="cool-facts-content hvr-grow">
                                 <h2>Chi phí</h2>
                                 <p>thấp nhất</p>
                             </div>
@@ -93,7 +93,7 @@
                 <div class="col-12 col-md-4">
                     <div class="single-cool-fact d-flex justify-content-center wow zoomInUp" data-wow-delay="1.7s">
                         <a href="<?php echo base_url(); ?>" target="_blank">
-                            <div class="cool-facts-content hvr-buzz-out">
+                            <div class="cool-facts-content hvr-grow">
                                 <h2>Dịch vụ</h2>
                                 <p>tốt nhất</p>
                             </div>
