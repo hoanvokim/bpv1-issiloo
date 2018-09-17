@@ -11,11 +11,9 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-8 footer-text">
+            <div class="col-12 footer-text">
                 <img src="<?php echo base_url(); ?>webresources/img/issi/logo-issiloo.png" alt=""/>
-            </div>
-            <div class="col-4 copyright-text">
-                <img src="<?php echo base_url(); ?>webresources/img/issi/hotline.png">
+                <img style="float: right; margin-top: 38px;" src="<?php echo base_url(); ?>webresources/img/issi/hotline.png">
             </div>
         </div>
         <div class="row">
@@ -45,7 +43,7 @@
 
         <div class="row">
             <div class="col-12 footer-text" style="text-align: left; padding-top: 5px; letter-spacing: 1px;">
-                <span>502 Đỗ Xuân Hợp, P. Phước Bình, Quận.9, Tp.Hồ Chí Minh - Lầu 5 (Toà nhà mới) Trường CĐ Kỷ Nghệ II</span>
+                <span>502 Đỗ Xuân Hợp, P. Phước Bình, Quận 9, Tp.Hồ Chí Minh - Lầu 5 (Toà nhà mới) Trường CĐ Kỹ Nghệ II</span>
             </div>
         </div>
 

@@ -108,7 +108,7 @@
     <!-- ***** chuong trinh Area Start ***** -->
     <section class="our-Team-area bg-white section_padding_50_0 clearfix mt-80" id="chuongtrinh">
         <div>
-            <img class="injectRightDiv" src="<?php echo base_url(); ?>webresources/img/issi/hoa-issiloo.png">
+            <img class="injectRightDiv-chuongtrinh" src="<?php echo base_url(); ?>webresources/img/issi/hoa-issiloo.png">
         </div>
         <div class="container">
             <div class="row">
@@ -547,7 +547,7 @@
                 </div>
             </div>
         </div>
-        <div class="container" style="padding-top: 30px;">
+        <div class="container-fluid" style="padding-top: 30px;">
 
             <div class="row">
 
