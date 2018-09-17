@@ -5,8 +5,8 @@
     var defaultData = {
         maxWidth: false,
         customToggle: $toggle,
-        labelClose: '<img src="http://localhost/bpv1-issiloo/webresources/img/issi/btnClose.png" width="35px"/>',
-        labelBack: '<img src="http://localhost/bpv1-issiloo/webresources/img/issi/btnBack.png" width="35px"/>',
+        labelClose: '',
+        labelBack: '<img src="http://www.beu.photography/webresources/img/issi/btnBack.png" width="35px"/>',
         levelTitles: true,
         pushContent: '#container',
         side: 'right'

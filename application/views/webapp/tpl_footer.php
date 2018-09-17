@@ -7,7 +7,8 @@
  */
 ?>
 <!-- ***** Footer Area Start ***** -->
-<footer class="footer-social-icon section_padding_0_50 clearfix">
+<footer class="footer-social-icon section_padding_0_30 clearfix">
+
     <div class="container">
         <div class="row">
             <div class="col-8 footer-text">
@@ -20,12 +21,12 @@
         <div class="row">
             <div class="col-8 footer-text">
                 <h3>Trung tâm du học Hàn Quốc ISSIOO</h3>
-                <div class="row  pad-top-20">
+                <div class="row pad-top-20">
                     <div class="col-6">
-                        <strong>Mail: </strong> <span class="light">kr-info@issiloo.edu.vn</span>
+                        <span style="font-weight: 400;">Mail: </span> <span>kr-info@issiloo.edu.vn</span>
                     </div>
                     <div class="col-6">
-                        <strong>Fb: </strong> <span>Du học Hàn Quốc ISSILOO</span>
+                        <span style="font-weight: 400;">Fb: </span> <span>Du học Hàn Quốc ISSILOO</span>
                     </div>
                 </div>
             </div>
@@ -43,7 +44,7 @@
         </div>
 
         <div class="row">
-            <div class="col-12" style="text-align: left; padding-top: 5px; letter-spacing: 1.6px;">
+            <div class="col-12 footer-text" style="text-align: left; padding-top: 5px; letter-spacing: 1px;">
                 <span>502 Đỗ Xuân Hợp, P. Phước Bình, Quận.9, Tp.Hồ Chí Minh - Lầu 5 (Toà nhà mới) Trường CĐ Kỷ Nghệ II</span>
             </div>
         </div>

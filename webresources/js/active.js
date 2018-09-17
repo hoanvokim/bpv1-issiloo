@@ -28,6 +28,13 @@
             margin: 30,
             dots: true
         });
+        $('.hocvien_slides').owlCarousel({
+            items: 4,
+            loop: true,
+            autoplay: true,
+            margin: 30,
+            dots: true
+        });
         $('.self_learning_slides').owlCarousel({
             items: 4,
             loop: false,

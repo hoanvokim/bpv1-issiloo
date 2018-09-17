@@ -106,9 +106,9 @@
     <!-- ***** Feature Area End ***** -->
 
     <!-- ***** Our Team Area Start ***** -->
-    <section class="our-Team-area bg-white section_padding_70_0 clearfix mt-80" id="chuongtrinh">
+    <section class="our-Team-area bg-white section_padding_50_0 clearfix mt-80" id="chuongtrinh">
         <div>
-            <img  class="injectRightDiv" src="<?php echo base_url(); ?>webresources/img/issi/iconIssiloo.png">
+            <img class="injectRightDiv" src="<?php echo base_url(); ?>webresources/img/issi/hoa-issiloo.png">
         </div>
         <div class="container">
             <div class="row">
@@ -191,6 +191,46 @@
                             <img src="<?php echo base_url(); ?>assets/university/uni-6.jpg" alt="">
                             <h5>ĐẠI HỌC DONGSEO</h5>
                         </div>
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/university/uni-3.jpg" alt="">
+                            <h5>ĐẠI HỌC NỮ EWHA</h5>
+                        </div>
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/university/uni-4.jpg" alt="">
+                            <h5>ĐẠI HỌC QUỐC GIA HANBAT</h5>
+                        </div>
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/university/uni-5.jpg" alt="">
+                            <h5>ĐẠI HỌC KOSIN</h5>
+                        </div>
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/university/uni-6.jpg" alt="">
+                            <h5>ĐẠI HỌC DONGSEO</h5>
+                        </div>
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/university/uni-5.jpg" alt="">
+                            <h5>ĐẠI HỌC KOSIN</h5>
+                        </div>
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/university/uni-6.jpg" alt="">
+                            <h5>ĐẠI HỌC DONGSEO</h5>
+                        </div>
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/university/uni-3.jpg" alt="">
+                            <h5>ĐẠI HỌC NỮ EWHA</h5>
+                        </div>
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/university/uni-4.jpg" alt="">
+                            <h5>ĐẠI HỌC QUỐC GIA HANBAT</h5>
+                        </div>
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/university/uni-5.jpg" alt="">
+                            <h5>ĐẠI HỌC KOSIN</h5>
+                        </div>
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/university/uni-6.jpg" alt="">
+                            <h5>ĐẠI HỌC DONGSEO</h5>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -201,7 +241,7 @@
     <!-- ***** Scholarship Area Start ***** -->
     <section class="scholar_ship_area clearfix section_padding_100_50">
         <div>
-            <img class="injectLeftDiv" src="<?php echo base_url(); ?>webresources/img/issi/iconIssiloo.png">
+            <img class="injectLeftDiv" src="<?php echo base_url(); ?>webresources/img/issi/hoa-issiloo.png">
         </div>
         <div class="container">
             <div class="row">
@@ -266,7 +306,7 @@
     <!-- ***** Scholarship Area Start ***** -->
     <section class="study_abroad_area clearfix section_padding_100_50">
         <div>
-            <img  class="injectRightDiv" src="<?php echo base_url(); ?>webresources/img/issi/iconIssiloo.png">
+            <img class="injectRightDiv2" src="<?php echo base_url(); ?>webresources/img/issi/hoa-issiloo.png">
         </div>
         <div class="container">
             <div class="row">
@@ -289,8 +329,97 @@
     </section>
     <!-- ***** Scholarship Area End ***** -->
 
+
+    <!-- ***** University Area Start ***** -->
+    <section class="app-screenshots-area bg-white section_padding_70_50 clearfix wow bounceInUp" data-wow-delay="0.2s" id="hocvienissiloo">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <!-- Heading Text  -->
+                    <div class="section-heading">
+                        <h2>Học viên tại ISSILOO</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <!-- App Screenshots Slides  -->
+                    <div class="hocvien_slides owl-carousel">
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/university/uni-1.jpg" alt="">
+                            <h5>Học viên A</h5>
+                        </div>
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/university/uni-2.jpg" alt="">
+                            <h5>Học viên B</h5>
+                        </div>
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/university/uni-3.jpg" alt="">
+                            <h5>Học viên C</h5>
+                        </div>
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/university/uni-4.jpg" alt="">
+                            <h5>Học viên D</h5>
+                        </div>
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/university/uni-5.jpg" alt="">
+                            <h5>Học viên E</h5>
+                        </div>
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/university/uni-6.jpg" alt="">
+                            <h5>Học viên F</h5>
+                        </div>
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/university/uni-3.jpg" alt="">
+                            <h5>Học viên H</h5>
+                        </div>
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/university/uni-4.jpg" alt="">
+                            <h5>Học viên G</h5>
+                        </div>
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/university/uni-5.jpg" alt="">
+                            <h5>Học viên I</h5>
+                        </div>
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/university/uni-6.jpg" alt="">
+                            <h5>Học viên K</h5>
+                        </div>
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/university/uni-5.jpg" alt="">
+                            <h5>Học viên L</h5>
+                        </div>
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/university/uni-6.jpg" alt="">
+                            <h5>Học viên M</h5>
+                        </div>
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/university/uni-3.jpg" alt="">
+                            <h5>Học viên N</h5>
+                        </div>
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/university/uni-4.jpg" alt="">
+                            <h5>Học viên Q</h5>
+                        </div>
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/university/uni-5.jpg" alt="">
+                            <h5>Học viên R</h5>
+                        </div>
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/university/uni-6.jpg" alt="">
+                            <h5>Học viên T</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** University Area End *****====== -->
+
     <!-- ***** Client Feedback Area Start ***** -->
-    <section class="clients-feedback-area bg-white section_padding_50_20 clearfix" id="sinhvien">
+    <section class="clients-feedback-area bg-white section_padding_30_20 clearfix" id="sinhvien">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-10">
@@ -407,7 +536,7 @@
     <!-- ***** News Area Start ***** -->
     <section class="news_area clearfix" id="thongtin">
         <div>
-            <img class="injectLeftDiv" src="<?php echo base_url(); ?>webresources/img/issi/iconIssiloo.png">
+            <img class="injectLeftDiv" src="<?php echo base_url(); ?>webresources/img/issi/hoa-issiloo.png">
         </div>
         <div class="container">
             <div class="row">
@@ -505,8 +634,8 @@
     <!-- ***** NEWS Area End ***** -->
 
     <!-- ***** Video Area Start ***** -->
-    <div class="video-section section_padding_0_50" id="issiloo">
-        <div class="container">
+    <div class="video-section section_padding_50_0" id="issiloo">
+        <div class="container-fluid work-item">
             <div class="row">
                 <div class="col-12">
                     <!-- Video Area Start -->
@@ -521,9 +650,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div>
-            <img class="injectRightDiv-footer" src="<?php echo base_url(); ?>webresources/img/issi/iconIssiloo.png">
         </div>
     </div>
     <!-- ***** Video Area End ***** -->

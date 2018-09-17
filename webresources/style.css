@@ -98,6 +98,11 @@ h6 {
     padding-bottom: 20px;
 }
 
+.section_padding_30_20 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
 .section_padding_170_0 {
     padding-top: 170px;
     padding-bottom: 0px;
@@ -131,6 +136,16 @@ h6 {
 .section_padding_0_50 {
     padding-top: 0;
     padding-bottom: 50px;
+}
+
+.section_padding_50_0 {
+    padding-top: 50px;
+    padding-bottom: 0;
+}
+
+.section_padding_0_30 {
+    padding-top: 0;
+    padding-bottom: 30px;
 }
 
 .pad-top-20 {
@@ -358,7 +373,7 @@ p {
 }
 
 .menu_area .navbar-brand img {
-    max-width: 260px;
+    max-width: 320px;
     height: auto;
     margin-top: -17px;
 }
@@ -372,7 +387,8 @@ p {
     color: #fff;
     display: block;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 100;
+    letter-spacing: 0.5px;
     border-radius: 30px;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
@@ -434,7 +450,7 @@ p {
 }
 
 .header_area.sticky .menu_area #nav .nav-link {
-    padding: 23px 15px;
+    padding: 23px 10px;
 }
 
 .header_area.sticky .navbar {
@@ -481,6 +497,14 @@ p {
     border: none;
     border-radius: 24px;
     padding: 0px 15px;
+}
+
+.form-inline {
+    font-family: 'Cabin', sans-serif;
+}
+
+.form-control {
+    font-family: 'Cabin', sans-serif;
 }
 
 .form-control::-webkit-input-placeholder {
@@ -793,8 +817,8 @@ p {
 
 .study_abroad_area-heading h1 {
     color: #2e4a93;
-    font-weight: 500;
-    font-size: 50px;
+    font-weight: 900;
+    font-size: 55px;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -823,7 +847,7 @@ p {
 }
 
 .button-view {
-    font-weight: 800;
+    font-weight: bold;
     border: none;
     height: 50px;
     min-width: 167px;
@@ -833,6 +857,7 @@ p {
     margin-top: 20px;
     background-color: #f01f33;
     color: #fff;
+    font-family: "Montserrat", sans-serif;
 }
 
 .button-view:hover {
@@ -841,8 +866,8 @@ p {
 
 .scholar_ship_area-heading h1 {
     color: #fff;
-    font-weight: 500;
-    font-size: 50px;
+    font-weight: 900;
+    font-size: 55px;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -877,9 +902,9 @@ p {
 
 .cool_facts_area-heading > h1 {
     color: #fff;
-    font-size: 50px;
-    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
     font-weight: 900;
+    font-family: "Montserrat", sans-serif;
 }
 
 .cool_facts_area .cool_facts_area-content {
@@ -917,6 +942,7 @@ p {
 .cool-facts-content > p {
     font-size: 18px;
     color: #fff;
+    font-weight: 600;
     margin-bottom: 0;
 }
 
@@ -1142,7 +1168,6 @@ p {
 .clients-feedback-area .slick-arrow {
     position: absolute;
     width: 30px;
-    background-color: #fff;
     height: 100%;
     text-align: center;
     font-size: 24px;
@@ -1353,8 +1378,14 @@ p {
 :: 14.0 Footer Area CSS Start
 -------------------------- */
 .footer-social-icon {
+    background: url(img/issi/hoa-issiloo.png) no-repeat;
+    position: relative;
+    z-index: 1;
+    background-position: 95% 75%;
+    background-size: 700px;
     background-color: #2e4a93;
-    font-family: 'Cabin', sans-serif;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 30px;
 }
 
 .footer-text {
@@ -1362,7 +1393,7 @@ p {
 }
 
 .footer-text img {
-    width: 160px;
+    width: 230px;
 }
 
 .footer-text h3 {
@@ -1370,6 +1401,13 @@ p {
     color: #fff;
     font-size: 30px;
     font-weight: 700;
+}
+
+.footer-text span {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
 }
 
 .wellcome-heading-icon > a > i {
@@ -1440,10 +1478,6 @@ p {
 .contact-icon img {
     width: 60px;
     padding-left: 10px;
-}
-
-span.light {
-    font-weight: 400;
 }
 
 /* --------------------------
@@ -2041,25 +2075,31 @@ div.show-shadow:hover img {
 .injectRightDiv {
     z-index: 0;
     position: absolute;
-    top: calc(100% - 40px);
-    right: 165px;
-    opacity: 0.2;
-    width: 450px;
+    top: calc(100% - 100px);
+    right: 85px;
+    width: 600px;
+}
+
+.injectRightDiv2 {
+    z-index: 0;
+    position: absolute;
+    top: calc(100% - 570px);
+    right: 85px;
+    width: 600px;
 }
 
 .injectLeftDiv {
-    width: 450px;
+    width: 600px;
     z-index: 0;
     position: absolute;
     top: calc(-35%);
-    opacity: 0.2;
     left: 228px;
 }
 
 .injectRightDiv-footer {
     z-index: 0;
     position: absolute;
-    right: calc(35% - 300px);
-    opacity: 0.1;
-    width: 300px;
+    right: calc(35% - 640px);
+    top: calc(100%);
+    height: 100%;
 }
