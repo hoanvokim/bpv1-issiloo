@@ -1706,7 +1706,7 @@ p {
 #colorlib-work,
 #colorlib-blog,
 #colorlib-contact {
-    padding: 10em 0;
+    padding: 70px 15px;
     clear: both;
     position: relative;
 }
@@ -2056,7 +2056,7 @@ p {
     top: 0;
     left: 0;
     right: 0;
-    font-size: 250px;
+    font-size: 80px;
     color: #f0f0f0;
     font-weight: 700;
     font-family: "Montserrat", sans-serif;

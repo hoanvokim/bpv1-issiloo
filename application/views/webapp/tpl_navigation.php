@@ -16,12 +16,7 @@
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <!-- Logo -->
                         <a class="navbar-brand" href="#">
-                            <img src="<?php echo base_url(); ?>webresources/img/issi/<?php if ($active_page == 'home') {
-                                echo 'logoWhite.png';
-                            }
-                            else {
-                                echo 'logoBlue.png';
-                            } ?>" alt="">
+                            <img src="<?php echo base_url(); ?>webresources/img/issi/logoWhite.png" alt="">
                         </a>
                         <!-- Menu Area -->
                         <?php if ($active_page == 'home') { ?>
@@ -31,7 +26,7 @@
                                     <li class="nav-item"><a class="nav-link" href="#chuongtrinh">Chương trình</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#truongdaihoc">Trường đại học</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#hocbong">Học bổng</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#thongtin">Thông tin du học</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#thongtinduhoc">Thông tin du học</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#issiloo">ISSILOO</a></li>
                                 </ul>
                             </div>
@@ -41,28 +36,26 @@
                 <div class="wrapper cf">
                     <nav id="main-nav">
                         <ul class="first-nav">
-                            <li><a href="<?php echo base_url() . 'post'; ?>" target="_blank">Du học Hàn Quốc</a></li>
-                            <li><a href="<?php echo base_url(); ?>" target="_blank">Trường đại học</a></li>
-                            <li><a href="<?php echo base_url(); ?>" target="_blank">Chi phí</a></li>
-                            <li><a href="<?php echo base_url(); ?>" target="_blank">Học bổng</a></li>
-                            <li><a href="<?php echo base_url(); ?>" target="_blank">Kinh nghiệm du học</a></li>
-                            <li><a href="<?php echo base_url(); ?>" target="_blank">Đào tạo Hàn ngữ</a></li>
-                            <li><a href="<?php echo base_url(); ?>" target="_blank">Luyện thi XKLĐ</a></li>
-                            <li><a href="<?php echo base_url(); ?>" target="_blank">Thành tích học viên</a></li>
-                            <li><a href="<?php echo base_url(); ?>" target="_blank">Hoạt động ngoại khóa</a></li>
-                            <li><a href="<?php echo base_url(); ?>" target="_blank">Tự học tiếng Hàn</a></li>
-                            <li><a href="<?php echo base_url(); ?>" target="_blank">Tin Tức</a></li>
-                            <li><a href="<?php echo base_url(); ?>" target="_blank">ISSILOO</a></li>
-                            <li><a href="<?php echo base_url(); ?>" target="_blank">Liên hệ</a></li>
+                            <li><a href="<?php echo base_url() . 'post'; ?>">Du học Hàn Quốc</a></li>
+                            <li><a href="<?php echo base_url() . 'post'; ?>">Trường đại học</a></li>
+                            <li><a href="<?php echo base_url() . 'post'; ?>">Chi phí</a></li>
+                            <li><a href="<?php echo base_url() . 'post'; ?>">Học bổng</a></li>
+                            <li><a href="<?php echo base_url() . 'post'; ?>">Kinh nghiệm du học</a></li>
+                            <li><a href="<?php echo base_url() . 'post'; ?>">Đào tạo Hàn ngữ</a></li>
+                            <li><a href="<?php echo base_url() . 'post'; ?>">Luyện thi XKLĐ</a></li>
+                            <li><a href="<?php echo base_url() . 'post'; ?>">Thành tích học viên</a></li>
+                            <li><a href="<?php echo base_url() . 'post'; ?>">Hoạt động ngoại khóa</a></li>
+                            <li><a href="<?php echo base_url() . 'post'; ?>">Tự học tiếng Hàn</a></li>
+                            <li><a href="<?php echo base_url() . 'post'; ?>">Tin Tức</a></li>
+                            <li><a href="<?php echo base_url() . 'post'; ?>">ISSILOO</a></li>
+                            <li><a href="<?php echo base_url() . 'post'; ?>">Liên hệ</a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
             <div class="col-1 col-lg-1 col-md-1 col-sm-1 col-xs-2">
                 <div class="sing-up-button">
-                    <a class="toggle hc-nav-trigger hc-nav-1 hc-nav-2 hc-nav-3 hc-nav-4 <?php if ($active_page != 'home') {
-                        echo 'inverse';
-                    } ?>">
+                    <a class="toggle hc-nav-trigger hc-nav-1 hc-nav-2 hc-nav-3 hc-nav-4">
                         <span></span>
                     </a>
                 </div>

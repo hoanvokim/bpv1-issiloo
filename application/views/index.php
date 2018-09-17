@@ -9,7 +9,7 @@
 
 <?php $this->load->view('webapp/tpl_header'); ?>
 
-    <!-- ***** Wellcome Area Start ***** -->
+    <!-- ***** Banner Area Start ***** -->
     <section class="wellcome_area clearfix" id="home">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
@@ -53,9 +53,9 @@
         </div>
 
     </section>
-    <!-- ***** Wellcome Area End ***** -->
+    <!-- ***** Banner Area End ***** -->
 
-    <!-- ***** Feature Area Start ***** -->
+    <!-- ***** Gia tri Area Start ***** -->
     <section class="cool_facts_area clearfix section_padding_100_50">
         <div class="container">
             <div class="row">
@@ -103,9 +103,9 @@
             </div>
         </div>
     </section>
-    <!-- ***** Feature Area End ***** -->
+    <!-- ***** Gia tri Area End ***** -->
 
-    <!-- ***** Our Team Area Start ***** -->
+    <!-- ***** chuong trinh Area Start ***** -->
     <section class="our-Team-area bg-white section_padding_50_0 clearfix mt-80" id="chuongtrinh">
         <div>
             <img class="injectRightDiv" src="<?php echo base_url(); ?>webresources/img/issi/hoa-issiloo.png">
@@ -148,9 +148,9 @@
             </div>
         </div>
     </section>
-    <!-- ***** Our Team Area End ***** -->
+    <!-- ***** chuong trinh End ***** -->
 
-    <!-- ***** University Area Start ***** -->
+    <!-- ***** Truong dai hoc Area Start ***** -->
     <section class="app-screenshots-area bg-white section_padding_70_50 clearfix wow bounceInUp" data-wow-delay="0.2s" id="truongdaihoc">
         <div class="container">
             <div class="row">
@@ -236,10 +236,10 @@
             </div>
         </div>
     </section>
-    <!-- ***** University Area End *****====== -->
+    <!-- ***** Truong dai hoc Area End *****====== -->
 
-    <!-- ***** Scholarship Area Start ***** -->
-    <section class="scholar_ship_area clearfix section_padding_100_50">
+    <!-- ***** Hoc Bong Area Start ***** -->
+    <section class="scholar_ship_area clearfix section_padding_100_50" id="hocbong">
         <div>
             <img class="injectLeftDiv" src="<?php echo base_url(); ?>webresources/img/issi/hoa-issiloo.png">
         </div>
@@ -261,10 +261,10 @@
             </div>
         </div>
     </section>
-    <!-- ***** Scholarship Area End ***** -->
+    <!-- ***** Hoc Bong Area End ***** -->
 
-    <!-- ***** Self-Learning Area Start ***** -->
-    <section class="app-screenshots-area bg-white section_padding_70_50 clearfix wow bounceInUp" data-wow-delay="0.6s" id="truongdaihoc">
+    <!-- ***** Tu hoc tieng han Area Start ***** -->
+    <section class="app-screenshots-area bg-white section_padding_70_50 clearfix wow bounceInUp" data-wow-delay="0.6s" id="tuhoc">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
@@ -301,10 +301,10 @@
             </div>
         </div>
     </section>
-    <!-- ***** Self-Learning Area End *****====== -->
+    <!-- ***** Tu hoc tieng han Area End *****====== -->
 
-    <!-- ***** Scholarship Area Start ***** -->
-    <section class="study_abroad_area clearfix section_padding_100_50">
+    <!-- ***** Thong tin du hoc Area Start ***** -->
+    <section class="study_abroad_area clearfix section_padding_100_50" id="thongtinduhoc">
         <div>
             <img class="injectRightDiv2" src="<?php echo base_url(); ?>webresources/img/issi/hoa-issiloo.png">
         </div>
@@ -327,11 +327,10 @@
             </div>
         </div>
     </section>
-    <!-- ***** Scholarship Area End ***** -->
+    <!-- ***** Thong tin du hoc Area End ***** -->
 
-
-    <!-- ***** University Area Start ***** -->
-    <section class="app-screenshots-area bg-white section_padding_70_50 clearfix wow bounceInUp" data-wow-delay="0.2s" id="hocvienissiloo">
+    <!-- ***** Hocvien Area Start ***** -->
+    <section class="app-screenshots-area bg-white section_padding_50 clearfix wow bounceInUp" data-wow-delay="0.2s" id="hocvienissiloo">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
@@ -416,9 +415,9 @@
             </div>
         </div>
     </section>
-    <!-- ***** University Area End *****====== -->
+    <!-- ***** Hocvien Area End *****====== -->
 
-    <!-- ***** Client Feedback Area Start ***** -->
+    <!-- ***** hoc vien Feedback Area Start ***** -->
     <section class="clients-feedback-area bg-white section_padding_30_20 clearfix" id="sinhvien">
         <div class="container">
             <div class="row justify-content-center">
@@ -531,10 +530,10 @@
             </div>
         </div>
     </section>
-    <!-- ***** Client Feedback Area End ***** -->
+    <!-- ***** hoc vien Feedback Area End ***** -->
 
-    <!-- ***** News Area Start ***** -->
-    <section class="news_area clearfix" id="thongtin">
+    <!-- ***** ISSILOO Start ***** -->
+    <section class="news_area clearfix" id="issiloo">
         <div>
             <img class="injectLeftDiv" src="<?php echo base_url(); ?>webresources/img/issi/hoa-issiloo.png">
         </div>
@@ -631,10 +630,10 @@
             </div>
         </div>
     </section>
-    <!-- ***** NEWS Area End ***** -->
+    <!-- ***** ISSILOO End ***** -->
 
     <!-- ***** Video Area Start ***** -->
-    <div class="video-section section_padding_50_0" id="issiloo">
+    <div class="video-section section_padding_50_0" >
         <div class="container-fluid work-item">
             <div class="row">
                 <div class="col-12">
