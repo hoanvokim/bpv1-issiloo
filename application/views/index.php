@@ -108,9 +108,10 @@
     <!-- ***** chuong trinh Area Start ***** -->
     <section class="our-Team-area bg-white section_padding_50_0 clearfix mt-80" id="chuongtrinh">
         <div>
-            <img class="injectRightDiv-chuongtrinh" src="<?php echo base_url(); ?>webresources/img/issi/hoa-issiloo.png">
+            <img class="injectRightDiv-chuongtrinh"
+                 src="<?php echo base_url(); ?>webresources/img/issi/hoa-issiloo.png">
         </div>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-12 text-center">
                     <!-- Heading Text  -->
@@ -151,7 +152,8 @@
     <!-- ***** chuong trinh End ***** -->
 
     <!-- ***** Truong dai hoc Area Start ***** -->
-    <section class="app-screenshots-area bg-white section_padding_70_50 clearfix wow bounceInUp" data-wow-delay="0.2s" id="truongdaihoc">
+    <section class="app-screenshots-area bg-white section_padding_70_50 clearfix wow bounceInUp" data-wow-delay="0.2s"
+             id="truongdaihoc">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
@@ -174,22 +176,6 @@
                         <div class="single-shot">
                             <img src="<?php echo base_url(); ?>assets/university/uni-2.jpg" alt="">
                             <h5>ĐẠI HỌC KOREA</h5>
-                        </div>
-                        <div class="single-shot">
-                            <img src="<?php echo base_url(); ?>assets/university/uni-3.jpg" alt="">
-                            <h5>ĐẠI HỌC NỮ EWHA</h5>
-                        </div>
-                        <div class="single-shot">
-                            <img src="<?php echo base_url(); ?>assets/university/uni-4.jpg" alt="">
-                            <h5>ĐẠI HỌC QUỐC GIA HANBAT</h5>
-                        </div>
-                        <div class="single-shot">
-                            <img src="<?php echo base_url(); ?>assets/university/uni-5.jpg" alt="">
-                            <h5>ĐẠI HỌC KOSIN</h5>
-                        </div>
-                        <div class="single-shot">
-                            <img src="<?php echo base_url(); ?>assets/university/uni-6.jpg" alt="">
-                            <h5>ĐẠI HỌC DONGSEO</h5>
                         </div>
                         <div class="single-shot">
                             <img src="<?php echo base_url(); ?>assets/university/uni-3.jpg" alt="">
@@ -249,12 +235,14 @@
                     <!-- Heading Text  -->
                     <div class="scholar_ship_area-heading with-text-padding">
                         <h1 class="wow bounceInLeft" data-wow-delay="0.4s">Học bổng</h1>
-                        <button class="button-view wow flipInY" data-wow-delay="1s" href="https://www.facebook.com/issiloo.edu.vn/">
+                        <button class="button-view wow flipInY" data-wow-delay="1s"
+                                href="https://www.facebook.com/issiloo.edu.vn/">
                             Xem thêm
                         </button>
                     </div>
                 </div>
-                <div class="col-md-6 col-7 scholar_ship_area-heading text-center wow bounceInRight" data-wow-delay="0.4s">
+                <div class="col-md-6 col-7 scholar_ship_area-heading text-center wow bounceInRight"
+                     data-wow-delay="0.4s">
                     <!-- Heading Text  -->
                     <img src="<?php echo base_url(); ?>webresources/img/issi/hocvien.png">
                 </div>
@@ -264,7 +252,8 @@
     <!-- ***** Hoc Bong Area End ***** -->
 
     <!-- ***** Tu hoc tieng han Area Start ***** -->
-    <section class="self_learning_area bg-white section_padding_70_50 clearfix wow bounceInUp" data-wow-delay="0.6s" id="tuhoc">
+    <section class="self_learning_area bg-white section_padding_70_50 clearfix wow bounceInUp" data-wow-delay="0.6s"
+             id="tuhoc">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
@@ -304,7 +293,7 @@
     <!-- ***** Tu hoc tieng han Area End *****====== -->
 
     <!-- ***** Thong tin du hoc Area Start ***** -->
-    <section class="study_abroad_area clearfix section_padding_100_50" id="thongtinduhoc">
+    <section class="study_abroad_area clearfix section_padding_50_20" id="thongtinduhoc">
         <div>
             <img class="injectRightDiv2" src="<?php echo base_url(); ?>webresources/img/issi/hoa-issiloo.png">
         </div>
@@ -318,7 +307,8 @@
                     <!-- Heading Text  -->
                     <div class="study_abroad_area-heading with-text-padding">
                         <h1 class="wow bounceInLeft" data-wow-delay="0.4s">Thông tin du học</h1>
-                        <button class="button-view wow flipInY" data-wow-delay="1s" href="https://www.facebook.com/issiloo.edu.vn/">
+                        <button class="button-view wow flipInY" data-wow-delay="1s"
+                                href="https://www.facebook.com/issiloo.edu.vn/">
                             Xem thêm
                         </button>
                     </div>
@@ -330,7 +320,8 @@
     <!-- ***** Thong tin du hoc Area End ***** -->
 
     <!-- ***** Hocvien Area Start ***** -->
-    <section class="hocvien-area bg-white section_padding_50 clearfix wow bounceInUp" data-wow-delay="0.2s" id="hocvienissiloo">
+    <section class="hocvien-area bg-white section_padding_50 clearfix wow bounceInUp" data-wow-delay="0.2s"
+             id="hocvienissiloo">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
@@ -394,22 +385,6 @@
                             <img src="<?php echo base_url(); ?>assets/university/uni-6.jpg" alt="">
                             <h5>Học viên M</h5>
                         </div>
-                        <div class="single-shot">
-                            <img src="<?php echo base_url(); ?>assets/university/uni-3.jpg" alt="">
-                            <h5>Học viên N</h5>
-                        </div>
-                        <div class="single-shot">
-                            <img src="<?php echo base_url(); ?>assets/university/uni-4.jpg" alt="">
-                            <h5>Học viên Q</h5>
-                        </div>
-                        <div class="single-shot">
-                            <img src="<?php echo base_url(); ?>assets/university/uni-5.jpg" alt="">
-                            <h5>Học viên R</h5>
-                        </div>
-                        <div class="single-shot">
-                            <img src="<?php echo base_url(); ?>assets/university/uni-6.jpg" alt="">
-                            <h5>Học viên T</h5>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -430,7 +405,7 @@
                             </div>
                             <div class="client-description text-center">
                                 <p>“ ISSILOO là trung tâm tiếng hàn rất dễ thương và thân thiện. Quan tâm đến từng học
-                                   viên một. ”</p>
+                                    viên một. ”</p>
                             </div>
                             <div class="star-icon text-center">
                                 <i class="ion-ios-star"></i>
@@ -470,7 +445,8 @@
                                 <i class="fa fa-quote-left" aria-hidden="true"></i>
                             </div>
                             <div class="client-description text-center">
-                                <p>“ I have been using it for a number of years. I use Colorlib for usability testing”</p>
+                                <p>“ I have been using it for a number of years. I use Colorlib for usability
+                                    testing”</p>
                             </div>
                             <div class="star-icon text-center">
                                 <i class="ion-ios-star"></i>
@@ -490,7 +466,10 @@
                                 <i class="fa fa-quote-left" aria-hidden="true"></i>
                             </div>
                             <div class="client-description text-center">
-                                <p>“ I have been using it for a number of <years class=""></years>”</p>
+                                <p>“ I have been using it for a number of
+                                    <years class=""></years>
+                                    ”
+                                </p>
                             </div>
                             <div class="star-icon text-center">
                                 <i class="ion-ios-star"></i>
@@ -530,99 +509,48 @@
 
     <!-- ***** ISSILOO Start ***** -->
     <section class="news_area clearfix" id="issiloo">
-        <div>
-            <img class="injectLeftDiv" src="<?php echo base_url(); ?>webresources/img/issi/hoa-issiloo.png">
-        </div>
+<!--        <div>-->
+<!--            <img class="injectLeftDiv" src="--><?php //echo base_url(); ?><!--webresources/img/issi/hoa-issiloo.png">-->
+<!--        </div>-->
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
                     <!-- Heading Text  -->
-                    <div class="news_area-heading">
+                    <div class="news_area-heading wow zoomInUp" data-wow-delay="0.2s">
                         <h2>ISSILOO</h2>
                     </div>
                 </div>
             </div>
         </div>
         <div class="container-fluid" style="padding-top: 30px;">
-
             <div class="row">
-
-                <div class="works-grid titles">
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item tintuc">
-                        <div class="work-container">
-                            <div class="hvr-bob">
-                                <a href="www.google.com">
-                                    <img src="<?php echo base_url(); ?>/assets/news/news-1.png" alt="">
-                                </a>
-                            </div>
-                        </div>
+                <!-- App Screenshots Slides  -->
+                <div class="issiloo_images_slides owl-carousel">
+                    <div class="single-shot">
+                        <img src="<?php echo base_url(); ?>assets/news/news-1.png" alt="">
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item kinhnghiemduhoc">
-                        <div class="work-container">
-                            <div class="hvr-bob">
-                                <a href="www.google.com">
-                                    <img src="<?php echo base_url(); ?>/assets/news/news-2.png" alt="">
-                                </a>
-                            </div>
-                        </div>
+                    <div class="single-shot">
+                        <img src="<?php echo base_url(); ?>assets/news/news-2.png" alt="">
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item kinhnghiemduhoc">
-                        <div class="work-container">
-                            <div class="hvr-bob">
-                                <a href="www.google.com">
-                                    <img src="<?php echo base_url(); ?>/assets/news/news-3.png" alt="">
-                                </a>
-                            </div>
-                        </div>
+                    <div class="single-shot">
+                        <img src="<?php echo base_url(); ?>assets/news/news-3.png" alt="">
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item tuhoctienghan">
-                        <div class="work-container">
-                            <div class="hvr-bob">
-                                <a href="www.google.com">
-                                    <img src="<?php echo base_url(); ?>/assets/news/news-4.png" alt="">
-                                </a>
-                            </div>
-                        </div>
+                    <div class="single-shot">
+                        <img src="<?php echo base_url(); ?>assets/news/news-4.png" alt="">
                     </div>
-
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item tintuc">
-                        <div class="work-container">
-                            <div class="hvr-bob">
-                                <a href="www.google.com">
-                                    <img src="<?php echo base_url(); ?>/assets/news/news-5.png" alt="">
-                                </a>
-                            </div>
-                        </div>
+                    <div class="single-shot">
+                        <img src="<?php echo base_url(); ?>assets/news/news-5.png" alt="">
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item tuhoctienghan">
-                        <div class="work-container">
-                            <div class="hvr-bob">
-                                <a href="www.google.com">
-                                    <img src="<?php echo base_url(); ?>/assets/news/news-6.png" alt="">
-                                </a>
-                            </div>
-                        </div>
+                    <div class="single-shot">
+                        <img src="<?php echo base_url(); ?>assets/news/news-6.png" alt="">
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item hocbong">
-                        <div class="work-container">
-                            <div class="hvr-bob">
-                                <a href="www.google.com">
-                                    <img src="<?php echo base_url(); ?>/assets/news/news-7.png" alt="">
-                                </a>
-                            </div>
-                        </div>
+                    <div class="single-shot">
+                        <img src="<?php echo base_url(); ?>assets/news/news-7.png" alt="">
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 work-item tintuc">
-                        <div class="work-container">
-                            <div class="hvr-bob">
-                                <a href="www.google.com">
-                                    <img src="<?php echo base_url(); ?>/assets/news/news-8.png" alt="">
-                                </a>
-                            </div>
-                        </div>
+                    <div class="single-shot">
+                        <img src="<?php echo base_url(); ?>assets/news/news-8.png" alt="">
                     </div>
                 </div>
-
             </div>
         </div>
     </section>

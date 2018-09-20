@@ -65,6 +65,21 @@
                 }
             }
         });
+        $('.issiloo_images_slides').owlCarousel({
+            items: 4,
+            loop: true,
+            autoplay: true,
+            margin: 30,
+            dots: true,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                767: {
+                    items: 4
+                }
+            }
+        });
     }
 
     // :: 2.0 Slick Active Code

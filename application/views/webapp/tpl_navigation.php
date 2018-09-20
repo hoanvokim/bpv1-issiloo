@@ -15,7 +15,7 @@
                 <div class="menu_area">
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <!-- Logo -->
-                        <a class="navbar-brand" href="#">
+                        <a class="navbar-brand" href="<?php echo base_url(); ?>">
                             <img src="<?php echo base_url(); ?>webresources/img/issi/logoWhite.png" alt="">
                         </a>
                         <!-- Menu Area -->

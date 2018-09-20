@@ -13,7 +13,9 @@
     <div class="container">
         <div class="row">
             <div class="col-12 footer-text">
-                <img src="<?php echo base_url(); ?>webresources/img/issi/logo-issiloo.png" alt=""/>
+                <a href="<?php echo base_url(); ?>">
+                    <img src="<?php echo base_url(); ?>webresources/img/issi/logo-issiloo.png" alt=""/>
+                </a>
                 <img class="footer-hotline" src="<?php echo base_url(); ?>webresources/img/issi/hotline.png">
                 <div class="contact-icon">
                     <a href="https://www.facebook.com/issiloo.edu.vn/">

@@ -96,7 +96,7 @@
 
     .cool_facts_area-heading > h1 {
         font-size: 20px;
-        font-weight: 300 !important;
+        font-weight: 600 !important;
     }
 
     .cool-facts-content h2 {
@@ -105,7 +105,7 @@
 
     .cool-facts-content p {
         font-size: 12px;
-        font-weight: 300;
+        font-weight: 500;
     }
 
     .cool_facts_area-content {
@@ -185,11 +185,13 @@
     }
 
     .with-text-padding {
-        padding: 15px 0;
+        padding: 0;
     }
+
     .scholar_ship_area-heading {
         margin-top: 0;
     }
+
     .scholar_ship_area-heading img {
         width: 110%;
         margin-top: -32px;
@@ -235,10 +237,6 @@
     .study_abroad_area .button-view {
         font-size: 13px;
         width: 100px;
-    }
-
-    .with-text-padding {
-        padding: 15px 0;
     }
 
     .study_abroad_area .button-view {
@@ -336,7 +334,7 @@
         margin-bottom: 0;
     }
 
-    .footer-text > img {
+    .footer-text img {
         width: 120px;
     }
 
@@ -385,9 +383,17 @@
     .injectRightDiv-chuongtrinh {
         z-index: 0;
         position: absolute;
-        top: calc(100%);
-        right: 100px;
-        width: 200px;
+        top: calc(100% + 170px);
+        right: 0px;
+        width: 240px;
+    }
+
+    .injectLeftDiv {
+        width: 270px;
+        z-index: 0;
+        position: absolute;
+        top: calc(-45%);
+        left: -10px;
     }
 }
 
