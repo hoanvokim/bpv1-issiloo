@@ -11,7 +11,7 @@
     <div class="container">
         <div class="row align-items-center">
             <!-- Menu Area Start -->
-            <div class="col-10 col-lg-11 col-md-11 col-sm-11 col-xs-10">
+            <div class="col-lg-11 col-md-11 col-sm-6 col-6">
                 <div class="menu_area">
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <!-- Logo -->
@@ -53,7 +53,7 @@
                     </nav>
                 </div>
             </div>
-            <div class="col-1 col-lg-1 col-md-1 col-sm-1 col-xs-2">
+            <div class="col-lg-1 col-md-1 col-sm-2 col-2">
                 <div class="sing-up-button">
                     <a class="toggle hc-nav-trigger hc-nav-1 hc-nav-2 hc-nav-3 hc-nav-4">
                         <span></span>

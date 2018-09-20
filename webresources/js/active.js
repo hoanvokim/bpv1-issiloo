@@ -26,20 +26,44 @@
             loop: true,
             autoplay: true,
             margin: 30,
-            dots: true
+            dots: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                767: {
+                    items: 4
+                }
+            }
         });
         $('.hocvien_slides').owlCarousel({
             items: 4,
             loop: true,
             autoplay: true,
             margin: 30,
-            dots: true
+            dots: true,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                767: {
+                    items: 4
+                }
+            }
         });
         $('.self_learning_slides').owlCarousel({
             items: 4,
             loop: false,
             autoplay: false,
-            margin: 30
+            margin: 30,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                767: {
+                    items: 4
+                }
+            }
         });
     }
 

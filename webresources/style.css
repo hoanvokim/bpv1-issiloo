@@ -542,7 +542,7 @@ p {
     display: inline-block;
     border: none;
     height: 50px;
-    min-width: 167px;
+    width: 160px;
     line-height: 46px;
     text-align: center;
     border-radius: 24px;
@@ -838,24 +838,25 @@ p {
     background: -o-linear-gradient(left, #2e4a93, #688dcf);
     background: linear-gradient(to right, #2e4a93, #688dcf);
     padding: 50px 0 50px 0;
+    height: 530px;
 }
 
 .scholar_ship_area-heading {
     margin: auto;
+    margin-top: -50px;
 }
 
 .with-text-padding {
-    padding: 70px 0;
+    padding: 190px 0;
 }
 
 .button-view {
     font-weight: bold;
     border: none;
     height: 50px;
-    min-width: 167px;
+    width: 167px;
     line-height: 46px;
     text-align: center;
-    margin-left: 10px;
     margin-top: 20px;
     background-color: #f01f33;
     color: #fff;
@@ -1465,6 +1466,12 @@ p {
     margin-bottom: 15px;
 }
 
+.footer-hotline {
+    margin-top: 38px;
+    float: right;
+    padding-left: 10px;
+}
+
 .copyright-text {
     float: right;
     text-align: right;
@@ -1478,7 +1485,12 @@ p {
     margin-bottom: 0;
 }
 
+.contact-icon {
+    float: right;
+}
+
 .contact-icon img {
+    margin-top: 38px;
     width: 60px;
     padding-left: 10px;
 }
@@ -2084,15 +2096,15 @@ div.show-shadow:hover img {
 .injectRightDiv-chuongtrinh {
     z-index: 0;
     position: absolute;
-    top: calc(100% - 100px);
-    right: 235px;
+    top: calc(100% - 260px);
+    right: 25px;
     width: 600px;
 }
 
 .injectRightDiv2 {
     z-index: 0;
     position: absolute;
-    top: calc(100% - 570px);
+    top: calc(100% - 840px);
     right: 85px;
     width: 600px;
 }

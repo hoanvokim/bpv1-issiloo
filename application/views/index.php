@@ -13,7 +13,7 @@
     <section class="wellcome_area clearfix" id="home">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
-                <div class="col-6">
+                <div class="col-md-6 col-12">
                     <div class="wellcome-heading wow fadeInLeftBig" data-wow-delay="0.7s">
                         <img src="<?php echo base_url(); ?>webresources/img/issi/duhochanquoc.png">
                     </div>
@@ -23,7 +23,7 @@
                             <input type="email" class="form-control email wow flipInY" data-wow-delay="1s"
                                    placeholder="Số điện thoại...">
                             <input type="submit" class="submit wow flipInY" data-wow-delay="1.2s"
-                                   value="Liên hệ ngay">
+                                   value="Tư vấn">
                         </form>
                         <!-- Form End -->
                     </div>
@@ -43,7 +43,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col6">
+                <div class="col-md-6 col-12">
                     <!-- Welcome thumb -->
                     <div class="welcome-thumb wow fadeInDownBig" data-wow-delay="0.4s">
                         <img src="<?php echo base_url(); ?>webresources/img/issi/hocvien.png" alt="">
@@ -68,7 +68,7 @@
             </div>
             <div class="row cool_facts_area-content">
                 <!-- Single Cool Fact-->
-                <div class="col-12 col-md-4">
+                <div class="col-md-4 col-sm-4 col-4">
                     <div class="single-cool-fact d-flex justify-content-center wow zoomInUp" data-wow-delay="1.3s">
                         <a href="<?php echo base_url(); ?>" target="_blank">
                             <div class="cool-facts-content hvr-grow">
@@ -79,7 +79,7 @@
                     </div>
                 </div>
                 <!-- Single Cool Fact-->
-                <div class="col-12 col-md-4">
+                <div class="col-md-4 col-sm-4 col-4">
                     <div class="single-cool-fact d-flex justify-content-center wow zoomInUp" data-wow-delay="1.5s">
                         <a href="<?php echo base_url(); ?>" target="_blank">
                             <div class="cool-facts-content hvr-grow">
@@ -90,7 +90,7 @@
                     </div>
                 </div>
                 <!-- Single Cool Fact-->
-                <div class="col-12 col-md-4">
+                <div class="col-md-4 col-sm-4 col-4">
                     <div class="single-cool-fact d-flex justify-content-center wow zoomInUp" data-wow-delay="1.7s">
                         <a href="<?php echo base_url(); ?>" target="_blank">
                             <div class="cool-facts-content hvr-grow">
@@ -245,7 +245,7 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-6 text-center">
+                <div class="col-md-6 col-5 text-center">
                     <!-- Heading Text  -->
                     <div class="scholar_ship_area-heading with-text-padding">
                         <h1 class="wow bounceInLeft" data-wow-delay="0.4s">Học bổng</h1>
@@ -254,9 +254,9 @@
                         </button>
                     </div>
                 </div>
-                <div class="col-6 scholar_ship_area-heading text-center wow bounceInRight" data-wow-delay="0.4s">
+                <div class="col-md-6 col-7 scholar_ship_area-heading text-center wow bounceInRight" data-wow-delay="0.4s">
                     <!-- Heading Text  -->
-                    <img src="<?php echo base_url(); ?>webresources/img/issi/hocbong.png">
+                    <img src="<?php echo base_url(); ?>webresources/img/issi/hocvien.png">
                 </div>
             </div>
         </div>
@@ -264,7 +264,7 @@
     <!-- ***** Hoc Bong Area End ***** -->
 
     <!-- ***** Tu hoc tieng han Area Start ***** -->
-    <section class="app-screenshots-area bg-white section_padding_70_50 clearfix wow bounceInUp" data-wow-delay="0.6s" id="tuhoc">
+    <section class="self_learning_area bg-white section_padding_70_50 clearfix wow bounceInUp" data-wow-delay="0.6s" id="tuhoc">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
@@ -282,19 +282,19 @@
                     <div class="self_learning_slides owl-carousel">
                         <div class="single-shot show-shadow">
                             <img src="<?php echo base_url(); ?>assets/university/uni-1.jpg" alt="">
-                            <h5>ĐẠI HỌC HANKUK</h5>
+                            <h5>Bài học 1</h5>
                         </div>
                         <div class="single-shot show-shadow">
                             <img src="<?php echo base_url(); ?>assets/university/uni-2.jpg" alt="">
-                            <h5>ĐẠI HỌC KOREA</h5>
+                            <h5>Bài học 2</h5>
                         </div>
                         <div class="single-shot show-shadow">
                             <img src="<?php echo base_url(); ?>assets/university/uni-3.jpg" alt="">
-                            <h5>ĐẠI HỌC NỮ EWHA</h5>
+                            <h5>Bài học 3</h5>
                         </div>
                         <div class="single-shot show-shadow">
                             <img src="<?php echo base_url(); ?>assets/university/uni-4.jpg" alt="">
-                            <h5>ĐẠI HỌC QUỐC GIA HANBAT</h5>
+                            <h5>Bài học 4</h5>
                         </div>
                     </div>
                 </div>
@@ -310,11 +310,11 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-6 scholar_ship_area-heading text-center wow bounceInRight" data-wow-delay="0.4s">
+                <div class=" col-6 scholar_ship_area-heading text-center wow bounceInRight" data-wow-delay="0.4s">
                     <!-- Heading Text  -->
-                    <img src="<?php echo base_url(); ?>webresources/img/issi/hocbong.png">
+                    <img src="<?php echo base_url(); ?>webresources/img/issi/hocvien.png">
                 </div>
-                <div class="col-6 text-center">
+                <div class=" col-6 text-center">
                     <!-- Heading Text  -->
                     <div class="study_abroad_area-heading with-text-padding">
                         <h1 class="wow bounceInLeft" data-wow-delay="0.4s">Thông tin du học</h1>
@@ -330,7 +330,7 @@
     <!-- ***** Thong tin du hoc Area End ***** -->
 
     <!-- ***** Hocvien Area Start ***** -->
-    <section class="app-screenshots-area bg-white section_padding_50 clearfix wow bounceInUp" data-wow-delay="0.2s" id="hocvienissiloo">
+    <section class="hocvien-area bg-white section_padding_50 clearfix wow bounceInUp" data-wow-delay="0.2s" id="hocvienissiloo">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
@@ -470,9 +470,7 @@
                                 <i class="fa fa-quote-left" aria-hidden="true"></i>
                             </div>
                             <div class="client-description text-center">
-                                <p>“ I have been using it for a number of years. I use Colorlib for usability testing.
-                                   It's great for taking images and making clickable image prototypes that do the
-                                   job.”</p>
+                                <p>“ I have been using it for a number of years. I use Colorlib for usability testing”</p>
                             </div>
                             <div class="star-icon text-center">
                                 <i class="ion-ios-star"></i>
@@ -492,9 +490,7 @@
                                 <i class="fa fa-quote-left" aria-hidden="true"></i>
                             </div>
                             <div class="client-description text-center">
-                                <p>“ I have been using it for a number of years. I use Colorlib for usability testing.
-                                   It's great for taking images and making clickable image prototypes that do the job
-                                   and save me the coding time and just the general hassle of hosting. ”</p>
+                                <p>“ I have been using it for a number of <years class=""></years>”</p>
                             </div>
                             <div class="star-icon text-center">
                                 <i class="ion-ios-star"></i>
@@ -633,7 +629,7 @@
     <!-- ***** ISSILOO End ***** -->
 
     <!-- ***** Video Area Start ***** -->
-    <div class="video-section section_padding_50_0" >
+    <div class="video-section section_padding_50_0">
         <div class="container-fluid work-item">
             <div class="row">
                 <div class="col-12">

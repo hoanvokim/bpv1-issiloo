@@ -6,6 +6,7 @@
  * Time: 11:02
  */
 ?>
+
 <!-- ***** Footer Area Start ***** -->
 <footer class="footer-social-icon section_padding_0_30 clearfix">
 
@@ -13,22 +14,7 @@
         <div class="row">
             <div class="col-12 footer-text">
                 <img src="<?php echo base_url(); ?>webresources/img/issi/logo-issiloo.png" alt=""/>
-                <img style="float: right; margin-top: 38px;" src="<?php echo base_url(); ?>webresources/img/issi/hotline.png">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-8 footer-text">
-                <h3>Trung tâm du học Hàn Quốc ISSIOO</h3>
-                <div class="row pad-top-20">
-                    <div class="col-6">
-                        <span style="font-weight: 400;">Mail: </span> <span>kr-info@issiloo.edu.vn</span>
-                    </div>
-                    <div class="col-6">
-                        <span style="font-weight: 400;">Fb: </span> <span>Du học Hàn Quốc ISSILOO</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4 copyright-text">
+                <img class="footer-hotline" src="<?php echo base_url(); ?>webresources/img/issi/hotline.png">
                 <div class="contact-icon">
                     <a href="https://www.facebook.com/issiloo.edu.vn/">
                         <img src="<?php echo base_url(); ?>webresources/img/issi/iconFacebookWhite.png">
@@ -40,9 +26,22 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-12 footer-text">
+                <h3>Trung tâm du học Hàn Quốc ISSIOO</h3>
+                <div class="row pad-top-20">
+                    <div class="col-6 footer-text-no-padding-right">
+                        <span style="font-weight: 500;">Mail: </span> <span>kr-info@issiloo.edu.vn</span>
+                    </div>
+                    <div class="col-6 footer-text-no-padding-left">
+                        <span style="font-weight: 500;">Fb: </span> <span>Du học Hàn Quốc ISSILOO</span>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div class="row">
-            <div class="col-12 footer-text" style="text-align: left; padding-top: 5px; letter-spacing: 1px;">
+            <div class="col-12 footer-text" style="text-align: left; letter-spacing: 1px;">
                 <span>502 Đỗ Xuân Hợp, P. Phước Bình, Quận 9, Tp.Hồ Chí Minh - Lầu 5 (Toà nhà mới) Trường CĐ Kỹ Nghệ II</span>
             </div>
         </div>
