@@ -105,7 +105,7 @@
 
     .cool-facts-content p {
         font-size: 12px;
-        font-weight: 500;
+        font-weight: 400;
     }
 
     .cool_facts_area-content {
@@ -185,7 +185,7 @@
     }
 
     .with-text-padding {
-        padding: 0;
+        padding: 10px 0 0 0;
     }
 
     .scholar_ship_area-heading {
@@ -256,7 +256,7 @@
     }
 
     .section_padding_50 {
-        padding-top: 10px;
+        padding-top: 30px;
         padding-bottom: 10px;
     }
 

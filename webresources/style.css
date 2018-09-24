@@ -1502,7 +1502,7 @@ p {
 .news_area {
     position: relative;
     z-index: auto;
-    padding: 30px 0 0px 0;
+    padding: 30px 0 10px 0;
     background-color: #2e4a93;
 }
 
@@ -1527,6 +1527,27 @@ p {
     margin-top: 5px;
     overflow: hidden;
     position: relative;
+}
+
+.news_area .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 6px;
+    margin-top: 20px;
+}
+
+.news_area .owl-dot.active {
+    background-color: #fff;
+    border: transparent;
+}
+
+.news_area .owl-dots {
+    height: 100%;
+    width: 100%;
+    text-align: center;
 }
 
 .news-content > i {
@@ -2110,7 +2131,7 @@ div.show-shadow:hover img {
 }
 
 .injectLeftDiv {
-    width: 750px;
+    width: 650px;
     z-index: 0;
     position: absolute;
     top: calc(-35%);

@@ -11,7 +11,7 @@
     <div class="container">
         <div class="row align-items-center">
             <!-- Menu Area Start -->
-            <div class="col-lg-11 col-md-11 col-sm-6 col-6">
+            <div class="col-lg-11 col-md-11 col-sm-9 col-9">
                 <div class="menu_area">
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <!-- Logo -->

@@ -405,7 +405,7 @@
                             </div>
                             <div class="client-description text-center">
                                 <p>“ ISSILOO là trung tâm tiếng hàn rất dễ thương và thân thiện. Quan tâm đến từng học
-                                    viên một. ”</p>
+                                   viên một. ”</p>
                             </div>
                             <div class="star-icon text-center">
                                 <i class="ion-ios-star"></i>
@@ -446,7 +446,7 @@
                             </div>
                             <div class="client-description text-center">
                                 <p>“ I have been using it for a number of years. I use Colorlib for usability
-                                    testing”</p>
+                                   testing”</p>
                             </div>
                             <div class="star-icon text-center">
                                 <i class="ion-ios-star"></i>
@@ -468,7 +468,7 @@
                             <div class="client-description text-center">
                                 <p>“ I have been using it for a number of
                                     <years class=""></years>
-                                    ”
+                                   ”
                                 </p>
                             </div>
                             <div class="star-icon text-center">
@@ -508,10 +508,10 @@
     <!-- ***** hoc vien Feedback Area End ***** -->
 
     <!-- ***** ISSILOO Start ***** -->
-    <section class="news_area clearfix" id="issiloo">
-<!--        <div>-->
-<!--            <img class="injectLeftDiv" src="--><?php //echo base_url(); ?><!--webresources/img/issi/hoa-issiloo.png">-->
-<!--        </div>-->
+    <section class="news_area clearfix " id="issiloo">
+        <div>
+            <img class="injectLeftDiv" src="<?php echo base_url(); ?>webresources/img/issi/hoa-issiloo.png">
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
@@ -524,31 +524,33 @@
         </div>
         <div class="container-fluid" style="padding-top: 30px;">
             <div class="row">
-                <!-- App Screenshots Slides  -->
-                <div class="issiloo_images_slides owl-carousel">
-                    <div class="single-shot">
-                        <img src="<?php echo base_url(); ?>assets/news/news-1.png" alt="">
-                    </div>
-                    <div class="single-shot">
-                        <img src="<?php echo base_url(); ?>assets/news/news-2.png" alt="">
-                    </div>
-                    <div class="single-shot">
-                        <img src="<?php echo base_url(); ?>assets/news/news-3.png" alt="">
-                    </div>
-                    <div class="single-shot">
-                        <img src="<?php echo base_url(); ?>assets/news/news-4.png" alt="">
-                    </div>
-                    <div class="single-shot">
-                        <img src="<?php echo base_url(); ?>assets/news/news-5.png" alt="">
-                    </div>
-                    <div class="single-shot">
-                        <img src="<?php echo base_url(); ?>assets/news/news-6.png" alt="">
-                    </div>
-                    <div class="single-shot">
-                        <img src="<?php echo base_url(); ?>assets/news/news-7.png" alt="">
-                    </div>
-                    <div class="single-shot">
-                        <img src="<?php echo base_url(); ?>assets/news/news-8.png" alt="">
+                <div class="col-12">
+                    <!-- App Screenshots Slides  -->
+                    <div class="issiloo_images_slides owl-carousel wow zoomInUp" data-wow-delay="0.2s">
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/news/news-1.png" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/news/news-2.png" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/news/news-3.png" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/news/news-4.png" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/news/news-5.png" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/news/news-6.png" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/news/news-7.png" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="<?php echo base_url(); ?>assets/news/news-8.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
