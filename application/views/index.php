@@ -53,9 +53,9 @@
         </div>
 
     </section
-    <!-- ***** Banner Area End ***** -->
+            <!-- ***** Banner Area End ***** -->
 
-    <!-- ***** Gia tri Area Start ***** -->
+            <!-- ***** Gia tri Area Start ***** -->
     <section class="cool_facts_area clearfix section_padding_100_50">
         <div class="container">
             <div class="row">
@@ -107,10 +107,10 @@
 
     <!-- ***** chuong trinh Area Start ***** -->
     <section class="our-Team-area bg-white section_padding_50_0 clearfix mt-80" id="chuongtrinh">
-                <div>
-                    <img class="injectRightDiv-chuongtrinh"
-                         src="<?php echo base_url(); ?>webresources/img/issi/hoa-issiloo.png">
-                </div>
+        <div>
+            <img class="injectRightDiv-chuongtrinh"
+                 src="<?php echo base_url(); ?>webresources/img/issi/hoa-issiloo.png">
+        </div>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 text-center">
