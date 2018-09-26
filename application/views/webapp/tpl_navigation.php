@@ -129,7 +129,7 @@
                     </div>
                     <div class="col-12 text-center">
                         <button class="button-view" type="submit" style="width: 100px;">
-                           Gửi đi
+                            Gửi đi
                         </button>
                     </div>
                 </form>
@@ -138,14 +138,16 @@
     </div>
     <div class="row">
         <div class="col-6 text-center">
-            <button id="callAction" class="button-view" type="submit">
+            <button id="callAction" class="button-view" style="font-family: Cabin, sans-serif; padding-bottom: 42px;">
                 <i class="ion-android-call"></i> Gọi điện
             </button>
         </div>
         <div class="col-6 text-center">
-            <button id="textAction" class="button-view" type="submit">
+            <button id="textAction" class="button-view" style="font-family: Cabin, sans-serif; padding-bottom: 42px;">
                 <i class="ion-android-chat"></i> Tư vấn miễn phí
             </button>
         </div>
     </div>
 </section>
+
+<main class="container-fluid">

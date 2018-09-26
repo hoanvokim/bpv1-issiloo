@@ -244,6 +244,11 @@ img {
     margin-left: 100px;
 }
 
+main section {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
 ul,
 ol {
     margin: 0;
@@ -981,7 +986,7 @@ p {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
     -webkit-transform: scale(0.85);
     -ms-transform: scale(0.85);
-    transform: scale(0.85)
+    transform: scale(0.85);
 }
 
 .app_screenshots_slides .center .single-shot {
@@ -2200,6 +2205,7 @@ div.show-shadow:hover img {
     border-width: 1px;
     font-family: 'Cabin', sans-serif;
     text-transform: uppercase;
+    width: 90%;
 }
 
 .showCall .dialog-close {
@@ -2227,13 +2233,13 @@ div.show-shadow:hover img {
 
 .showContact {
     background-color: #1b4191;
-    margin: 0 15px -40px 15px;
+    margin: 0 15px -50px 15px;
     border-radius: 5px;
     border-color: #fff;
     border-style: solid;
     border-width: 1px;
     font-family: 'Cabin', sans-serif;
-
+    width: 90%;
 }
 
 .showContact .dialog-close {

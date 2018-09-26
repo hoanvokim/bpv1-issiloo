@@ -1,5 +1,9 @@
 @media (min-width: 320px) and (max-width: 767px) {
 
+    .single-shot {
+        margin-left: 15px;
+    }
+
     .menu_area .navbar-brand img {
         max-width: 270px;
         height: auto;
@@ -22,7 +26,7 @@
     }
 
     .header_area.sticky {
-        height: 76px;
+        min-height: 76px;
     }
 
     .header_area .menu_area #nav .nav-link,
@@ -47,7 +51,7 @@
     }
 
     .wellcome_area {
-        height: 760px;
+        height: 750px;
         padding-top: 20px;
     }
 
@@ -66,7 +70,7 @@
     }
 
     .get-start-area {
-        margin-top: 200px;
+        margin-top: 210px;
         margin-left: 10px;
     }
 
@@ -78,13 +82,13 @@
 
     .get-start-area .submit {
         margin-bottom: 20px;
-        width: 120px;
+        width: 110px;
         font-weight: 300;
     }
 
     .wellcome-heading-icon {
         margin-top: -5px;
-        margin-left: 105px;
+        margin-left: 10px;
     }
 
     .welcome-thumb {
@@ -109,12 +113,12 @@
     }
 
     .cool_facts_area-heading > h1 {
-        font-size: 20px;
-        font-weight: 500 !important;
+        font-size: 17px;
+        font-weight: 300 !important;
     }
 
     .cool-facts-content h2 {
-        font-size: 29px;
+        font-size: 27px;
     }
 
     .cool-facts-content p {
@@ -162,7 +166,7 @@
     /*END*/
     /*Truong dai hoc Area Start*/
     .section_padding_70_50 {
-        padding-top: 20px;
+        padding-top: 40px;
         padding-bottom: 10px;
     }
 
@@ -190,7 +194,7 @@
 
     /* HOC BONG START*/
     .scholar_ship_area {
-        height: 180px;
+        height: 170px;
     }
 
     .section_padding_100_50 {
@@ -198,12 +202,13 @@
     }
 
     .scholar_ship_area-heading h1 {
-        font-size: 25px;
+        font-size: 20px;
+        font-weight: bold;
     }
 
     .scholar_ship_area-heading .button-view {
         font-size: 15px;
-        width: 120px;
+        width: 100px;
     }
 
     .with-text-padding {
@@ -222,23 +227,20 @@
 
     .scholar_ship_area-heading .button-view {
         margin-top: 10px;
+        font-weight: 600;
+    }
+
+    .owl-carousel .owl-stage-outer {
+        margin-left: -10px;
     }
 
     /*END*/
     /*tu hoc tieng han*/
     .app-screenshots-area {
-        padding-top: 30px;
+        padding-top: 20px;
     }
 
-    .app-screenshots-area .section-heading {
-        padding-bottom: 0px;
-    }
-
-    .self_learning_area .section-heading {
-        padding-bottom: 20px;
-    }
-
-    .hocvien-area .section-heading {
+    .section-heading {
         padding-bottom: 20px;
     }
 
@@ -254,11 +256,13 @@
 
     .study_abroad_area-heading h1 {
         font-size: 20px;
+        font-weight: bold;
     }
 
     .study_abroad_area .button-view {
         font-size: 13px;
         width: 100px;
+        font-weight: 600;
     }
 
     .study_abroad_area .button-view {
@@ -278,7 +282,7 @@
     }
 
     .section_padding_50 {
-        padding-top: 30px;
+        padding-top: 50px;
         padding-bottom: 10px;
     }
 
@@ -357,7 +361,7 @@
     }
 
     .footer-text img {
-        width: 120px;
+        width: 110px;
     }
 
     .contact-icon img {
@@ -366,7 +370,7 @@
     }
 
     .footer-hotline {
-        margin-top: 15px;
+        margin-top: 17px;
     }
 
     .footer-social-icon {
@@ -375,7 +379,7 @@
 
     .footer-text h3 {
         font-size: 15px;
-        font-weight: 400;
+        font-weight: 600;
     }
 
     .footer-text span {
@@ -417,6 +421,10 @@
         position: absolute;
         top: calc(-45%);
         left: -10px;
+    }
+
+    .button-view {
+        height: 40px;
     }
 }
 

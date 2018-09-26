@@ -67,7 +67,6 @@
     });
 
     $(document).ready(function () {
-
         if ((screen.width < 767)) {
             $('#callAction').show();
             $('#textAction').show();

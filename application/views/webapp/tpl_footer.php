@@ -6,7 +6,7 @@
  * Time: 11:02
  */
 ?>
-
+</main>
 <!-- ***** Footer Area Start ***** -->
 <footer class="footer-social-icon section_padding_0_30 clearfix">
     <div class="container">

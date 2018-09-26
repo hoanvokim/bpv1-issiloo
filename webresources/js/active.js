@@ -21,7 +21,7 @@
             autoplay: true,
             smartSpeed: 1500
         });
-        $('.app_screenshots_slides').owlCarousel({
+        $('.app_screenshot_slides').owlCarousel({
             items: 4,
             loop: true,
             autoplay: true,
@@ -44,7 +44,7 @@
             dots: true,
             responsive: {
                 0: {
-                    items: 2
+                    items: 1
                 },
                 767: {
                     items: 4
@@ -73,7 +73,7 @@
             dots: true,
             responsive: {
                 0: {
-                    items: 2
+                    items: 1
                 },
                 767: {
                     items: 4
