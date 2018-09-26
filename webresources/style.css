@@ -2169,7 +2169,6 @@ div.show-shadow:hover img {
 .button-bottom {
     padding: 0 !important;
     z-index: 99;
-    width: 375px;
 }
 
 .button-bottom .row {

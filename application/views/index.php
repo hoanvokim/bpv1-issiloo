@@ -52,7 +52,7 @@
             </div>
         </div>
 
-    </section>
+    </section
     <!-- ***** Banner Area End ***** -->
 
     <!-- ***** Gia tri Area Start ***** -->
@@ -107,10 +107,10 @@
 
     <!-- ***** chuong trinh Area Start ***** -->
     <section class="our-Team-area bg-white section_padding_50_0 clearfix mt-80" id="chuongtrinh">
-        <div>
-            <img class="injectRightDiv-chuongtrinh"
-                 src="<?php echo base_url(); ?>webresources/img/issi/hoa-issiloo.png">
-        </div>
+<!--        <div>-->
+<!--            <img class="injectRightDiv-chuongtrinh"-->
+<!--                 src="--><?php //echo base_url(); ?><!--webresources/img/issi/hoa-issiloo.png">-->
+<!--        </div>-->
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 text-center">
@@ -226,9 +226,9 @@
 
     <!-- ***** Hoc Bong Area Start ***** -->
     <section class="scholar_ship_area clearfix section_padding_100_50" id="hocbong">
-        <div>
-            <img class="injectLeftDiv" src="<?php echo base_url(); ?>webresources/img/issi/hoa-issiloo.png">
-        </div>
+<!--        <div>-->
+<!--            <img class="injectLeftDiv" src="--><?php //echo base_url(); ?><!--webresources/img/issi/hoa-issiloo.png">-->
+<!--        </div>-->
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-5 text-center">
@@ -294,9 +294,9 @@
 
     <!-- ***** Thong tin du hoc Area Start ***** -->
     <section class="study_abroad_area clearfix section_padding_50_20" id="thongtinduhoc">
-        <div>
-            <img class="injectRightDiv2" src="<?php echo base_url(); ?>webresources/img/issi/hoa-issiloo.png">
-        </div>
+<!--        <div>-->
+<!--            <img class="injectRightDiv2" src="--><?php //echo base_url(); ?><!--webresources/img/issi/hoa-issiloo.png">-->
+<!--        </div>-->
         <div class="container">
             <div class="row">
                 <div class=" col-6 scholar_ship_area-heading text-center wow bounceInRight" data-wow-delay="0.4s">
@@ -509,9 +509,9 @@
 
     <!-- ***** ISSILOO Start ***** -->
     <section class="news_area clearfix " id="issiloo">
-        <div>
-            <img class="injectLeftDiv" src="<?php echo base_url(); ?>webresources/img/issi/hoa-issiloo.png">
-        </div>
+<!--        <div>-->
+<!--            <img class="injectLeftDiv" src="--><?php //echo base_url(); ?><!--webresources/img/issi/hoa-issiloo.png">-->
+<!--        </div>-->
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">

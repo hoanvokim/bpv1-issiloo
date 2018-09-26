@@ -1,21 +1,20 @@
 @media (min-width: 320px) and (max-width: 767px) {
 
     .menu_area .navbar-brand img {
-        margin-top: -8px;
+        max-width: 270px;
+        height: auto;
+    }
+
+    .menu_area .navbar-brand img {
+        margin-top: -11px;
     }
 
     .section-heading > h2 {
         font-size: 20px;
     }
 
-    .menu_area .navbar-brand img {
-        max-width: 290px;
-        height: auto;
-    }
-
     .header_area {
         padding: 0;
-        width: 375px;
     }
 
     .menu_area .navbar-brand {
@@ -61,14 +60,14 @@
     }
 
     .wellcome-heading img {
-        margin-top: 30px;
-        margin-left: 15px;
+        margin-top: 40px;
+        margin-left: 10px;
         width: 311px;
     }
 
     .get-start-area {
         margin-top: 200px;
-        margin-left: 15px;
+        margin-left: 10px;
     }
 
     .get-start-area .email {
@@ -85,7 +84,7 @@
 
     .wellcome-heading-icon {
         margin-top: -5px;
-        margin-left: 15px;
+        margin-left: 105px;
     }
 
     .welcome-thumb {
