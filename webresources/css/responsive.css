@@ -1,5 +1,9 @@
 @media (min-width: 320px) and (max-width: 767px) {
 
+    .menu_area .navbar-brand img {
+        margin-top: -8px;
+    }
+
     .section-heading > h2 {
         font-size: 20px;
     }
@@ -11,6 +15,7 @@
 
     .header_area {
         padding: 0;
+        width: 375px;
     }
 
     .menu_area .navbar-brand {
@@ -18,7 +23,7 @@
     }
 
     .header_area.sticky {
-        height: 70px;
+        height: 76px;
     }
 
     .header_area .menu_area #nav .nav-link,
@@ -35,7 +40,7 @@
 
     .sing-up-button {
         float: right;
-        margin-top: 5px;
+        margin-top: 11px;
     }
 
     .header_area {
@@ -43,7 +48,8 @@
     }
 
     .wellcome_area {
-        height: 780px;
+        height: 760px;
+        padding-top: 20px;
     }
 
     .welcome_text .cd-intro > p {
@@ -55,33 +61,42 @@
     }
 
     .wellcome-heading img {
-        margin-top: 40px;
-        width: 100%;
+        margin-top: 30px;
+        margin-left: 15px;
+        width: 311px;
     }
 
     .get-start-area {
-        margin-top: 230px;
+        margin-top: 200px;
+        margin-left: 15px;
     }
 
     .get-start-area .email {
         margin-bottom: 20px;
-        width: 180px;
+        width: 177px;
+        font-weight: 300;
     }
 
     .get-start-area .submit {
         margin-bottom: 20px;
-        width: 100px;
+        width: 120px;
+        font-weight: 300;
     }
 
     .wellcome-heading-icon {
-        margin-top: 0px;
+        margin-top: -5px;
+        margin-left: 15px;
     }
 
     .welcome-thumb {
         width: 100%;
         bottom: 0px;
         right: 0;
-        margin-top: -40px;
+        margin-top: -100px;
+    }
+
+    .wellcome-heading-icon img {
+        width: 50px;
     }
 
     .logo_area > a > h2 {
@@ -96,7 +111,7 @@
 
     .cool_facts_area-heading > h1 {
         font-size: 20px;
-        font-weight: 600 !important;
+        font-weight: 500 !important;
     }
 
     .cool-facts-content h2 {
@@ -105,7 +120,7 @@
 
     .cool-facts-content p {
         font-size: 12px;
-        font-weight: 400;
+        font-weight: 300;
     }
 
     .cool_facts_area-content {
@@ -166,6 +181,14 @@
     }
 
     /*END*/
+    .clients-feedback-area .client > i {
+        font-size: 30px;
+    }
+
+    .clients-feedback-area .client-description {
+        margin-top: -10px;
+    }
+
     /* HOC BONG START*/
     .scholar_ship_area {
         height: 180px;
@@ -348,11 +371,12 @@
     }
 
     .footer-social-icon {
-        padding-top: 20px;
+        padding-top: 10px;
     }
 
     .footer-text h3 {
         font-size: 15px;
+        font-weight: 400;
     }
 
     .footer-text span {
@@ -364,11 +388,11 @@
     }
 
     .footer-text .pad-top-20 {
-        padding-top: 5px;
+        padding-top: 0;
     }
 
     .footer-social-icon {
-        padding-bottom: 20px;
+        padding-bottom: 60px;
     }
 
     .footer-text-no-padding-right {

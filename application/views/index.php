@@ -21,7 +21,7 @@
                         <!-- Form Start -->
                         <form action="#" method="post" class="form-inline">
                             <input type="email" class="form-control email wow flipInY" data-wow-delay="1s"
-                                   placeholder="Số điện thoại...">
+                                   placeholder="Số điện thoại">
                             <input type="submit" class="submit wow flipInY" data-wow-delay="1.2s"
                                    value="Tư vấn">
                         </form>
@@ -33,13 +33,13 @@
                             <img src="<?php echo base_url(); ?>webresources/img/issi/iconFacebook.png"
                                  class="wow flipInY" data-wow-delay="1.2s">
                         </a>
-                        <a href="https://www.youtube.com/channel/UCxSwrePN-rYK7AUtoKi2gfg?view_as=subscriber">
-                            <img src="<?php echo base_url(); ?>webresources/img/issi/iconYoutube.png"
-                                 class="wow flipInY" data-wow-delay="1.4s">
-                        </a>
                         <a href="http://zaloapp.com/qr/p/fwc7rp42pe1x">
                             <img src="<?php echo base_url(); ?>webresources/img/issi/iconZalo.png" class="wow flipInY"
                                  data-wow-delay="1.6s">
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCxSwrePN-rYK7AUtoKi2gfg?view_as=subscriber">
+                            <img src="<?php echo base_url(); ?>webresources/img/issi/iconYoutube.png"
+                                 class="wow flipInY" data-wow-delay="1.4s">
                         </a>
                     </div>
                 </div>

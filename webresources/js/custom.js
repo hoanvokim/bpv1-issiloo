@@ -66,4 +66,23 @@
         }
     });
 
+    $(document).ready(function () {
+
+        if ((screen.width < 767)) {
+            $('#callAction').show();
+            $('#textAction').show();
+        }
+        else {
+            $('#callAction').hide();
+            $('#textAction').hide();
+        }
+    });
+    $('#popUpCall').hide();
+    $('#popUpContact').hide();
+    $('#callAction').click(function () {
+        $('#popUpCall').toggle();
+    });
+    $('#textAction').click(function () {
+        $('#popUpContact').toggle();
+    });
 })(jQuery);

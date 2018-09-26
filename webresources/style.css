@@ -148,6 +148,21 @@ h6 {
     padding-bottom: 30px;
 }
 
+.section_padding_0_15 {
+    padding-top: 0;
+    padding-bottom: 15px;
+}
+
+.section_padding_20_30 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.section_padding_20_10 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
 .pad-top-20 {
     padding-top: 10px;
 }
@@ -240,11 +255,15 @@ ol {
     font-size: 24px;
     right: 30px;
     width: 50px;
-    background-color: #7d8fda;
+    background-color: #0081ff;
     color: #fff;
     text-align: center;
     height: 50px;
     line-height: 50px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
 }
 
 a,
@@ -495,10 +514,11 @@ p {
 .get-start-area .email {
     background: #becbe8;
     height: 50px;
-    max-width: 260px;
+    width: 260px;
     border: none;
     border-radius: 24px;
     padding: 0px 15px;
+    text-align: center;
 }
 
 .form-inline {
@@ -536,17 +556,17 @@ p {
 }
 
 .get-start-area .submit {
-    background-color: #7d8fda;
+    background-color: #becbe8;
     color: #fff;
     font-weight: normal !important;
     display: inline-block;
     border: none;
     height: 50px;
-    width: 160px;
+    width: 180px;
     line-height: 46px;
     text-align: center;
     border-radius: 24px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .get-start-area .submit:hover {
@@ -2144,4 +2164,95 @@ div.show-shadow:hover img {
     right: calc(35% - 640px);
     top: calc(100%);
     height: 100%;
+}
+
+.button-bottom {
+    padding: 0 !important;
+    z-index: 99;
+    width: 375px;
+}
+
+.button-bottom .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100%;
+}
+
+.button-bottom .col-6 {
+    padding: 0 !important;
+}
+
+.button-bottom .button-view {
+    background-color: #0081ff;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    font-weight: 300;
+    width: 100%;
+}
+
+/*dialog*/
+.showCall {
+    background-color: #fff;
+    margin: 0 15px -30px 15px;
+    border-radius: 5px;
+    border-color: #1b4191;
+    border-style: solid;
+    border-width: 1px;
+    font-family: 'Cabin', sans-serif;
+    text-transform: uppercase;
+}
+
+.showCall .dialog-close {
+    font-size: 26px;
+    color: #1b4191;
+}
+
+.showCall h1 {
+    font-size: 30px;
+    color: #1b4191;
+    font-weight: 600;
+}
+
+.showCall h3 {
+    font-size: 25px;
+    color: #1b4191;
+    font-weight: 600;
+}
+
+.showCall h5 {
+    font-size: 20px;
+    color: #1b4191;
+    font-weight: 600;
+}
+
+.showContact {
+    background-color: #1b4191;
+    margin: 0 15px -40px 15px;
+    border-radius: 5px;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    font-family: 'Cabin', sans-serif;
+
+}
+
+.showContact .dialog-close {
+    font-size: 26px;
+    color: #fff
+}
+
+.showContact h5 {
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.showContact span {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.showContact .col-6 {
+    padding-left: 15px !important;
 }

@@ -23,7 +23,7 @@
     <title>ISSILOO | Homepage</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="<?php echo base_url(); ?>webresources/img/core-img/favicon.ico">
+<!--    <link rel="icon" href="--><?php //echo base_url(); ?><!--webresources/img/core-img/favicon.ico">-->
     <!-- Core Stylesheet -->
     <link href="<?php echo base_url(); ?>webresources/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo base_url(); ?>webresources/style.css" rel="stylesheet">
