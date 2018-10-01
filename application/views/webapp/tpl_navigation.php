@@ -150,4 +150,4 @@
     </div>
 </section>
 
-<main class="container-fluid">
+<main class="main container-fluid">

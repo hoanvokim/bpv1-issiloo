@@ -390,7 +390,7 @@
         margin-bottom: 5px;
     }
 
-    .footer-text .pad-top-20 {
+    .footer-text .pad-top-10 {
         padding-top: 0;
     }
 
@@ -425,6 +425,14 @@
 
     .button-view {
         height: 40px;
+    }
+
+    .all-news-area h1 {
+        font-size: 30px;
+    }
+
+    .pad-top-30 {
+        padding-top: 15px;
     }
 }
 

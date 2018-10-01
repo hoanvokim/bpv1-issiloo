@@ -55,3 +55,5 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route['post'] = 'webapp/post';
 $route['post/post_content/(:any)'] = 'webapp/post/postContent/$1';
+$route['news'] = 'webapp/news';
+$route['news/news_content/(:any)'] = 'webapp/news/newsContent/$1';

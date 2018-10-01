@@ -163,8 +163,12 @@ h6 {
     padding-bottom: 10px;
 }
 
-.pad-top-20 {
+.pad-top-10 {
     padding-top: 10px;
+}
+
+.pad-top-30 {
+    padding-top: 30px;
 }
 
 img {
@@ -244,11 +248,6 @@ img {
     margin-left: 100px;
 }
 
-main section {
-    margin-left: -15px;
-    margin-right: -15px;
-}
-
 ul,
 ol {
     margin: 0;
@@ -305,6 +304,11 @@ p {
 
 .section-heading {
     margin-bottom: 60px;
+}
+
+.main.container-fluid {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
 
 .line-shape-white,
@@ -517,7 +521,7 @@ p {
 }
 
 .get-start-area .email {
-    background: #becbe8;
+    background: #06479f;
     height: 50px;
     width: 260px;
     border: none;
@@ -561,7 +565,7 @@ p {
 }
 
 .get-start-area .submit {
-    background-color: #becbe8;
+    background-color: #06479f;
     color: #fff;
     font-weight: normal !important;
     display: inline-block;
@@ -905,7 +909,7 @@ p {
 
 .cool_facts_area {
     position: relative;
-    z-index: auto;
+    z-index: 1;
     background: #688dcf;
     background: -webkit-linear-gradient(to left, #2e4a93, #688dcf);
     background: -webkit-linear-gradient(right, #2e4a93, #688dcf);
@@ -923,8 +927,6 @@ p {
     left: 0;
     right: 0;
     width: 100%;
-    height: 100px;
-    background-color: #fff;
     content: ''
 }
 
@@ -937,11 +939,12 @@ p {
 
 .cool_facts_area .cool_facts_area-content {
     padding-top: 40px;
+    z-index: 3;
 }
 
 .cool-facts-content h2 {
     color: #fff;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 900;
 }
 
@@ -972,6 +975,10 @@ p {
     color: #fff;
     font-weight: 600;
     margin-bottom: 0;
+}
+
+.single-cool-fact {
+    z-index: 1;
 }
 
 /* --------------------------
@@ -2132,7 +2139,7 @@ div.show-shadow:hover img {
 }
 
 .injectRightDiv {
-    z-index: 0;
+    z-index: 1;
     position: absolute;
     top: calc(100% - 100px);
     right: 85px;
@@ -2142,9 +2149,9 @@ div.show-shadow:hover img {
 .injectRightDiv-chuongtrinh {
     z-index: 0;
     position: absolute;
-    top: calc(100% - 260px);
-    right: -70px;
-    width: 650px;
+    top: calc(100% - 560px);
+    right: -50px;
+    width: 530px;
 }
 
 .injectRightDiv2 {
@@ -2260,4 +2267,51 @@ div.show-shadow:hover img {
 
 .showContact .col-6 {
     padding-left: 15px !important;
+}
+
+/*All news area*/
+.all-news-area {
+    text-align: left;
+
+}
+
+.all-news-area h1 {
+    font-size: 70px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    color: #cdd6e0;
+}
+
+.all-news-area h5 {
+    padding: 10px 0 10px 10px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    color: #1b4191;
+    height: 75px;
+}
+
+.all-news-area span {
+    padding: 10px 0 10px 10px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    color: #6d7f80;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.news-border {
+    border: 1px solid #c0cacf;
+    padding-bottom: 5px;
+}
+
+.news-thumbnail.col-md-4 {
+    padding: 5px;
+}
+
+.content {
+    border-top: 1px solid #c0cacf !important;
+    padding-top: 5px;
+
 }

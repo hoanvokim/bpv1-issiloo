@@ -30,7 +30,7 @@
         <div class="row">
             <div class="col-12 footer-text">
                 <h3>Trung tâm du học Hàn Quốc ISSIOO</h3>
-                <div class="row pad-top-20">
+                <div class="row pad-top-10">
                     <div class="col-6 footer-text-no-padding-right">
                         <span style="font-weight: 500;">Mail: </span> <span>kr-info@issiloo.edu.vn</span>
                     </div>

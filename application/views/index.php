@@ -51,7 +51,6 @@
                 </div>
             </div>
         </div>
-
     </section
             <!-- ***** Banner Area End ***** -->
 
@@ -226,9 +225,9 @@
 
     <!-- ***** Hoc Bong Area Start ***** -->
     <section class="scholar_ship_area clearfix section_padding_100_50" id="hocbong">
-        <!--        <div>-->
-        <!--            <img class="injectLeftDiv" src="--><?php //echo base_url(); ?><!--webresources/img/issi/hoa-issiloo.png">-->
-        <!--        </div>-->
+                <div>
+                    <img class="injectLeftDiv" src="<?php echo base_url(); ?>webresources/img/issi/hoa-issiloo.png">
+                </div>
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-5 text-center">
@@ -516,7 +515,7 @@
             <div class="row">
                 <div class="col-12 text-center">
                     <!-- Heading Text  -->
-                    <div class="news_area-heading wow zoomInUp" data-wow-delay="0.2s">
+                    <div class="news_area-heading wow fadeInLeft slow" data-wow-delay="0.4s">
                         <h2>ISSILOO</h2>
                     </div>
                 </div>
@@ -526,7 +525,7 @@
             <div class="row">
                 <div class="col-12">
                     <!-- App Screenshots Slides  -->
-                    <div class="issiloo_images_slides owl-carousel wow zoomInUp" data-wow-delay="0.2s">
+                    <div class="issiloo_images_slides owl-carousel wow fadeInRight slow" data-wow-delay="0.4s">
                         <div class="single-shot">
                             <img src="<?php echo base_url(); ?>assets/news/news-1.png" alt="">
                         </div>
