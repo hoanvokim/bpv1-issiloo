@@ -403,18 +403,17 @@
                                 <i class="fa fa-quote-left" aria-hidden="true"></i>
                             </div>
                             <div class="client-description text-center">
-                                <p>“ ISSILOO là trung tâm tiếng hàn rất dễ thương và thân thiện. Quan tâm đến từng học
-                                   viên một. ”</p>
+                                <p>“ISSILOO là trung tâm tiếng hàn rất dễ thương và thân thiện. Quan tâm đến từng học
+                                   viên một.”</p>
                             </div>
                             <div class="star-icon text-center">
                                 <i class="ion-ios-star"></i>
                                 <i class="ion-ios-star"></i>
                                 <i class="ion-ios-star"></i>
                                 <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
                             </div>
                             <div class="client-name text-center">
-                                <h5>Lê nhật phát</h5>
+                                <h5>Nguyễn Văn Hiếu</h5>
                                 <p>Busan university - Busan</p>
                             </div>
                         </div>
@@ -424,7 +423,7 @@
                                 <i class="fa fa-quote-left" aria-hidden="true"></i>
                             </div>
                             <div class="client-description text-center">
-                                <p>“ Cô giáo dạy tiếng hàn nhiệt tình. Giáo trình nhẹ nhưng hiệu quả. ”</p>
+                                <p>“Cô giáo dạy tiếng hàn nhiệt tình. Giáo trình nhẹ nhưng hiệu quả.”</p>
                             </div>
                             <div class="star-icon text-center">
                                 <i class="ion-ios-star"></i>
@@ -434,8 +433,8 @@
                                 <i class="ion-ios-star"></i>
                             </div>
                             <div class="client-name text-center">
-                                <h5>Lê ánh viên</h5>
-                                <p>Developer</p>
+                                <h5>Nguyễn Văn Hoan</h5>
+                                <p>Hankuk University of Foreign Studies</p>
                             </div>
                         </div>
                         <!-- Client Feedback Text  -->
@@ -444,8 +443,7 @@
                                 <i class="fa fa-quote-left" aria-hidden="true"></i>
                             </div>
                             <div class="client-description text-center">
-                                <p>“ I have been using it for a number of years. I use Colorlib for usability
-                                   testing”</p>
+                                <p>“Được các cô nhiệt tình hỗ trợ, cảm thấy động lực học tập.”</p>
                             </div>
                             <div class="star-icon text-center">
                                 <i class="ion-ios-star"></i>
@@ -455,8 +453,8 @@
                                 <i class="ion-ios-star"></i>
                             </div>
                             <div class="client-name text-center">
-                                <h5>Helen</h5>
-                                <p>Marketer</p>
+                                <h5>Tô Hoàng Khang</h5>
+                                <p>Chungbuk National University</p>
                             </div>
                         </div>
                         <!-- Client Feedback Text  -->
@@ -465,9 +463,7 @@
                                 <i class="fa fa-quote-left" aria-hidden="true"></i>
                             </div>
                             <div class="client-description text-center">
-                                <p>“ I have been using it for a number of
-                                    <years class=""></years>
-                                   ”
+                                <p>“Ban đầu có chút khó khăn, nhưng được các cô hỗ trợ rất nhiệt tình”
                                 </p>
                             </div>
                             <div class="star-icon text-center">
@@ -478,8 +474,8 @@
                                 <i class="ion-ios-star"></i>
                             </div>
                             <div class="client-name text-center">
-                                <h5>Henry smith</h5>
-                                <p>Developer</p>
+                                <h5>Tô Hoàng Thịnh</h5>
+                                <p>Seoul National University of Science and Technology</p>
                             </div>
                         </div>
                     </div>
@@ -488,16 +484,16 @@
                 <div class="col-12 col-md-6 col-lg-5">
                     <div class="slider slider-nav">
                         <div class="client-thumbnail">
-                            <img src="<?php echo base_url(); ?>webresources/img/bg-img/client-3.jpg" alt="">
+                            <img src="<?php echo base_url(); ?>assets/student/hieu_nho.png" alt="">
                         </div>
                         <div class="client-thumbnail">
-                            <img src="<?php echo base_url(); ?>webresources/img/bg-img/client-2.jpg" alt="">
+                            <img src="<?php echo base_url(); ?>assets/student/hoan_nho.png" alt="">
                         </div>
                         <div class="client-thumbnail">
-                            <img src="<?php echo base_url(); ?>webresources/img/bg-img/client-1.jpg" alt="">
+                            <img src="<?php echo base_url(); ?>assets/student/khang_nho.png" alt="">
                         </div>
                         <div class="client-thumbnail">
-                            <img src="<?php echo base_url(); ?>webresources/img/bg-img/client-2.jpg" alt="">
+                            <img src="<?php echo base_url(); ?>assets/student/thinh_nho.png" alt="">
                         </div>
                     </div>
                 </div>

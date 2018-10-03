@@ -15,7 +15,7 @@
                 <a href="<?php echo base_url(); ?>">
                     <img src="<?php echo base_url(); ?>webresources/img/issi/logo-issiloo.png" alt=""/>
                 </a>
-                <img class="footer-hotline" src="<?php echo base_url(); ?>webresources/img/issi/hotline.png">
+                <a href="tel:0901"><img class="footer-hotline" src="<?php echo base_url(); ?>webresources/img/issi/hotline.png"></a>
                 <div class="contact-icon">
                     <a href="https://www.facebook.com/issiloo.edu.vn/">
                         <img src="<?php echo base_url(); ?>webresources/img/issi/iconFacebookWhite.png">
@@ -32,10 +32,10 @@
                 <h3>Trung tâm du học Hàn Quốc ISSIOO</h3>
                 <div class="row pad-top-10">
                     <div class="col-6 footer-text-no-padding-right">
-                        <span style="font-weight: 500;">Mail: </span> <span>kr-info@issiloo.edu.vn</span>
+                        <span style="font-weight: 500;">Mail: </span> <a href="mailto:kr-info@issiloo.edu.vn"><span>kr-info@issiloo.edu.vn</span></a>
                     </div>
                     <div class="col-6 footer-text-no-padding-left">
-                        <span style="font-weight: 500;">Fb: </span> <span>Du học Hàn Quốc ISSILOO</span>
+                        <span style="font-weight: 500;">Fb: </span> <a href="https://www.facebook.com/issiloo.edu.vn/"><span>Du học Hàn Quốc ISSILOO</span></a>
                     </div>
                 </div>
             </div>

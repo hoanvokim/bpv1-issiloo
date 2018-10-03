@@ -36,19 +36,19 @@
                 <div class="wrapper cf">
                     <nav id="main-nav">
                         <ul class="first-nav">
-                            <li><a href="<?php echo base_url() . 'post'; ?>">Du học Hàn Quốc</a></li>
-                            <li><a href="<?php echo base_url() . 'post'; ?>">Trường đại học</a></li>
-                            <li><a href="<?php echo base_url() . 'post'; ?>">Chi phí</a></li>
-                            <li><a href="<?php echo base_url() . 'post'; ?>">Học bổng</a></li>
-                            <li><a href="<?php echo base_url() . 'post'; ?>">Kinh nghiệm du học</a></li>
-                            <li><a href="<?php echo base_url() . 'post'; ?>">Đào tạo Hàn ngữ</a></li>
-                            <li><a href="<?php echo base_url() . 'post'; ?>">Luyện thi XKLĐ</a></li>
-                            <li><a href="<?php echo base_url() . 'post'; ?>">Thành tích học viên</a></li>
-                            <li><a href="<?php echo base_url() . 'post'; ?>">Hoạt động ngoại khóa</a></li>
-                            <li><a href="<?php echo base_url() . 'post'; ?>">Tự học tiếng Hàn</a></li>
-                            <li><a href="<?php echo base_url() . 'post'; ?>">Tin Tức</a></li>
-                            <li><a href="<?php echo base_url() . 'post'; ?>">ISSILOO</a></li>
-                            <li><a href="<?php echo base_url() . 'post'; ?>">Liên hệ</a></li>
+                            <li><a href="<?php echo base_url() . 'news'; ?>">Du học Hàn Quốc</a></li>
+                            <li><a href="<?php echo base_url() . 'news'; ?>">Trường đại học</a></li>
+                            <li><a href="<?php echo base_url() . 'news'; ?>">Chi phí</a></li>
+                            <li><a href="<?php echo base_url() . 'news'; ?>">Học bổng</a></li>
+                            <li><a href="<?php echo base_url() . 'news'; ?>">Kinh nghiệm du học</a></li>
+                            <li><a href="<?php echo base_url() . 'news'; ?>">Đào tạo Hàn ngữ</a></li>
+                            <li><a href="<?php echo base_url() . 'news'; ?>">Luyện thi XKLĐ</a></li>
+                            <li><a href="<?php echo base_url() . 'news'; ?>">Thành tích học viên</a></li>
+                            <li><a href="<?php echo base_url() . 'news'; ?>">Hoạt động ngoại khóa</a></li>
+                            <li><a href="<?php echo base_url() . 'news'; ?>">Tự học tiếng Hàn</a></li>
+                            <li><a href="<?php echo base_url() . 'news'; ?>">Tin Tức</a></li>
+                            <li><a href="<?php echo base_url() . 'news'; ?>">ISSILOO</a></li>
+                            <li><a href="<?php echo base_url() . 'news'; ?>">Liên hệ</a></li>
                         </ul>
                     </nav>
                 </div>

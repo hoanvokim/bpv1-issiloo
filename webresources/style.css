@@ -521,7 +521,7 @@ p {
 }
 
 .get-start-area .email {
-    background: #06479f;
+    background: #3b69b1ad;
     height: 50px;
     width: 260px;
     border: none;
@@ -565,7 +565,7 @@ p {
 }
 
 .get-start-area .submit {
-    background-color: #06479f;
+    background-color: #3b69b1ad;
     color: #fff;
     font-weight: normal !important;
     display: inline-block;
@@ -946,6 +946,7 @@ p {
     color: #fff;
     font-size: 60px;
     font-weight: 900;
+    font-family: "Montserrat", sans-serif;
 }
 
 .cool-facts-content > i {
@@ -2280,6 +2281,7 @@ div.show-shadow:hover img {
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
     color: #cdd6e0;
+    text-transform: uppercase;
 }
 
 .all-news-area h5 {
@@ -2314,4 +2316,92 @@ div.show-shadow:hover img {
     border-top: 1px solid #c0cacf !important;
     padding-top: 5px;
 
+}
+
+.all-news-content-area .current {
+    color: #808080;
+    height: auto;
+    font-size: 22px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.all-news-content-area h5 {
+    padding: 10px 0 10px 10px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    color: #1b4191;
+    height: 75px;
+}
+
+.all-news-content-area .header {
+    width: 100%;
+    height: 250px;
+}
+
+.all-news-content-area .date {
+    color: #c0cacf;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.all-news-content-area content {
+    text-align: left;
+    font-family: "Roboto Slab", "ff-tisa-web-pro", "Georgia", Arial, sans-serif;
+}
+
+.all-news-content-area .related-news {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.all-news-content-area .related-news .col-md-6 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.category {
+    font-family: 'Cabin', sans-serif;
+    text-align: left;
+    font-size: 20px;
+}
+
+.category .main-category {
+    width: 100%;
+    background-color: #1b4191;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 5px;
+}
+
+.category .sub-category {
+    width: 100%;
+    color: #1b4191;
+    padding: 5px;
+}
+
+.tags {
+
+    text-align: left;
+}
+
+.tags h3 {
+    color: #1b4191;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.tags a {
+    text-align: left;
+    background-color: #1b4191;
+    padding: 5px;
+    color: #fff;
+    line-height: 35px;
+}
+
+.tags a:hover {
+    background-color: rgba(27, 65, 145, 0.55);
+    padding: 5px;
+    color: #fff;
+    line-height: 35px;
 }

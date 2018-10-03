@@ -23,6 +23,6 @@ class News extends CI_Controller
     public function newsContent($slug)
     {
         $data['active_page'] = 'news';
-        $this->load->view('news', $data);
+        $this->load->view('news_content', $data);
     }
 }
