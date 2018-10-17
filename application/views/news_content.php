@@ -22,7 +22,7 @@
                         <span>13/09/2019</span>
                     </div>
                     <h5 class="current wow fadeIn  slow" data-nwow-delay="0.7s">Hankuk University of Foreign Studies</h5>
-                    <content class="wow fadeIn slow header" data-wow-delay="1s">
+                    <article class="wow fadeIn slow header" data-wow-delay="1s">
                         <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
 24.75pt"><font face="Tahoma"><b><span style="font-size:16.0pt;font-family:" tahoma","sans-serif";="" mso-fareast-font-family:"times="" new="" roman";color:#003163"=""><font color="#003163">Thông báo mới nhất về
                                                                                                                                                                                              hồ sơ xin visa du học Hàn Quốc</font></span></b><span style="font-size: 10pt;"><o:p></o:p></span></font></p>
@@ -81,7 +81,7 @@ báo trên từ ngày 16/05/2016.</span><span style="font-size: 10pt;"><o:p></o:
                         <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
 14.65pt"><span style="font-size: 10pt;"><a href="http://issiloo.edu.vn/news/chung-minh-tai-chinh-du-hoc-Han-Quoc" target="_blank"><font color="#003163" face="Tahoma">Chứng minh tài chính khi du học</font></a></span></p>
                         <hr>
-                    </content>
+                    </article>
 
                     <div id="fb-root"></div>
                     <script>(function (d, s, id) {
