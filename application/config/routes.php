@@ -54,5 +54,6 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 $route['student'] = 'webapp/student';
+$route['lien-he'] = 'webapp/contact';
 $route['news'] = 'webapp/news';
 $route['news/news_content/(:any)'] = 'webapp/news/newsContent/$1';

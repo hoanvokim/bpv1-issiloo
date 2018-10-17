@@ -36,6 +36,22 @@
                 }
             }
         });
+        $('.chuongtrinhissiloo_slides').owlCarousel({
+            items: 3,
+            loop: true,
+            autoplay: true,
+            margin: 30,
+            nav: true,
+            navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                767: {
+                    items: 3
+                }
+            }
+        });
         $('.hocvien_slides').owlCarousel({
             items: 4,
             loop: true,
