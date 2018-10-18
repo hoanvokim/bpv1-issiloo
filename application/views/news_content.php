@@ -155,20 +155,48 @@ báo trên từ ngày 16/05/2016.</span><span style="font-size: 10pt;"><o:p></o:
                     </div>
                 </div>
                 <div class="col-md-3 col-12">
-                    <div class="advertising wow zoomInRight slow" data-wow-delay="0.2s">
-                        <img src="<?php echo base_url() . 'assets/adv/adv-1.jpg'; ?>"/>
-                    </div>
-                    <div class="category wow zoomInRight slow container" data-wow-delay="0.2s">
-                        <div class="main-category">
-                            <span>Bài xem nhiều nhất</span>
+                    <div class="row">
+                        <div class="advertising wow zoomInRight slow" data-wow-delay="0.2s">
+                            <img src="<?php echo base_url() . 'assets/adv/adv-1.jpg'; ?>"/>
                         </div>
-                        <div class="sub-category">
-                            <div class="row">
-                                <div class="col-md-6 col-12">
-                                    <img src="<?php echo base_url(); ?>assets/university/uni-2.jpg" alt="">
+                    </div>
+                    <div class="row">
+                        <div class="category wow zoomInRight slow" data-wow-delay="0.2s">
+                            <div class="main-category">
+                                <span>Bài xem nhiều nhất</span>
+                            </div>
+                            <div class="sub-category">
+                                <div class="row">
+                                    <div class="col-md-6 col-12">
+                                        <img src="<?php echo base_url(); ?>assets/university/uni-2.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-6 col-12">
+                                        <span>Sungkyunkwan University</span>
+                                    </div>
                                 </div>
-                                <div class="col-md-6 col-12">
-                                    <span>Sungkyunkwan University</span>
+                                <div class="row">
+                                    <div class="col-md-6 col-12">
+                                        <img src="<?php echo base_url(); ?>assets/university/uni-2.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-6 col-12">
+                                        <span>Sungkyunkwan University</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 col-12">
+                                        <img src="<?php echo base_url(); ?>assets/university/uni-2.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-6 col-12">
+                                        <span>Sungkyunkwan University</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 col-12">
+                                        <img src="<?php echo base_url(); ?>assets/university/uni-2.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-6 col-12">
+                                        <span>Sungkyunkwan University</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>

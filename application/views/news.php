@@ -54,28 +54,34 @@
             <div class="row pad-top-30">
                 <div class="col-md-4 news-thumbnail">
                     <div class="news-border wow fadeInBig" data-wow-delay="0.8s">
-                        <img src="<?php echo base_url(); ?>assets/university/uni-4.jpg" alt="">
-                        <h5>Hankuk University of Foreign Studies</h5>
+                        <a href="<?php echo base_url(); ?>news/content/pohang-university-of-science-and-technology">
+                            <img src="<?php echo base_url(); ?>assets/university/uni-1.jpg" alt="">
+                            <h5>Pohang University of Science and Technology</h5>
+                        </a>
                         <div class="content">
-                            <span>10/09/2019</span>
+                            <span>20/09/2019</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 news-thumbnail">
-                    <div class="news-border wow fadeInBig" data-wow-delay="1s">
-                        <img src="<?php echo base_url(); ?>assets/university/uni-5.jpg" alt="">
-                        <h5>Ulsan National Institute of Science and Technology</h5>
+                    <div class="news-border wow fadeInBig" data-wow-delay="1.0s">
+                        <a href="<?php echo base_url(); ?>news/content/sungkyunkwan-university">
+                            <img src="<?php echo base_url(); ?>assets/university/uni-2.jpg" alt="">
+                            <h5>Sungkyunkwan University</h5>
+                        </a>
                         <div class="content">
-                            <span>07/09/2019</span>
+                            <span>13/09/2019</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 news-thumbnail">
                     <div class="news-border wow fadeInBig" data-wow-delay="1.2s">
-                        <img src="<?php echo base_url(); ?>assets/university/uni-6.jpg" alt="">
-                        <h5>Sookmyung Women’s University</h5>
+                        <a href="<?php echo base_url(); ?>news/content/dai-hoc-hankuk">
+                            <img src="<?php echo base_url(); ?>assets/university/uni-3.jpg" alt="">
+                            <h5>ĐẠI HỌC HANKUK</h5>
+                        </a>
                         <div class="content">
-                            <span>07/09/2019</span>
+                            <span>10/09/2019</span>
                         </div>
                     </div>
                 </div>
@@ -83,32 +89,37 @@
             <div class="row pad-top-30">
                 <div class="col-md-4 news-thumbnail">
                     <div class="news-border wow fadeInBig" data-wow-delay="1.4s">
-                        <img src="<?php echo base_url(); ?>assets/university/uni-3.jpg" alt="">
-                        <h5>Chungbuk National University</h5>
+                        <a href="<?php echo base_url(); ?>news/content/pohang-university-of-science-and-technology">
+                            <img src="<?php echo base_url(); ?>assets/university/uni-1.jpg" alt="">
+                            <h5>Pohang University of Science and Technology</h5>
+                        </a>
                         <div class="content">
-                            <span>07/09/2019</span>
+                            <span>20/09/2019</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 news-thumbnail">
                     <div class="news-border wow fadeInBig" data-wow-delay="1.6s">
-                        <img src="<?php echo base_url(); ?>assets/university/uni-2.jpg" alt="">
-                        <h5>Seoul National University of Science and Technology</h5>
+                        <a href="<?php echo base_url(); ?>news/content/sungkyunkwan-university">
+                            <img src="<?php echo base_url(); ?>assets/university/uni-2.jpg" alt="">
+                            <h5>Sungkyunkwan University</h5>
+                        </a>
                         <div class="content">
-                            <span>07/09/2019</span>
+                            <span>13/09/2019</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 news-thumbnail">
                     <div class="news-border wow fadeInBig" data-wow-delay="1.8s">
-                        <img src="<?php echo base_url(); ?>assets/university/uni-5.jpg" alt="">
-                        <h5>Gyeongsang National University</h5>
+                        <a href="<?php echo base_url(); ?>news/content/dai-hoc-hankuk">
+                            <img src="<?php echo base_url(); ?>assets/university/uni-3.jpg" alt="">
+                            <h5>ĐẠI HỌC HANKUK</h5>
+                        </a>
                         <div class="content">
-                            <span>06/09/2019</span>
+                            <span>10/09/2019</span>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
