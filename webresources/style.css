@@ -2277,9 +2277,16 @@ div.show-shadow:hover img {
 }
 
 /*All news area*/
+.all-news-area .breadcrumb-area {
+    padding: 0px;
+}
+
+.all-news-area .breadcrumb-area h5 {
+    padding: 0px;
+}
+
 .all-news-area {
     text-align: left;
-
 }
 
 .all-news-area h1 {
@@ -2288,6 +2295,7 @@ div.show-shadow:hover img {
     font-family: "Montserrat", sans-serif;
     color: #cdd6e0;
     text-transform: uppercase;
+    margin-top: -35px;
 }
 
 .all-news-area h5 {
@@ -2345,6 +2353,12 @@ div.show-shadow:hover img {
     height: 250px;
 }
 
+.all-news-content-area .title-header {
+    text-align: left;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
 .all-news-content-area .date {
     color: #c0cacf;
     text-align: left;
@@ -2375,9 +2389,14 @@ div.show-shadow:hover img {
 .category .main-category {
     width: 100%;
     background-color: #1b4191;
+    font-size: 20px;
     color: #fff;
     text-transform: uppercase;
-    padding: 10px 5px;
+}
+
+.category .main-category span {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .category .sub-category {
@@ -2570,4 +2589,129 @@ div.show-shadow:hover img {
 .chuongtrinhissiloo_slides .content {
     border-top: 0px solid #c0cacf !important;
     padding: 10px 10px;
+}
+
+.page-name {
+    color: darkgrey !important;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.form-component {
+    width: 100%;
+    height: 50px;
+    text-align: left !important;
+    margin-bottom: 20px;
+    background: rgba(59, 105, 177, 0.16);
+    border-radius: 3px;
+    padding: 0px 15px;
+    text-align: center;
+    font-size: 18px;
+    color: #2e4a93 !important;
+    border: none;
+}
+
+.form-component::-webkit-input-placeholder {
+    color: #2e4a93;
+    opacity: 1;
+}
+
+.form-component:-ms-input-placeholder {
+    color: #2e4a93;
+    opacity: 1;
+}
+
+.form-component::-ms-input-placeholder {
+    color: #2e4a93;
+    opacity: 1;
+}
+
+.form-component::placeholder {
+    color: #2e4a93;
+    opacity: 1;
+}
+
+.form-component:focus {
+    border: none;
+    outline-offset: transparent !important;
+    border-radius: 30px;
+}
+
+.contact-area {
+    font-family: 'Cabin', sans-serif;
+    font-size: 26pt;
+    color: #2e4a93 !important;
+}
+
+.breadcrumb-area h5 {
+    color: #2e4a93 !important;
+    font-weight: normal !important;
+}
+
+.contact-area .breadcrumb-area {
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+
+.contact-area .contact-icon img {
+    width: 45px;
+    height: 35px;
+}
+
+.contact-area .contact-icon {
+    float: left;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    margin-left: -10px;
+}
+
+.contact-area .page-header {
+    font-size: 34px;
+    text-transform: uppercase;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bolder !important;
+    text-align: left !important;
+    color: #2e4a93 !important;
+}
+
+.contact-area a {
+    color: #2e4a93 !important;
+}
+
+.contact-area h3 {
+    font-size: 25px;
+}
+
+.contact-area h5 {
+    font-size: 20px;
+    color: #2e4a93 !important;
+}
+
+.contact-area span {
+    font-size: 15px;
+}
+
+.contact-area .maps {
+    margin-top: 30px;
+}
+
+.contact-area textarea {
+    height: 300px;
+}
+
+.contact-area .button-view {
+    font-size: 15px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #2e4a93;
+    font-weight: normal;
+}
+
+.contact-area .has-bg {
+    background-image: url(img/issi/bg.png);
+    margin-top: 20px;
+}
+
+.advertising {
+    margin-bottom: 15px;
 }

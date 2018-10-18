@@ -1,12 +1,12 @@
 <?php
+
 /**
  * Created by IntelliJ IDEA.
- * User: hoanvo
- * Date: 9/3/18
- * Time: 8:40 PM
+ * User: hvo
+ * Date: 18.10.18
+ * Time: 09:56
  */
-
-class News extends CI_Controller
+class Program extends CI_Controller
 {
 
     public function __construct()
@@ -14,17 +14,18 @@ class News extends CI_Controller
         parent::__construct();
     }
 
+
     public function all($slug)
     {
-        $data['active_page'] = 'news';
+        $data['active_page'] = 'programs';
         $data['slug'] = $slug;
-        $this->load->view('news', $data);
+        $this->load->view('programs', $data);
     }
 
     public function content($slug)
     {
-        $data['active_page'] = 'news';
+        $data['active_page'] = 'programs';
         $data['slug'] = $slug;
-        $this->load->view('news_content', $data);
+        $this->load->view('programs_content', $data);
     }
 }

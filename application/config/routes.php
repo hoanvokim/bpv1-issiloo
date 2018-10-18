@@ -53,7 +53,10 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-$route['student'] = 'webapp/student';
-$route['lien-he'] = 'webapp/contact';
-$route['news'] = 'webapp/news';
-$route['news/news_content/(:any)'] = 'webapp/news/newsContent/$1';
+$route['center/(:any)'] = 'webapp/center/dispatcher/$1';
+$route['search/(:any)'] = 'webapp/center/search/$1';
+$route['news/(:any)'] = 'webapp/news/all/$1';
+$route['news/content/(:any)'] = 'webapp/news/content/$1';
+$route['programs/(:any)'] = 'webapp/program/all/$1';
+$route['programs/content/(:any)'] = 'webapp/program/content/$1';
+$route['programs/album/(:any)'] = 'webapp/program/album/$1';

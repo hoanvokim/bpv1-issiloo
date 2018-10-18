@@ -36,19 +36,21 @@
                 <div class="wrapper cf">
                     <nav id="main-nav">
                         <ul class="first-nav">
-                            <li><a href="<?php echo base_url() . 'news'; ?>">Du học Hàn Quốc</a></li>
-                            <li><a href="<?php echo base_url() . 'news'; ?>">Trường đại học</a></li>
-                            <li><a href="<?php echo base_url() . 'news'; ?>">Chi phí</a></li>
-                            <li><a href="<?php echo base_url() . 'news'; ?>">Học bổng</a></li>
-                            <li><a href="<?php echo base_url() . 'news'; ?>">Kinh nghiệm du học</a></li>
-                            <li><a href="<?php echo base_url() . 'news'; ?>">Đào tạo Hàn ngữ</a></li>
-                            <li><a href="<?php echo base_url() . 'news'; ?>">Luyện thi XKLĐ</a></li>
-                            <li><a href="<?php echo base_url() . 'news'; ?>">Thành tích học viên</a></li>
-                            <li><a href="<?php echo base_url() . 'news'; ?>">Hoạt động ngoại khóa</a></li>
-                            <li><a href="<?php echo base_url() . 'news'; ?>">Tự học tiếng Hàn</a></li>
-                            <li><a href="<?php echo base_url() . 'news'; ?>">Tin Tức</a></li>
-                            <li><a href="<?php echo base_url() . 'news'; ?>">ISSILOO</a></li>
-                            <li><a href="<?php echo base_url() . 'news'; ?>">Liên hệ</a></li>
+                            <li><a href="<?php echo base_url() . 'news/du-hoc-han-quoc'; ?>">Du học Hàn Quốc</a></li>
+                            <li><a href="<?php echo base_url() . 'news/du-hoc-nghe-han-quoc'; ?>">Du học Nghề Hàn Quốc</a></li>
+                            <li><a href="<?php echo base_url() . 'news/truong-dai-hoc'; ?>">Trường đại học</a></li>
+                            <li><a href="<?php echo base_url() . 'news/chi-phi'; ?>">Chi phí</a></li>
+                            <li><a href="<?php echo base_url() . 'news/hoc-bong'; ?>">Học bổng</a></li>
+                            <li><a href="<?php echo base_url() . 'news/kinh-nghiem-du-hoc'; ?>">Kinh nghiệm du học</a></li>
+                            <li><a href="<?php echo base_url() . 'news/thong-tin-du-hoc'; ?>">Thông tin du học</a></li>
+                            <li><a href="<?php echo base_url() . 'programs/dao-tao-han-ngu'; ?>">Đào tạo Hàn ngữ</a></li>
+                            <li><a href="<?php echo base_url() . 'news/luyen-thi-xkld'; ?>">Luyện thi XKLĐ</a></li>
+                            <li><a href="<?php echo base_url() . 'center/thanh-tich-hoc-vien'; ?>">Thành tích học viên</a></li>
+                            <li><a href="<?php echo base_url() . 'programs/hoat-dong-ngoai-khoa'; ?>">Hoạt động ngoại khóa</a></li>
+                            <li><a href="<?php echo base_url() . 'programs/tu-hoc-tieng-han'; ?>">Tự học tiếng Hàn</a></li>
+                            <li><a href="<?php echo base_url() . 'news/tin-tuc'; ?>">Tin Tức</a></li>
+                            <li><a href="<?php echo base_url() . 'center/issiloo'; ?>">ISSILOO</a></li>
+                            <li><a href="<?php echo base_url() . 'center/lien-he'; ?>">Liên hệ</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -65,89 +67,89 @@
 </header>
 <!-- ***** Header Area End ***** -->
 
-<section class="button-bottom navbar fixed-bottom">
-    <div id="popUpCall" class="showCall">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <h1 style="float: right">
-                        <i class="dialog-close ion-android-close"></i></h1>
-                </div>
-                <div class="col-12 text-center">
-                    <h1>Trung Tâm</h1>
-                    <h5>Du học hàn quốc issiloo</h5>
-                </div>
-                <div class="col-12 text-center section_padding_20_30">
-                    <h1><i class="ion-android-call"></i> 0901 879 877</h1>
-                </div>
-                <div class="col-12 text-center section_padding_0_30">
-                    <h3><i class="ion-android-call"></i> 028 3728 2259</h3>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="popUpContact" class="showContact">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h1 style="float: right">
-                        <i class="dialog-close ion-android-close"></i></h1>
-                </div>
-                <div class="col-12 text-center">
-                    <h5>Đăng kí tư vấn miễn phí</h5>
-                </div>
-                <form action="#" method="post" class="form-inline text-left section_padding_0_50">
-                    <div class="col-12 section_padding_20_10">
-                        <span> Họ và tên * </span><br/>
-                        <input type="name" class="form-control"/>
-                    </div>
-                    <div class="col-12 section_padding_0_15">
-                        <span> Tỉnh / Thành phố * </span><br/>
-                        <input type="name" class="form-control"/>
-                    </div>
-                    <div class="col-12 section_padding_0_15">
-                        <span> Điện thoại * </span><br/>
-                        <input type="name" class="form-control"/>
-                    </div>
-                    <div class="col-12 section_padding_0_15">
-                        <span> Trường bạn muốn đi Du học Hàn Quốc </span><br/>
-                        <input type="name" class="form-control"/>
-                    </div>
-                    <div class="col-6 section_padding_0_15">
-                        <span> Trình độ * </span><br/>
-                        <select class="form-control">
-                            <option value="volvo">Xin chọn</option>
-                            <option value="saab">Saab</option>
-                        </select>
-                    </div>
-                    <div class="col-6 section_padding_0_15" style="padding-right: 15px !important;">
-                        <span> Nhu cầu * </span><br/>
-                        <select class="form-control">
-                            <option value="volvo">Xin chọn</option>
-                            <option value="saab">Saab</option>
-                        </select>
-                    </div>
-                    <div class="col-12 text-center">
-                        <button class="button-view" type="submit" style="width: 100px;">
-                            Gửi đi
-                        </button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-6 text-center">
-            <button id="callAction" class="button-view" style="font-family: Cabin, sans-serif; padding-bottom: 42px;">
-                <i class="ion-android-call"></i> Gọi điện
-            </button>
-        </div>
-        <div class="col-6 text-center">
-            <button id="textAction" class="button-view" style="font-family: Cabin, sans-serif; padding-bottom: 42px;">
-                <i class="ion-android-chat"></i> Tư vấn miễn phí
-            </button>
-        </div>
-    </div>
-</section>
+<!--<section class="button-bottom navbar fixed-bottom">-->
+<!--    <div id="popUpCall" class="showCall">-->
+<!--        <div class="container">-->
+<!--            <div class="row">-->
+<!--                <div class="col-12 text-center">-->
+<!--                    <h1 style="float: right">-->
+<!--                        <i class="dialog-close ion-android-close"></i></h1>-->
+<!--                </div>-->
+<!--                <div class="col-12 text-center">-->
+<!--                    <h1>Trung Tâm</h1>-->
+<!--                    <h5>Du học hàn quốc issiloo</h5>-->
+<!--                </div>-->
+<!--                <div class="col-12 text-center section_padding_20_30">-->
+<!--                    <h1><i class="ion-android-call"></i> 0901 879 877</h1>-->
+<!--                </div>-->
+<!--                <div class="col-12 text-center section_padding_0_30">-->
+<!--                    <h3><i class="ion-android-call"></i> 028 3728 2259</h3>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div id="popUpContact" class="showContact">-->
+<!--        <div class="container">-->
+<!--            <div class="row">-->
+<!--                <div class="col-12">-->
+<!--                    <h1 style="float: right">-->
+<!--                        <i class="dialog-close ion-android-close"></i></h1>-->
+<!--                </div>-->
+<!--                <div class="col-12 text-center">-->
+<!--                    <h5>Đăng kí tư vấn miễn phí</h5>-->
+<!--                </div>-->
+<!--                <form action="#" method="post" class="form-inline text-left section_padding_0_50">-->
+<!--                    <div class="col-12 section_padding_20_10">-->
+<!--                        <span> Họ và tên * </span><br/>-->
+<!--                        <input type="name" class="form-control"/>-->
+<!--                    </div>-->
+<!--                    <div class="col-12 section_padding_0_15">-->
+<!--                        <span> Tỉnh / Thành phố * </span><br/>-->
+<!--                        <input type="name" class="form-control"/>-->
+<!--                    </div>-->
+<!--                    <div class="col-12 section_padding_0_15">-->
+<!--                        <span> Điện thoại * </span><br/>-->
+<!--                        <input type="name" class="form-control"/>-->
+<!--                    </div>-->
+<!--                    <div class="col-12 section_padding_0_15">-->
+<!--                        <span> Trường bạn muốn đi Du học Hàn Quốc </span><br/>-->
+<!--                        <input type="name" class="form-control"/>-->
+<!--                    </div>-->
+<!--                    <div class="col-6 section_padding_0_15">-->
+<!--                        <span> Trình độ * </span><br/>-->
+<!--                        <select class="form-control">-->
+<!--                            <option value="volvo">Xin chọn</option>-->
+<!--                            <option value="saab">Saab</option>-->
+<!--                        </select>-->
+<!--                    </div>-->
+<!--                    <div class="col-6 section_padding_0_15" style="padding-right: 15px !important;">-->
+<!--                        <span> Nhu cầu * </span><br/>-->
+<!--                        <select class="form-control">-->
+<!--                            <option value="volvo">Xin chọn</option>-->
+<!--                            <option value="saab">Saab</option>-->
+<!--                        </select>-->
+<!--                    </div>-->
+<!--                    <div class="col-12 text-center">-->
+<!--                        <button class="button-view" type="submit" style="width: 100px;">-->
+<!--                            Gửi đi-->
+<!--                        </button>-->
+<!--                    </div>-->
+<!--                </form>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="row">-->
+<!--        <div class="col-6 text-center">-->
+<!--            <button id="callAction" class="button-view" style="font-family: Cabin, sans-serif; padding-bottom: 42px;">-->
+<!--                <i class="ion-android-call"></i> Gọi điện-->
+<!--            </button>-->
+<!--        </div>-->
+<!--        <div class="col-6 text-center">-->
+<!--            <button id="textAction" class="button-view" style="font-family: Cabin, sans-serif; padding-bottom: 42px;">-->
+<!--                <i class="ion-android-chat"></i> Tư vấn miễn phí-->
+<!--            </button>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
 
 <main class="main container-fluid">

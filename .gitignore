@@ -1,7 +1,6 @@
 # git ignore file
 # idea folders
 .idea/*
-.assets/*
 !.idea/encodings.xml
 !.idea/runConfigurations
 */.idea/*
@@ -20,7 +19,6 @@ conf/ide
 
 # general excludes
 node_modules
-assets
 yarn-error.log
 tmp
 out
