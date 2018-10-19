@@ -352,7 +352,7 @@
                     <!-- Heading Text  -->
                     <div class="scholar_ship_area-heading with-text-padding">
                         <h1 class="wow bounceInLeft" data-wow-delay="0.4s">Học bổng</h1>
-                        <span>
+                        <span class="wow bounceInLeft" data-wow-delay="0.6s">
                             Tổng hợp và cập nhật những thông tin học bổng trong và ngoài nước dành cho các bạn du học sinh
                         </span>
                         <br/>

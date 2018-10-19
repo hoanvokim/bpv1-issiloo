@@ -63,6 +63,9 @@ h6 {
     line-height: 1.2;
 }
 
+a {
+    color: #2e4a93 !important;
+}
 .section_padding_100 {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -2384,53 +2387,77 @@ div.show-shadow:hover img {
     font-family: 'Cabin', sans-serif;
     text-align: center;
     font-size: 20px;
+    width: 100%;
 }
 
 .category .main-category {
-    width: 100%;
     background-color: #1b4191;
     font-size: 20px;
     color: #fff;
     text-transform: uppercase;
+    height: 35px;
 }
 
 .category .main-category span {
     text-align: center;
-    margin: 10px 0 !important;
+    vertical-align: sub;
 }
 
-.category .sub-category span {
+.category .sub-category .sub-category-label {
     text-align: left !important;
+    margin-left: -25px;
+    padding-top: 5px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.category .sub-category .sub-category-label-no-image {
+    text-align: left !important;
+    padding: 15px;
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: 300;
 }
 
 .category .sub-category {
     width: 100%;
     color: #1b4191;
+    border: 1px solid #1b4191;
+}
+
+.category .sub-category img {
+    width: 90%;
+    padding: 5px;
 }
 
 .tags {
     text-align: left;
+    font-family: "Montserrat", sans-serif;
 }
 
 .tags h3 {
     color: #1b4191;
     text-transform: uppercase;
     text-align: left;
+    font-weight: bold;
 }
 
 .tags a {
     text-align: left;
     background-color: #1b4191;
-    padding: 5px;
+    padding: 5px 10px 5px 10px;
     color: #fff;
     line-height: 35px;
+    border-radius: 5px;
+    font-weight: normal;
 }
 
 .tags a:hover {
-    background-color: rgba(27, 65, 145, 0.55);
-    padding: 5px;
-    color: #fff;
+    background-color: rgba(27, 65, 145, 0.3);
+    padding: 5px 10px 5px 10px;
+    color: #1b4191;
     line-height: 35px;
+    font-weight: normal;
 }
 
 .btn-goi-dien {
@@ -2640,7 +2667,7 @@ div.show-shadow:hover img {
 }
 
 .contact-area {
-    font-family: 'Cabin', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 26pt;
     color: #2e4a93 !important;
 }
@@ -2670,7 +2697,7 @@ div.show-shadow:hover img {
 .contact-area .page-header {
     font-size: 34px;
     text-transform: uppercase;
-    font-family: 'Cabin', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: bolder !important;
     text-align: left !important;
     color: #2e4a93 !important;
@@ -2716,4 +2743,25 @@ div.show-shadow:hover img {
 
 .advertising {
     margin-bottom: 15px;
+}
+
+.news-content-area a,
+.news-content-area a:link,
+.news-content-area a:visited {
+    margin-top: 15px;
+    padding-left: 5px;
+    color: #2e4a93 !important;
+    font-size: 17px;
+    text-align: left;
+}
+
+.news-content-area h4 {
+    font-size: 20px;
+    margin-bottom: -5px;
+}
+
+.all-news-content-area h4 {
+    font-size: 30px;
+    color: #2e4a93;
+    padding: 0px;
 }

@@ -21,7 +21,7 @@
                     <div class="date">
                         <span>13/09/2019</span>
                     </div>
-                    <h5 class="current wow fadeIn slow title-header" data-nwow-delay="0.7s">Hankuk University of Foreign Studies</h5>
+                    <h4 class="wow fadeIn slow title-header" data-nwow-delay="0.7s">Hankuk University of Foreign Studies</h4>
                     <article class="wow fadeIn slow" data-wow-delay="1s">
                         <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
 24.75pt"><font face="Tahoma"><b><span style="font-size:16.0pt;font-family:" tahoma","sans-serif";="" mso-fareast-font-family:"times="" new="" roman";color:#003163"=""><font color="#003163">Thông báo mới nhất về
@@ -97,28 +97,45 @@ báo trên từ ngày 16/05/2016.</span><span style="font-size: 10pt;"><o:p></o:
 
                     <div class="fb-comments wow fadeIn slow header" data-wow-delay="1s" data-href="<?php echo current_url(); ?>" data-mobile="auto-detect"
                          data-numposts="100"></div>
-                    <div class="row">
-                        <div class="col-md-6 col-12">
+
+                    <div class="row news-content-area">
+                        <div class="col-12">
+                            <h4>Bài viết liên quan</h4>
+                        </div>
+                        <div class="col-md-4 col-12">
                             <div class="related-news">
                                 <div class="row">
-                                    <div class="col-md-6 col-12">
+                                    <div class="col-12">
                                         <img src="<?php echo base_url(); ?>assets/university/uni-2.jpg" alt="">
                                     </div>
-                                    <div class="col-md-6 col-12">
-                                        <h5>Sungkyunkwan University</h5>
+                                    <div class="col-12">
+                                        <a href="<?php echo base_url(); ?>news/content/pohang-university-of-science-and-technology">Sungkyunkwan University</a>
                                     </div>
                                 </div>
 
                             </div>
                         </div>
-                        <div class="col-md-6 col-12">
+                        <div class="col-md-4 col-12">
                             <div class="related-news">
                                 <div class="row">
-                                    <div class="col-md-6 col-12">
+                                    <div class="col-12">
                                         <img src="<?php echo base_url(); ?>assets/university/uni-2.jpg" alt="">
                                     </div>
-                                    <div class="col-md-6 col-12">
-                                        <h5>Sungkyunkwan University</h5>
+                                    <div class="col-12">
+                                        <a href="<?php echo base_url(); ?>news/content/pohang-university-of-science-and-technology">Sungkyunkwan University</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-12">
+                            <div class="related-news">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <img src="<?php echo base_url(); ?>assets/university/uni-2.jpg" alt="">
+                                    </div>
+                                    <div class="col-12">
+                                        <a href="<?php echo base_url(); ?>news/content/pohang-university-of-science-and-technology">Sungkyunkwan University</a>
                                     </div>
                                 </div>
 
@@ -126,27 +143,40 @@ báo trên từ ngày 16/05/2016.</span><span style="font-size: 10pt;"><o:p></o:
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-6 col-12">
+                        <div class="col-md-4 col-12">
                             <div class="related-news">
                                 <div class="row">
-                                    <div class="col-md-6 col-12">
+                                    <div class="col-12">
                                         <img src="<?php echo base_url(); ?>assets/university/uni-2.jpg" alt="">
                                     </div>
-                                    <div class="col-md-6 col-12">
-                                        <h5>Sungkyunkwan University</h5>
+                                    <div class="col-12">
+                                        <a href="<?php echo base_url(); ?>news/content/pohang-university-of-science-and-technology">Sungkyunkwan University</a>
                                     </div>
                                 </div>
 
                             </div>
                         </div>
-                        <div class="col-md-6 col-12">
+                        <div class="col-md-4 col-12">
                             <div class="related-news">
                                 <div class="row">
-                                    <div class="col-md-6 col-12">
+                                    <div class="col-12">
                                         <img src="<?php echo base_url(); ?>assets/university/uni-2.jpg" alt="">
                                     </div>
-                                    <div class="col-md-6 col-12">
-                                        <h5>Sungkyunkwan University</h5>
+                                    <div class="col-12">
+                                        <a href="<?php echo base_url(); ?>news/content/pohang-university-of-science-and-technology">Sungkyunkwan University</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-12">
+                            <div class="related-news">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <img src="<?php echo base_url(); ?>assets/university/uni-2.jpg" alt="">
+                                    </div>
+                                    <div class="col-12">
+                                        <a href="<?php echo base_url(); ?>news/content/pohang-university-of-science-and-technology">Sungkyunkwan University</a>
                                     </div>
                                 </div>
 
@@ -156,12 +186,12 @@ báo trên từ ngày 16/05/2016.</span><span style="font-size: 10pt;"><o:p></o:
                 </div>
                 <div class="col-md-3 col-12">
                     <div class="row">
-                        <div class="advertising wow zoomInRight slow" data-wow-delay="0.2s">
+                        <div class="advertising">
                             <img src="<?php echo base_url() . 'assets/adv/adv-1.jpg'; ?>"/>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="category wow zoomInRight slow" data-wow-delay="0.2s">
+                        <div class="category">
                             <div class="main-category">
                                 <span>Bài xem nhiều nhất</span>
                             </div>
@@ -170,7 +200,7 @@ báo trên từ ngày 16/05/2016.</span><span style="font-size: 10pt;"><o:p></o:
                                     <div class="col-md-6 col-12">
                                         <img src="<?php echo base_url(); ?>assets/university/uni-2.jpg" alt="">
                                     </div>
-                                    <div class="col-md-6 col-12">
+                                    <div class="col-md-6 col-12 sub-category-label">
                                         <span>Sungkyunkwan University</span>
                                     </div>
                                 </div>
@@ -178,7 +208,7 @@ báo trên từ ngày 16/05/2016.</span><span style="font-size: 10pt;"><o:p></o:
                                     <div class="col-md-6 col-12">
                                         <img src="<?php echo base_url(); ?>assets/university/uni-2.jpg" alt="">
                                     </div>
-                                    <div class="col-md-6 col-12">
+                                    <div class="col-md-6 col-12 sub-category-label">
                                         <span>Sungkyunkwan University</span>
                                     </div>
                                 </div>
@@ -186,7 +216,7 @@ báo trên từ ngày 16/05/2016.</span><span style="font-size: 10pt;"><o:p></o:
                                     <div class="col-md-6 col-12">
                                         <img src="<?php echo base_url(); ?>assets/university/uni-2.jpg" alt="">
                                     </div>
-                                    <div class="col-md-6 col-12">
+                                    <div class="col-md-6 col-12 sub-category-label">
                                         <span>Sungkyunkwan University</span>
                                     </div>
                                 </div>
@@ -194,23 +224,67 @@ báo trên từ ngày 16/05/2016.</span><span style="font-size: 10pt;"><o:p></o:
                                     <div class="col-md-6 col-12">
                                         <img src="<?php echo base_url(); ?>assets/university/uni-2.jpg" alt="">
                                     </div>
-                                    <div class="col-md-6 col-12">
+                                    <div class="col-md-6 col-12 sub-category-label">
                                         <span>Sungkyunkwan University</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tags section_padding_50_0 wow zoomInRight slow" data-wow-delay="0.5s">
-                        <h3>TAGS</h3>
-                        <a href="<?php echo base_url() . '/tags/duhoc'; ?>">Du học</a>
-                        <a href="<?php echo base_url() . '/tags/duhoc'; ?>">Chuyên ngành</a>
-                        <a href="<?php echo base_url() . '/tags/duhoc'; ?>">Tiếng hàn</a>
-                        <a href="<?php echo base_url() . '/tags/duhoc'; ?>">Hàn quốc</a>
-                        <a href="<?php echo base_url() . '/tags/duhoc'; ?>">tham khảo</a>
-                        <a href="<?php echo base_url() . '/tags/duhoc'; ?>">tư vấn</a>
-                        <a href="<?php echo base_url() . '/tags/duhoc'; ?>">du học hàn quốc</a>
+                    <div class="row">
+                        <div class="tags section_padding_20_30 wow zoomInRight slow" data-wow-delay="0.5s">
+                            <h3>TAGS</h3>
+                            <a href="<?php echo base_url() . '/tags/duhoc'; ?>">Du học</a>
+                            <a href="<?php echo base_url() . '/tags/duhoc'; ?>">Chuyên ngành</a>
+                            <a href="<?php echo base_url() . '/tags/duhoc'; ?>">Tiếng hàn</a>
+                            <a href="<?php echo base_url() . '/tags/duhoc'; ?>">Hàn quốc</a>
+                            <a href="<?php echo base_url() . '/tags/duhoc'; ?>">tham khảo</a>
+                            <a href="<?php echo base_url() . '/tags/duhoc'; ?>">tư vấn</a>
+                            <a href="<?php echo base_url() . '/tags/duhoc'; ?>">du học hàn quốc</a>
+                        </div>
                     </div>
+
+                    <div class="row">
+                        <div class="category section_padding_0_30">
+                            <div class="main-category">
+                                <span>Nội dung chính</span>
+                            </div>
+                            <div class="sub-category">
+                                <div class="row">
+                                    <div class="col-12 sub-category-label-no-image">
+                                        <span>Du học Hàn Quốc</span>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-12 sub-category-label-no-image">
+                                        <span>Đào tạo Hàn ngữ</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 sub-category-label-no-image">
+                                        <span>Kinh nghiệm du học</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 sub-category-label-no-image">
+                                        <span>Góc học viên</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 sub-category-label-no-image">
+                                        <span>Thông tin học bổng</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 sub-category-label-no-image">
+                                        <span>ISSILOO</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
