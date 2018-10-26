@@ -66,6 +66,7 @@ h6 {
 a {
     color: #2e4a93 !important;
 }
+
 .section_padding_100 {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -2764,4 +2765,181 @@ div.show-shadow:hover img {
     font-size: 30px;
     color: #2e4a93;
     padding: 0px;
+}
+
+/*Why */
+
+.whyChoose-area {
+    padding-top: 100px;
+    overflow-x: hidden;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+/* -----------------------
+:: 11.0 About Us CSS
+----------------------- */
+
+.aboutUs-area {
+    position: relative;
+}
+
+.aboutUs-headline h2 {
+    font-size: 60px;
+    margin-bottom: 50px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.aboutUs-area p,
+.whyChoose-area p {
+    line-height: 2;
+    font-family: 'Cabin', sans-serif;
+}
+
+.our-skills-area {
+    margin: 60px 0 80px;
+}
+
+.single-pie-bar h6 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #292d4f;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.whyChoose-area {
+    padding-top: 100px;
+    overflow-x: hidden;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.team--member-area {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.single-team-member {
+    background-color: #496b9a;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+.single-team-content {
+    padding: 20px 30px 40px;
+    text-align: center;
+}
+
+.single-team-content h4 {
+    margin-bottom: 0;
+    font-family: 'Cabin', sans-serif;
+}
+
+.single-team-content h4,
+.single-team-content span {
+    font-weight: 600;
+    color: #fff;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+.single-team-content span {
+    font-size: 13px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.single-team-content p {
+    color: #fff;
+    font-family: 'Cabin', sans-serif;
+    line-height: 2;
+    margin-top: 40px;
+    margin-bottom: 0;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+.team-member-thumb {
+    position: relative;
+}
+
+.team-member-thumb img {
+    width: 100%;
+}
+
+.team-member-overlay,
+.post-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #2e4a93;
+    background: -webkit-linear-gradient(to right, #a5b6d6, #2e4a93);
+    background: -webkit-linear-gradient(left, #a5b6d6, #2e4a93);
+    background: linear-gradient(to right, #a5b6d6, #2e4a93);
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    left: 0;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+.single-team-member:hover {
+    box-shadow: 5px 30px 60px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+
+.single-team-member:hover .team-member-overlay {
+    opacity: 0.86;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=86)";
+}
+
+.single-team-member:hover .single-team-content h4 {
+    color: #2e4a93;
+}
+
+.single-team-member:hover .single-team-content span {
+    color: #2e4a93;
+}
+
+.single-team-member:hover .single-team-content p {
+    color: #2e4a93;
+}
+
+.single-team-member:hover .single-team-content i {
+    color: #2e4a93;
+}
+
+.team-member-overlay > a {
+    font-size: 36px;
+    color: #fff;
+}
+
+.team--member-area .col-12:first-child .single-team-member {
+    margin-top: 180px;
+}
+
+.team--member-area .col-12:nth-child(2) .single-team-member {
+    margin-top: 90px;
+}
+
+.team--member-area .col-12:nth-child(3) .single-team-member {
+    margin-top: 150px;
+}
+
+.team--member-area .col-12:nth-child(4) .single-team-member {
+    margin-top: -35px;
+}
+
+.team--member-area .col-12:last-child .single-team-member {
+    margin-top: 50px;
 }
